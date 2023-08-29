@@ -1,52 +1,56 @@
+import com.databricks.spark.sql.perf.tpcds.{TPCDS, TPCDSTables}
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.SaveMode
-import org.apache.spark.sql.Row
-import org.apache.spark.sql.types._
-import org.apache.spark.sql.functions.{to_utc_timestamp, from_unixtime, monotonically_increasing_id, to_date}
 
 object ParquetGenerator {
   def main(args: Array[String]) {
 
-    val rng = args(0).toInt
-    val parts = args(1).toInt
-    var columns = args(2).toInt
-    val path = args(3)
-    val spark = SparkSession.builder.appName("Data Generator").getOrCreate()
+    val spark = SparkSession.builder.appName("Data Generator").config("hive.metastore.uris", "http://fs0:9083").enableHiveSupport().getOrCreate()
+    // val spark = SparkSession.builder.appName("Data Generator").getOrCreate()
 
-    def randomStringGen(length: Int) = scala.util.Random.alphanumeric.take(length).mkString
+    val sqlContext = spark.sqlContext
 
-    // spark.sparkContext.hadoopConfiguration.set("fs.s3a.access.key", "minio")
-    // spark.sparkContext.hadoopConfiguration.set("fs.s3a.secret.key", "minio123")
-    // spark.sparkContext.hadoopConfiguration.set("fs.s3a.endpoint", "http://127.0.0.1:9000")
-    // spark.sparkContext.hadoopConfiguration.set("mapreduce.outputcommitter.factory.scheme.s3a",
-    //   "org.apache.hadoop.fs.s3a.commit.S3ACommitterFactory")
-    // spark.sparkContext.hadoopConfiguration.set("spark.hadoop.mapreduce.outputcommitter.factory.scheme.s3a",
-    //   "org.apache.hadoop.fs.s3a.commit.S3ACommitterFactory")
-    // spark.sparkContext.hadoopConfiguration.set("spark.hadoop.fs.s3a.committer.name", "magic")
-    // spark.sparkContext.hadoopConfiguration.set("spark.hadoop.fs.s3a.committer.magic.enabled", "true")
-    // spark.sparkContext.hadoopConfiguration.set("mapreduce.fileoutputcommitter.algorithm.version", "2")
-    // spark.sparkContext.hadoopConfiguration.set("fs.s3a.committer.magic.enabled", "true")
-    // spark.sparkContext.hadoopConfiguration.set("fs.s3a.committer.name", "magic")
-    // spark.sparkContext.hadoopConfiguration.set("fs.s3a.buffer.dir", "file:///tmp/staging")
-    // spark.sparkContext.hadoopConfiguration.set("fs.s3a.fast.upload.buffer", "disk")
-    // spark.sparkContext.hadoopConfiguration.set("fs.s3a.fast.upload.active.blocks", "64")
-    // spark.sparkContext.hadoopConfiguration.set("fs.s3a.committer.threads", "64")
+    for (i <- 0 to 10) {
 
-    val rdd = spark.sparkContext.parallelize(1 to rng, parts).map(x => {
-      var values = Seq[String]()
-      for (i <- 1 to columns)
-	values = values :+ randomStringGen(6)
-      Row.fromSeq(values)
-    })
+      // Set:
+      // Note: Here my env is using MapRFS, so I changed it to "hdfs:///tpcds".
+      // Note: If you are using HDFS, the format should be like "hdfs://namenode:9000/tpcds"
+      val rootDir = "hdfs://10.149.0.254:9000/tpcds_test" // root directory of location to create data in.
+      val alluxioDir = "alluxio://10.149.0.254:19998"
 
-    var fields = Seq[StructField]()
-    for (i <- 1 to columns)
-      fields = fields :+ StructField("col_"+i.toString, StringType, true)
+      val databaseName = s"${i}dataset_tpcds" // name of database to create.
+      val scaleFactor = if (i == 0) "1000" else "100" // scaleFactor defines the size of the dataset to generate (in GB).
+      val format = "parquet" // valid spark format like parquet "parquet".
+      // Run:
+      val tables = new TPCDSTables(sqlContext,
+        dsdgenDir = "/var/scratch/stalluri/tpcds-bin", // location of dsdgen
+        scaleFactor = scaleFactor,
+        useDoubleForDecimal = false, // true to replace DecimalType with DoubleType
+        useStringForDate = false) // true to replace DateType with StringType
+      val location = s"${rootDir}/${databaseName}"
+      val alluxioLoc = s"${alluxioDir}/${databaseName}"
 
-    val df = spark.createDataFrame(rdd, StructType(fields))
-      .withColumn("id", monotonically_increasing_id())
 
-    df.write.mode(SaveMode.Overwrite).parquet(path)
-    spark.stop()
+      // Comment this out after generating data if you just want to repopulate the metastore
+      tables.genData(
+         location = location,
+        format = format,
+        overwrite = true, // overwrite the data that is already there
+        partitionTables = true, // create the partitioned fact tables
+        clusterByPartitionColumns = true, // shuffle to get partitions coalesced into single files.
+        filterOutNullPartitionValues = false, // true to filter out the partition with NULL key value
+        tableFilter = "", // "" means generate all tables
+        numPartitions = scaleFactor.toInt) // how many dsdgen partitions to run - number of input tasks.
+
+      // Create the specified database
+      spark.sql(s"create database if not exists $databaseName location '${alluxioLoc}'")
+      // Create metastore tables in a specified database for your data.
+      // Once tables are created, the current database will be switched to the specified database.
+      tables.createExternalTables(alluxioLoc, "parquet", databaseName, overwrite = true, discoverPartitions = true)
+      // Or, if you want to create temporary tables
+      // tables.createTemporaryTables(location, format)
+
+      // For CBO only, gather statistics on all columns:
+      tables.analyzeTables(databaseName, analyzeColumns = true)
+    }
   }
 }
