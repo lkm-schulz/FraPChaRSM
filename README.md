@@ -28,6 +28,8 @@ The project provides a Dockerfile which can be used to build a docker image with
 
 Upload the created image to a registry, then modify the container image to use in `docker/spark-conf/spark-defaults.conf`, and add the gcs keyfile as secret named `gcs-keyfile` to kubernetes.
 
+Use command `kubectl create secret generic gcs-keyfile --from-file=gcs_keyfile.json` to create the kubernetes secret.
+
 Copy the `spark-defaults.conf` into your local spark conf directory, and then run the spark-submit command above.
 
 For convenience, you could also use the docker image itself to run the spark-submit command.
