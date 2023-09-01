@@ -46,3 +46,6 @@ bin/
 
 #general
 *.class
+
+docker/warehouse
+docker/mysql_data
