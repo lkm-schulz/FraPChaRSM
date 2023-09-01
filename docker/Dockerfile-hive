@@ -1,7 +1,12 @@
 FROM apache/hive:4.0.0-beta-1
 
 USER root
-ONBUILD RUN apt-get update && apt-get -y install wget
-ONBUILD RUN wget https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.1.0/mysql-connector-j-8.1.0.jar
-ONBUILD COPY mysql-connector-j-8.1.0.jar /opt/hive/lib/
+RUN set -ex; \
+    apt-get update; \
+    apt-get -y install wget; \
+    rm -rf /var/lib/apt/lists/*
+
+RUN wget https://jdbc.postgresql.org/download/postgresql-42.6.0.jar
+RUN mv postgresql-42.6.0.jar /opt/hive/lib/.
+
 USER hive
