@@ -12,7 +12,7 @@ Make sure `conf/spark-defaults.conf` in your spark installation directory are co
 ~ spark-submit --class "ParquetGenerator" \
     --master k8s://https://<k8s-apiserver-host>:<k8s-apiserver-port> \ \
     --deploy-mode cluster \
-    target/scala-2.12/parquet-data-generator_2.12-1.0.jar [mode] [storagePath] [dsdgenPath] [queryName]
+    local:///opt/contistuff/parquet-data-generator_2.12-1.0.jar [mode] [storagePath] [dsdgenPath] [queryName]
 ~ mode validOptions ...
 ~ test storagePath
 ~ datagen storagePath dsdgenPath
