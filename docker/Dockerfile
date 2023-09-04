@@ -17,6 +17,8 @@ COPY docker/spark-conf /opt/spark/conf/
 COPY target/scala-2.12/parquet-data-generator_2.12-1.0.jar /opt/contistuff/
 COPY docker/entrypoint.sh /opt/contistuff/entrypoint.sh
 
-ENTRYPOINT [ "/opt/contistuff/entrypoint.sh" ]
+# Only use outside google cloud if accessing google cloud storage
+# ENTRYPOINT [ "/opt/contistuff/entrypoint.sh" ]
+ENTRYPOINT [ "/opt/entrypoint.sh" ]
 
 USER 185
