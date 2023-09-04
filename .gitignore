@@ -47,5 +47,5 @@ bin/
 #general
 *.class
 
-docker/warehouse
-docker/db_data
+# docker/warehouse
+# docker/db_data
