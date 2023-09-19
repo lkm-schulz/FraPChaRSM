@@ -8,5 +8,6 @@ RUN set -ex; \
 
 RUN wget https://jdbc.postgresql.org/download/postgresql-42.6.0.jar
 RUN mv postgresql-42.6.0.jar /opt/hive/lib/.
+COPY picklejars/gcs-connector-hadoop3-latest.jar /opt/hive/lib/.
 
 USER hive

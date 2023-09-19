@@ -44,7 +44,7 @@ object Datagen {
     spark.sql(s"create database if not exists $databaseName location '${location}'")
     // Create metastore tables in a specified database for your data.
     // Once tables are created, the current database will be switched to the specified database.
-    tables.createExternalTables(storagePath, format, databaseName, overwrite = true, discoverPartitions = true)
+    tables.createExternalTables(location, format, databaseName, overwrite = true, discoverPartitions = true)
     // Or, if you want to create temporary tables
     // tables.createTemporaryTables(location, format)
 
