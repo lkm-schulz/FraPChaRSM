@@ -48,4 +48,6 @@ bin/
 *.class
 
 docker/warehouse
-docker/db_data
+docker/db_datawork-dir/
+
+work-dir/
