@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KUBE_NAMESPACE="sparkbench"
+KUBE_NAMESPACE="default"
 KUBE_ACCOUNT="spark"
 
 DIR_WORK="work-dir"
@@ -98,7 +98,9 @@ cp spark-defaults.conf "${DIR_WORK}/${SPARK_FULL}/conf/"
 
 echo "Creating K8s service account for Spark..."
 
-kubectl_create namespace ${KUBE_NAMESPACE} ${KUBE_NAMESPACE}
+if [ "${KUBE_NAMESPACE}" != "default" ]; then
+	kubectl_create namespace ${KUBE_NAMESPACE} ${KUBE_NAMESPACE}
+fi
 kubectl_create serviceaccount ${KUBE_ACCOUNT} ${KUBE_NAMESPACE}
 kubectl_create rolebinding "spark-role" ${KUBE_NAMESPACE} "--clusterrole=edit --serviceaccount=${KUBE_NAMESPACE}:${KUBE_ACCOUNT}"
 
