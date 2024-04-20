@@ -11,5 +11,5 @@ sbt package
 
 docker login
 
-docker build -t ${URI_IMAGE} -f docker/Dockerfile .
+docker build --platform linux/amd64 -t ${URI_IMAGE} -f docker/Dockerfile .
 docker push ${URI_IMAGE}
