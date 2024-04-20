@@ -13,7 +13,7 @@ RUN mkdir -p /opt/contistuff && \
 # https://stackoverflow.com/questions/26504846/copy-directory-to-another-directory-using-add-command
 COPY docker/picklejars /opt/contistuff/picklejars
 COPY docker/tpcds-bin /opt/contistuff/tpcds-bin
-COPY docker/spark-conf /opt/spark/conf/
+# COPY docker/spark-conf /opt/spark/conf/
 COPY target/scala-2.12/parquet-data-generator_2.12-1.0.jar /opt/contistuff/
 COPY docker/entrypoint.sh /opt/contistuff/entrypoint.sh
 

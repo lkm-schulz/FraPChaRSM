@@ -75,6 +75,7 @@ fi
 
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install java 11.0.22-tem
+sdk install sbt
 
 echo "Creating folders for Hive store..."
 
