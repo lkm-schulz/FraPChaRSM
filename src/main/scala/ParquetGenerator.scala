@@ -1,6 +1,10 @@
 import org.apache.spark.sql.SparkSession
 
 object ParquetGenerator {
+
+  val DB_SCALE_FACTOR = 100
+  val DB_NAME = s"dataset_tpcds_${DB_SCALE_FACTOR}G"
+
   def main(args: Array[String]): Unit = {
 
     val mode = args(0)

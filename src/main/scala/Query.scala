@@ -4,9 +4,8 @@ import com.databricks.spark.sql.perf.tpcds.TPCDS
 object Query {
   def run(queryName: String, spark: SparkSession): Unit = {
     val sqlContext = spark.sqlContext
-    
-    val databaseName = s"dataset_tpcds_100G"
-    spark.sql(s"use database $databaseName")
+
+    spark.sql(s"use database ${ParquetGenerator.DB_NAME}")
 
     val tpcds = new TPCDS (sqlContext = sqlContext)
 
