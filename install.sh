@@ -12,6 +12,18 @@ DIR_WAREHOUSE="docker/warehouse"
 DIR_DBDATA="docker/db_data"
 DIR_MINIODATA="docker/minio_data"
 
+DIR_DOCKER="docker"
+DIR_JARS="${DIR_DOCKER}/picklejars"
+
+create_dir_if_nonexist()
+{
+	dirname=$1
+	if [[ ! -d "${dirname}" ]]; then
+		echo "Creating missing \"${dirname}\" directory..."
+		mkdir "${dirname}"
+	fi
+}
+
 create_replace_dir()
 {
 	dirname=$1
@@ -79,10 +91,18 @@ sdk install java 11.0.22-tem
 sdk install sbt
 
 echo "Creating folders for Hive store..."
+create_dir_if_nonexist ${DIR_DOCKER}
 
 create_replace_dir ${DIR_WAREHOUSE}
 create_replace_dir ${DIR_DBDATA}
 create_replace_dir ${DIR_MINIODATA}
+
+echo "Downloading dependency jar files..."
+create_dir_if_nonexist ${DIR_JARS}
+
+wget https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.12.262/aws-java-sdk-bundle-1.12.262.jar -P ${DIR_JARS}
+wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.4/hadoop-aws-3.3.4.jar -P docker/picklejars/
+wget https://repo1.maven.org/maven2/org/apache/spark/spark-hadoop-cloud_2.12/3.5.1/spark-hadoop-cloud_2.12-3.5.1.jar -P ${DIR_JARS}
 
 create_replace_dir ${DIR_WORK}
 
