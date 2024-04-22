@@ -10,6 +10,7 @@ SPARK_FULL="spark-${SPARK_VER}-${SPARK_TYPE}"
 
 DIR_WAREHOUSE="docker/warehouse"
 DIR_DBDATA="docker/db_data"
+DIR_MINIODATA="docker/minio_data"
 
 create_replace_dir()
 {
@@ -81,6 +82,7 @@ echo "Creating folders for Hive store..."
 
 create_replace_dir ${DIR_WAREHOUSE}
 create_replace_dir ${DIR_DBDATA}
+create_replace_dir ${DIR_MINIODATA}
 
 create_replace_dir ${DIR_WORK}
 
