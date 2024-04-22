@@ -2,6 +2,7 @@
 
 KUBE_NAMESPACE="default"
 KUBE_ACCOUNT="spark"
+KUBE_ROLE="spark-role"
 
 DIR_WORK="work-dir"
 SPARK_VER="3.5.1"
@@ -124,5 +125,5 @@ if [ "${KUBE_NAMESPACE}" != "default" ]; then
 	kubectl_create namespace ${KUBE_NAMESPACE} ${KUBE_NAMESPACE}
 fi
 kubectl_create serviceaccount ${KUBE_ACCOUNT} ${KUBE_NAMESPACE}
-kubectl_create rolebinding "spark-role" ${KUBE_NAMESPACE} "--clusterrole=edit --serviceaccount=${KUBE_NAMESPACE}:${KUBE_ACCOUNT}"
+kubectl_create rolebinding ${KUBE_ROLE} ${KUBE_NAMESPACE} "--clusterrole=edit --serviceaccount=${KUBE_NAMESPACE}:${KUBE_ACCOUNT}"
 
