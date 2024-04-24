@@ -109,6 +109,10 @@ create_replace_dir ${DIR_WORK}
 
 cd "${DIR_WORK}"
 
+echo "Downloading Minio client..."
+wget https://dl.min.io/client/mc/release/linux-amd64/mc
+chmod +x mc
+
 echo "Downloading Spark (${SPARK_VER})..."
 wget "https://dlcdn.apache.org/spark/spark-${SPARK_VER}/${SPARK_FULL}.tgz"
 echo "Unpacking Spark..."
