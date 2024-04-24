@@ -28,3 +28,16 @@ services:
       - ./warehouse:/opt/hive/data/warehouse
     links:
       - db:db
+
+  minio:
+    image: minio/minio:RELEASE.2024-04-18T19-09-19Z-cpuv1
+    restart: always
+    ports:
+      - 9000:9000
+      - 9001:9001
+    environment:
+      MINIO_ACCESS_KEY: "sparkbench"
+      MINIO_SECRET_KEY: "password"
+    command: server /data
+    volumes:
+      - ./minio_data:/data
