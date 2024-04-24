@@ -18,6 +18,7 @@ object ParquetGenerator {
       case "datagen" => Datagen.data(storagePath, args(2), spark)
       case "metagen" => Datagen.metadata(storagePath, spark)
       case "query" => Query.run(args(2), spark)
+      case "queries_random" => Query.runRandomSelection(args(2).toInt, spark)
       case _ => throw new IllegalArgumentException("Unknown mode: " + mode)
     }
   }
