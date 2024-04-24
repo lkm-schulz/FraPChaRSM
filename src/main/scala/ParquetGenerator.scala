@@ -13,18 +13,12 @@ object ParquetGenerator {
     // val spark = SparkSession.builder.appName("Data Generator").config("hive.metastore.uris", "http://fs0:9083").enableHiveSupport().getOrCreate()
     val spark = SparkSession.builder.appName("Data Generator").enableHiveSupport().getOrCreate()
 
-    if (mode == "test") {
-      TestWrite.run(storagePath, spark)
-    } else if (mode == "datagen") {
-      val dsdgenPath = args(2)
-      Datagen.data(storagePath, dsdgenPath, spark)
-    } else if (mode == "metagen") {
-      Datagen.metadata(storagePath, spark)
-    } else if (mode == "query") {
-      val query = args(2)
-      Query.run(query, spark)
-    } else {
-      throw new IllegalArgumentException("Unknown mode: " + mode)
+    mode match {
+      case "test" => TestWrite.run(storagePath, spark)
+      case "datagen" => Datagen.data(storagePath, args(2), spark)
+      case "metagen" => Datagen.metadata(storagePath, spark)
+      case "query" => Query.run(args(2), spark)
+      case _ => throw new IllegalArgumentException("Unknown mode: " + mode)
     }
   }
 }
