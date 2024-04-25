@@ -41,3 +41,23 @@ services:
     command: server /data
     volumes:
       - ./minio_data:/data
+
+  influx:
+    image: influxdb:2.7.6
+    restart: always
+    ports:
+      - "8086:8086"
+    volumes:
+      - ./influx_data:/var/lib/influxdb/data
+    command: >
+      /bin/bash -c "
+        (
+          until influx ping; do
+            sleep 1
+          done
+          influx setup --force -u admin -p password -o sparkbench -t token -b sparkbench
+          influx bucket create --name telegraf -o sparkbench
+        ) & 
+        influxd
+      "
+
