@@ -1,6 +1,7 @@
 import subprocess
 import sys
 import argparse
+from multiprocessing import Pool
 
 TOKEN_TELEGRAF_VER='${TELEGRAF_VER}'
 TELEGRAF_VER = '1.30.2'
@@ -16,6 +17,24 @@ def run_commands_on_remote(host, commands, keyfile=None):
             shell=True,
             stdout=sys.stdout,
         )
+
+def process_host(host):
+
+    files = files_add
+    if (mode == 'script'):
+        files = files + [target]
+
+    proc = None
+
+    for file in files:
+        proc = subprocess.run(f'scp -i {path_key} {file} {host.strip()}:~/', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        if proc.returncode != 0:
+            return proc
+
+    command = f"./{target.split('/')[-1]}" if mode == 'script' else target
+    proc = subprocess.run(f"ssh -i {path_key} {host.strip()} {command}", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+    return proc
 
 parser = argparse.ArgumentParser('run_script_on_remotes')
 parser.add_argument('mode', choices=['script', 'cmd'], help='Mode')
@@ -40,20 +59,20 @@ Additional files: {files_add}
 ''')
 
 with open(path_hosts, 'r') as file_hosts:
-    for host in file_hosts.readlines():
-        if not host.startswith('#'):
-            files = files_add
-            if (mode == 'script'):
-                files = files + [target]
 
-            for file in files:
-                proc = subprocess.run(f'scp -i {path_key} {file} {host.strip()}:~/', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-                if proc.returncode != 0:
-                    print(proc.stdout.decode(), end='')
-                    print(proc.stderr.decode(), end='')
+    hosts = list(map(lambda host: host.strip(), file_hosts.readlines()))
+    hosts = list(filter(lambda host: not host.startswith('#') and not host == '', hosts))
 
-            command = f"./{target.split('/')[-1]}" if mode == 'script' else target
-            proc = subprocess.run(f"ssh -i {path_key} {host.strip()} {command}", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-            if proc.returncode != 0:
-                print(proc.stdout.decode(), end='')
-                print(proc.stderr.decode(), end='')
+    with Pool() as pool:
+        results = pool.map(process_host, hosts)
+
+    for (host, proc) in zip(hosts, results):
+        print('✅' if proc.returncode == 0 else '❌', end=' ')
+        print(f"{host} retured with code {proc.returncode}")
+        if proc.returncode != 0 or args.verbose:
+            for line in proc.stdout.decode().split('\n'):
+                print(f'[stdout({host}] {line}')
+            for line in proc.stderr.decode().split('\n'):
+                print(f'[stderr({host}] {line}')
+
+
