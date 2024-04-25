@@ -1,4 +1,8 @@
 #!/bin/bash
+
+set -e 
+set -o pipefail
+
 echo "USER=\"${USER}\"" | sudo tee /etc/default/telegraf > /dev/null
 
 echo 'Running telegraf setup script'

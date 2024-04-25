@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -e 
+set -o pipefail
+
 NAME_USER="lkmschulz2"
 NAME_IMAGE="sacheens-spark-benchmark"
 VER_IMAGE="latest"
