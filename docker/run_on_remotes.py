@@ -33,8 +33,7 @@ mode = args.mode
 target = args.target
 
 print(f'''
-Mode: {mode}
-Script/Command: {target}
+{'Command' if mode == 'cmd' else 'Script'}: {target}
 Hosts file: {path_hosts}
 Keyfile: {path_key}
 Additional files: {files_add}
