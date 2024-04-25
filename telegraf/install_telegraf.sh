@@ -1,7 +1,5 @@
 #!/bin/bash
-echo ${HOSTNAME}
-echo "USER=\"${USER}\"" | sudo tee /etc/default/telegraf
-sudo cat /etc/default/telegraf
+echo "USER=\"${USER}\"" | sudo tee /etc/default/telegraf > /dev/null
 
 echo 'Running telegraf setup script'
 wget -q https://repos.influxdata.com/influxdata-archive_compat.key
