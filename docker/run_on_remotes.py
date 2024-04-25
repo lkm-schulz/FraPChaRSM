@@ -26,8 +26,8 @@ parser.add_argument('--files', nargs='+', default=[], help='List of files to be 
 parser.add_argument('-v', '--verbose', action='store_true', help='Always print output.')
 
 args = parser.parse_args()
-path_hosts = args.hostsfile
-path_key = args.keyfile
+path_hosts = args.hosts
+path_key = args.key
 files_add = args.files
 mode = args.mode
 target = args.target
