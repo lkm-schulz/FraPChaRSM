@@ -12,6 +12,7 @@ SPARK_FULL="spark-${SPARK_VER}-${SPARK_TYPE}"
 DIR_WAREHOUSE="docker/warehouse"
 DIR_DBDATA="docker/db_data"
 DIR_MINIODATA="docker/minio_data"
+DIR_INFLUXDATA="docker/influx_data"
 
 DIR_DOCKER="docker"
 DIR_JARS="${DIR_DOCKER}/picklejars"
@@ -97,6 +98,7 @@ create_dir_if_nonexist ${DIR_DOCKER}
 create_replace_dir ${DIR_WAREHOUSE}
 create_replace_dir ${DIR_DBDATA}
 create_replace_dir ${DIR_MINIODATA}
+create_replace_dir ${DIR_INFLUXDATA}
 
 echo "Downloading dependency jar files..."
 create_dir_if_nonexist ${DIR_JARS}
