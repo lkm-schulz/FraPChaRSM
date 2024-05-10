@@ -11,9 +11,9 @@ RUN mv postgresql-42.6.0.jar /opt/hive/lib/.
 RUN wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.3.6/hadoop-common-3.3.6.jar
 RUN mv hadoop-common-3.3.6.jar /opt/hive/lib/.
 
-COPY picklejars/gcs-connector-hadoop3-latest.jar /opt/hive/lib/.
-COPY picklejars/hadoop-aws-* /opt/hive/lib/.
-COPY picklejars/aws-java-sdk-bundle-* /opt/hive/lib/.
+COPY jars/gcs-connector-hadoop3-latest.jar /opt/hive/lib/.
+COPY jars/hadoop-aws-* /opt/hive/lib/.
+COPY jars/aws-java-sdk-bundle-* /opt/hive/lib/.
 
 COPY hive-site.xml /opt/hive/conf/.
 
