@@ -15,7 +15,7 @@ DIR_MINIODATA="docker/minio_data"
 DIR_INFLUXDATA="docker/influx_data"
 
 DIR_DOCKER="docker"
-DIR_JARS="${DIR_DOCKER}/picklejars"
+DIR_JARS="${DIR_DOCKER}/jars"
 
 create_dir_if_nonexist()
 {
@@ -104,13 +104,12 @@ echo "Downloading dependency jar files..."
 create_dir_if_nonexist ${DIR_JARS}
 
 wget https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.12.262/aws-java-sdk-bundle-1.12.262.jar -P ${DIR_JARS}
-wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.4/hadoop-aws-3.3.4.jar -P docker/picklejars/
+wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.4/hadoop-aws-3.3.4.jar -P ${DIR_JARS}
 wget https://repo1.maven.org/maven2/org/apache/spark/spark-hadoop-cloud_2.12/3.5.1/spark-hadoop-cloud_2.12-3.5.1.jar -P ${DIR_JARS}
 
 create_replace_dir ${DIR_WORK}
 
 cd "${DIR_WORK}"
-
 echo "Downloading Minio client..."
 wget https://dl.min.io/client/mc/release/linux-amd64/mc
 chmod +x mc
