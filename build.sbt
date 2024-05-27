@@ -13,3 +13,8 @@ libraryDependencies += "com.amazonaws" % "aws-java-sdk-bundle" % "1.12.262" from
 //libraryDependencies += "com.amazonaws" % "aws-java-sdk-core" % "1.12.262" from ("file://" + currentDirectory + "/docker/jars/aws-java-sdk-core-1.12.262.jar")
 //libraryDependencies += "com.amazonaws" % "aws-java-sdk-s3" % "1.12.262" from ("file://" + currentDirectory + "/docker/jars/aws-java-sdk-s3-1.12.262.jar")
 libraryDependencies += "com.databricks" % "spark-sql-perf_2.12" % "0.5.1" from ("file://" + currentDirectory + "/docker/jars/spark-sql-perf_2.12-0.5.1-SNAPSHOT.jar")
+libraryDependencies += "com.lihaoyi" %% "upickle" % "3.3.1" from ("file://" + currentDirectory + "/docker/jars/upickle_2.12-3.3.1.jar")
+// https://mvnrepository.com/artifact/com.lihaoyi/ujson
+// libraryDependencies += "com.lihaoyi" %% "ujson" % "3.3.1" from ("file://" + currentDirectory + "/docker/jars/ujson_2.12-3.3.1.jar")
+
+
