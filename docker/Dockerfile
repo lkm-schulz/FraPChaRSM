@@ -16,6 +16,7 @@ COPY docker/tpcds-bin /opt/sparkbench/tpcds-bin
 COPY spark-defaults.conf /opt/spark/conf/
 COPY target/scala-2.12/parquet-data-generator_2.12-1.0.jar /opt/sparkbench/
 COPY docker/entrypoint.sh /opt/sparkbench/entrypoint.sh
+COPY docker/queries /opt/sparkbench/queries
 
 # Only use outside google cloud if accessing google cloud storage
 # ENTRYPOINT [ "/opt/sparkbench/entrypoint.sh" ]
