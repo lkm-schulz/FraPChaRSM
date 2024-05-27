@@ -27,11 +27,15 @@ def process_host(host):
     proc = None
 
     for file in files:
+        if args.verbose:
+            print(f'scp -i {path_key} {file} {host.strip()}:~/')
         proc = subprocess.run(f'scp -i {path_key} {file} {host.strip()}:~/', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         if proc.returncode != 0:
             return proc
 
     command = f"./{target.split('/')[-1]}" if mode == 'script' else target
+    if args.verbose:
+        print(f"ssh -i {path_key} {host.strip()} {command}")
     proc = subprocess.run(f"ssh -i {path_key} {host.strip()} {command}", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     return proc
