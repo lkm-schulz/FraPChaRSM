@@ -71,8 +71,7 @@ Delete and replace? [y/N] " selection
 
 echo "Installing docker..."
 sudo apt update
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
-sudo apt install -y docker-compose
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-compose
 sudo groupadd docker
 sudo usermod -aG docker $USER
 sudo systemctl enable docker.service
