@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: metastore_db
     volumes:
-      - ./data/postgres:/var/lib/postgresql/data
+      - /mnt/nvme0n1/lennart/sparkbench-data/postgres:/var/lib/postgresql/data
 
   hive:
     build:
@@ -25,7 +25,7 @@ services:
       DB_DRIVER: postgres
       SKIP_SCHEMA_INIT: "false"
     volumes:
-      - ./data/warehouse:/opt/hive/data/warehouse
+      - /mnt/nvme0n1/lennart/sparkbench-data/warehouse:/opt/hive/data/warehouse
     links:
       - db:db
 
@@ -40,7 +40,8 @@ services:
       MINIO_SECRET_KEY: "password"
     command: server /data
     volumes:
-      - ./data/minio:/data
+      - /mnt/nvme0n1/lennart/sparkbench-data/minio:/data
+      # - /mnt/f2fs/lennart/minio:/data
 
   influx:
     image: influxdb:2.7.6
@@ -48,7 +49,7 @@ services:
     ports:
       - "8086:8086"
     volumes:
-      - ./data/influx:/var/lib/influxdb/data
+      - /mnt/nvme0n1/lennart/sparkbench-data/influx:/var/lib/influxdb/data
     command: >
       /bin/bash -c "
         (
