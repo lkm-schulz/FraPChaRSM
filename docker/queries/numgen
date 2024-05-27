@@ -1,0 +1,3 @@
+SELECT number
+FROM random_numbers
+ORDER BY number
