@@ -2,9 +2,11 @@ package s3
 
 import com.amazonaws.auth.{AWSStaticCredentialsProvider, BasicAWSCredentials}
 import com.amazonaws.client.builder.AwsClientBuilder
-import com.amazonaws.services.s3.model.GetObjectRequest
+import com.amazonaws.services.s3.model.{GetObjectRequest, ObjectMetadata, PutObjectRequest}
 import com.amazonaws.services.s3.{AmazonS3, AmazonS3ClientBuilder}
 import org.apache.spark.SparkConf
+
+import java.io.ByteArrayInputStream
 
 object S3Utils {
   def getClientFromSparkConf(conf: SparkConf): AmazonS3 = {
@@ -29,11 +31,20 @@ object S3Utils {
   }
 
   def getObjectAsString(s3: AmazonS3, bucket: String, key: String): String = {
-    val s3Object = s3.getObject(new GetObjectRequest(bucket, key))
+    val s3Object = s3.getObject(bucket, key)
     val s3InputStream = s3Object.getObjectContent
     val s3ObjectString = scala.io.Source.fromInputStream(s3InputStream).mkString
     s3InputStream.close()
-
     s3ObjectString
+  }
+
+
+
+  def putStringAsObject(s3: AmazonS3, bucket: String, key: String, content: String): Unit = {
+    val contentBytes = content.getBytes("UTF-8")
+    val metadata = new ObjectMetadata()
+    metadata.setContentLength(contentBytes.length)
+    s3.putObject(bucket, key, new ByteArrayInputStream(contentBytes), metadata)
+//    s3.putObject(new PutObjectRequest(bucket, key, new ByteArrayInputStream(contentBytes), metadata))
   }
 }

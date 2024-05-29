@@ -1,31 +1,34 @@
-import com.amazonaws.services.s3.model.{GetObjectRequest, ObjectMetadata, PutObjectRequest}
-import org.apache.spark.sql.SparkSession
+package queries
 
-import scala.io.Source
-import java.io.ByteArrayInputStream
 import com.amazonaws.services.s3.AmazonS3
+import com.amazonaws.services.s3.model.{ObjectMetadata, PutObjectRequest}
+import org.apache.spark.sql.SparkSession
+import s3.S3Utils
+
+import java.io.ByteArrayInputStream
+import scala.io.Source
 
 object QueryStats {
-  def collectAll(spark: SparkSession, s3: AmazonS3, overwriteExisting: Boolean = false): Unit = {
+  def collectAll(spark: SparkSession, s3: AmazonS3, dbName:String, overwriteExisting: Boolean = false): Unit = {
     // run a single query to get the overhead out of the way:
-    Query.getTime(spark, "q1", "d_year = 2000 and d_moy = 1")
+    Query.getTime(spark, dbName, "q1", "d_year = 2000 and d_moy = 1")
 
     // get all available queries
-    val queries = listFiles(Settings.PATH_QUERIES).filter(_.endsWith(".sql")).map(_.stripSuffix(".sql"))
+    val queries = listFiles(Query.PATH_DIR_QUERIES).filter(_.endsWith(".sql")).map(_.stripSuffix(".sql"))
       .sortBy(_.stripPrefix("q").toInt)
     println("Queries found: '" + queries.mkString("', '") + "'")
 
     // read the default and specific date ranges
-    val datesSource = Source.fromFile(Settings.PATH_FILE_DATES)
+    val datesSource = Source.fromFile(Query.PATH_FILE_DATES)
     val dateRanges = ujson.read(datesSource.getLines.mkString("\n"))
     val rangesDefault = dateRanges("default").arr.map(_.str).toArray
     datesSource.close()
 
 
     for (query <- queries) {
-      val content = if (!overwriteExisting && s3.doesObjectExist(Settings.S3_BUCKET_QUERIES, s"$query.csv")) {
+      val content = if (!overwriteExisting && s3.doesObjectExist(Query.S3_BUCKET_QUERIES, s"$query.csv")) {
         println(s"Retrieving existing stats for query '$query' from storage...")
-        S3Utils.getObjectAsString(s3, Settings.S3_BUCKET_QUERIES, s"$query.csv")
+        S3Utils.getObjectAsString(s3, Query.S3_BUCKET_QUERIES, s"$query.csv")
       }
       else {
         ""
@@ -47,7 +50,7 @@ object QueryStats {
         }
         else {
           println(s"Starting query '$query' with range '$range'...'")
-          val time = Query.getTime(spark, query, range)
+          val time = Query.getTime(spark, dbName, query, range)
           println(s"Took $time ms.")
           results(range) = time
         }
@@ -57,7 +60,7 @@ object QueryStats {
       val resultsCSVBytes = results.map(res => s"${res._1},${res._2}").mkString("\n").getBytes("UTF-8")
       val metadata = new ObjectMetadata()
       metadata.setContentLength(resultsCSVBytes.length)
-      s3.putObject(new PutObjectRequest(Settings.S3_BUCKET_QUERIES, s"$query.csv", new ByteArrayInputStream(resultsCSVBytes), metadata))
+      s3.putObject(Query.S3_BUCKET_QUERIES, s"$query.csv", new ByteArrayInputStream(resultsCSVBytes), metadata)
     }
   }
 

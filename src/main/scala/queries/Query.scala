@@ -1,9 +1,16 @@
-import org.apache.spark.sql.SparkSession
+package queries
+
 import com.databricks.spark.sql.perf.tpcds.TPCDS
+import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions.rand
+
 import scala.io.Source
 
 object Query {
+
+  val PATH_DIR_QUERIES: String = "/opt/sparkbench/queries"
+  val PATH_FILE_DATES: String = PATH_DIR_QUERIES + "/dates.json"
+  val S3_BUCKET_QUERIES: String = "data/queries"
 
   private def timeNRuns(code: => Unit, n: Int = 2, info: String = ""): Array[Long] = {
     (0 until n).map(run => {
@@ -13,8 +20,8 @@ object Query {
     }).toArray
   }
 
-  def run(queryName: String, spark: SparkSession): Unit = {
-    val tpcds = getTPCDS(spark)
+  def runTPCDS(spark: SparkSession, dbName: String, queryName: String): Unit = {
+    val tpcds = getTPCDS(spark, dbName)
 
     val queryToRun = tpcds.tpcds2_4Queries.filter(q => q.name == queryName)
     if (queryToRun.isEmpty) {
@@ -24,8 +31,8 @@ object Query {
     tpcds.run(queryToRun)
   }
 
-  def runRandomSelection(count: Int, spark: SparkSession): Unit = {
-    val tpcds = getTPCDS(spark)
+  def runRandomSelection(spark: SparkSession, dbName: String, count: Int): Unit = {
+    val tpcds = getTPCDS(spark, dbName)
 
     val queries = tpcds.tpcds2_4Queries
     for (i <- 1 to count) {
@@ -35,7 +42,7 @@ object Query {
     }
   }
 
-  def runTest(storagePath: String, queryName: String, numRows: Int, spark: SparkSession): Unit = {
+  def runTest(spark: SparkSession, storagePath: String, queryName: String, numRows: Int): Unit = {
 
     val location = s"${storagePath}/test"
     spark.sql(s"create database if not exists test location '${location}'")
@@ -55,12 +62,10 @@ object Query {
     timeNRuns(spark.sql(query).show(1), 2, "sort")
   }
 
-  def getTime(spark: SparkSession, query: String, dateRange: String, numRuns: Int = 1, aggregator: String = "best"): Long = {
-    spark.sql(s"use database ${ParquetGenerator.DB_NAME}")
-    val filename = s"/opt/sparkbench/queries/$query.sql"
-    val bufferedSource = Source.fromFile(filename)
-    val queryText = bufferedSource.getLines.mkString("\n").replace("$DATERANGE$", dateRange)
-    bufferedSource.close()
+  def getTime(spark: SparkSession, dbName: String, query: String, dateRange: String, numRuns: Int = 1, aggregator: String = "best"): Long = {
+    spark.sql(s"use database $dbName")
+
+    val queryText = QueryUtils.getQueryWithDate(query, dateRange)
 
     val times = timeNRuns({
       spark.sql(queryText).show(1)
@@ -75,8 +80,8 @@ object Query {
     }
   }
 
-  private def getTPCDS(spark: SparkSession): TPCDS = {
-    spark.sql(s"use database ${ParquetGenerator.DB_NAME}")
+  private def getTPCDS(spark: SparkSession, dbName: String): TPCDS = {
+    spark.sql(s"use database $dbName")
     new TPCDS(sqlContext = spark.sqlContext)
   }
 }

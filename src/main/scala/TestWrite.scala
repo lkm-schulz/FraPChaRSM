@@ -6,7 +6,7 @@ import org.apache.spark.sql.functions.{to_utc_timestamp, from_unixtime, monotoni
 
 
 object TestWrite {
-  def run(storagePath: String, spark: SparkSession): Unit = {
+  def run(spark: SparkSession, storagePath: String): Unit = {
     def randomStringGen(length: Int) = scala.util.Random.alphanumeric.take(length).mkString
     val columns = 5
 
