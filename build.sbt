@@ -1,4 +1,4 @@
-name := "Parquet Data Generator"
+name := "Sparkbench"
 
 version := "1.0"
 
