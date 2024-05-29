@@ -4,7 +4,7 @@ set -e
 set -o pipefail
 
 NAME_USER="lkmschulz2"
-NAME_IMAGE="sacheens-spark-benchmark"
+NAME_IMAGE="sparkbench"
 VER_IMAGE="latest"
 
 URI_IMAGE="${NAME_USER}/${NAME_IMAGE}:${VER_IMAGE}"
