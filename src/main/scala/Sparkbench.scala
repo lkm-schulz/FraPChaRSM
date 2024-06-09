@@ -1,50 +1,49 @@
-import com.amazonaws.auth.{AWSStaticCredentialsProvider, BasicAWSCredentials}
+import com.amazonaws.services.s3.AmazonS3
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.SparkConf
-import com.amazonaws.services.s3.{AmazonS3, AmazonS3ClientBuilder}
-import com.amazonaws.client.builder.AwsClientBuilder
-import com.amazonaws.services.emrserverless.AWSEMRServerless
-import queries.Query
-import s3.S3Utils
+import utilities.S3
 
 object Sparkbench {
-
-  val DB_SCALE_FACTOR = 1000
-  val DB_NAME = s"dataset_tpcds_${DB_SCALE_FACTOR}G"
 
   def main(args: Array[String]): Unit = {
 
     val mode = args(0)
-
     val spark = SparkSession.builder.appName("Data Generator").enableHiveSupport().getOrCreate()
-    val s3 = S3Utils.getClientFromSparkConf(spark.sparkContext.getConf)
-
-    //
-    //    QueryStats.collectAll(spark, s3)
-
 
     mode match {
-      case "test" => TestWrite.run(spark, storagePath=args(1))
-      case "datagen" => Datagen.data(spark, storagePath=args(1), dsdgenPath=args(2))
-      case "metagen" => Datagen.metadata(spark, storagePath=args(1))
-      case "query" => Query.runTPCDS(spark, DB_NAME, queryName=args(2))
-//      case "cquery" => Query.runCustom(args(2), args(3), spark)
-      case "tquery" => Query.runTest(spark, storagePath=args(1), queryName=args(2), numRows=args(3).toInt)
-      case "queries_random" => Query.runRandomSelection(spark, DB_NAME, count=args(2).toInt)
+      case "update" =>
+        val newLocation = args(1)
+        spark.sql(s"ALTER DATABASE dataset_tpcds_1000G SET LOCATION '$newLocation/dataset_tpcds_1000G'")
+        spark.sql(s"ALTER DATABASE dataset_tpcds_10G SET LOCATION '$newLocation/dataset_tpcds_10G'")
+      case "datagen" =>
+        new Data(spark, storagePath = args(1))
+          .generate(dsdgenPath = args(2))
+      case "metagen" =>
+        new Data(spark, storagePath = args(1))
+          .structure()
+      case "query_tpcds" =>
+        new Query(spark).runTPCDS(queryName = args(1))
+      case "queries_tpcds" =>
+        new Query(spark).runTPCDS(count = args(1).toInt)
+      case "query" =>
+        val times = new Query(spark).getTime(queryName = args(1), dateRange = args(2), numRuns = 2)
+        println(s"Attempts took: ${times.mkString(" ms, ")} ms")
+      case "query_stats" =>
+        new Query(spark).collectStats()
       case "workload" =>
-        spark.sql(s"use database ${Sparkbench.DB_NAME}")
-        val app = args(2)
         val startTime = if (args.length > 3) {
           println(s"Custom start time given: ${args(3)}")
           args(3).toLong * 1000
-        } else System.currentTimeMillis
-        val workload = workloads.Workload.fromFile(args(1))
-        workload.run(spark, s3, app, startTime)
-
-      case _ => throw new IllegalArgumentException("Unknown mode: " + mode)
+        } else System.currentTimeMillis / 1000 * 1000
+        Workload.fromFile(spark, filename=args(1)).run(app = args(2), startTime)
+      case _ =>
+        throw new IllegalArgumentException("Unknown mode: " + mode)
     }
-
-    spark.stop
   }
+}
 
+abstract class Sparkbench(val spark: SparkSession) {
+  val DB_SCALE_FACTOR = 1000
+  val DB_NAME = s"dataset_tpcds_${DB_SCALE_FACTOR}G"
+
+  val s3: AmazonS3 = S3.getClientFromSparkConf(spark.sparkContext.getConf)
 }

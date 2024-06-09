@@ -8,9 +8,7 @@ import scala.io.Source
 
 object Query {
 
-  val PATH_DIR_QUERIES: String = "/opt/sparkbench/queries"
-  val PATH_FILE_DATES: String = PATH_DIR_QUERIES + "/dates.json"
-  val S3_BUCKET_QUERIES: String = "data/queries"
+
 
   private def timeNRuns(code: => Unit, n: Int = 2, info: String = ""): Array[Long] = {
     (0 until n).map(run => {
