@@ -1,0 +1,8 @@
+app,start,duration,query,range
+1,0,27905,q13,d_date = cast('2000-04-30' as date)
+1,120206,43153,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '4' day))
+1,120638,42983,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '10' day))
+1,121900,35923,q7,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' day))
+1,240633,5110,q7,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '4' day))
+1,240671,10146,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '10' day))
+1,241817,9350,q1,d_date between cast('2000-08-23' as date) and ((cast('2000-08-23' as date) + interval '14' day))

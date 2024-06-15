@@ -1,0 +1,31 @@
+app,start,query,range,delay,duration
+1,0,q10,d_year = 2000 and d_moy = 1,43,154152
+1,0,q7,d_year = 2000 and d_moy between 1 and 11,49,142827
+1,0,q13,d_year = 2000 and d_moy between 1 and 6,49,145794
+1,0,q13,d_year = 2000 and d_moy between 1 and 7,50,145548
+1,0,q7,d_year = 2000 and d_moy between 1 and 11,51,133712
+1,0,q10,d_year = 2000 and d_moy = 1,58,152333
+1,240000,q13,d_year = 2000 and d_moy between 1 and 6,65,31957
+1,240000,q13,d_year = 2000 and d_moy between 1 and 6,67,35871
+1,240000,q12,d_year = 2000,67,31989
+1,240000,q7,d_year = 2000 and d_moy between 1 and 11,68,27284
+1,240000,q10,d_date = cast('2000-04-30' as date),68,37241
+1,240000,q7,d_year = 2000 and d_moy between 1 and 11,84,27008
+1,420000,q7,d_year = 2000 and d_moy between 1 and 10,40,23242
+1,420000,q12,d_year = 2000 and d_moy between 1 and 11,42,23239
+1,420000,q10,d_year = 2000 and d_moy = 1,42,32652
+1,420000,q1,d_year = 2000 and d_moy between 1 and 4,43,35486
+1,420000,q13,d_year = 2000 and d_moy between 1 and 6,43,27982
+1,420000,q12,d_year = 2000 and d_moy between 1 and 11,45,26423
+1,600000,q7,d_year = 2000 and d_moy between 1 and 10,56,27678
+1,600000,q13,d_year = 2000 and d_moy between 1 and 7,58,28378
+1,600000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),58,32986
+1,600000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),58,34357
+1,600000,q7,d_year = 2000 and d_moy between 1 and 10,59,27421
+1,600000,q7,d_year = 2000 and d_moy between 1 and 10,77,28144
+1,780000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),80,26842
+1,780000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),80,27061
+1,780000,q1,d_year = 2000 and d_moy between 1 and 4,80,26746
+1,780000,q13,d_year = 2000 and d_moy between 1 and 7,81,24309
+1,780000,q10,d_year = 2000 and d_moy = 1,81,24624
+1,780000,q7,d_year = 2000 and d_moy between 1 and 10,82,18524

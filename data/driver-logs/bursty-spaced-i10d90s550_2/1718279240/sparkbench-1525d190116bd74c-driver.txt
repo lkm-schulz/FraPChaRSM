@@ -1,0 +1,421 @@
+DEBUG StatusLogger Using ShutdownCallbackRegistry class org.apache.logging.log4j.core.util.DefaultShutdownCallbackRegistry
+DEBUG StatusLogger Took 0.110095 seconds to load 258 plugins from jdk.internal.loader.ClassLoaders$AppClassLoader@595b007d
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger PluginManager 'Converter' found 48 plugins
+DEBUG StatusLogger Starting OutputStreamManager SYSTEM_OUT.false.false-1
+DEBUG StatusLogger Starting LoggerContext[name=595b007d, org.apache.logging.log4j.core.LoggerContext@7068e664]...
+DEBUG StatusLogger Reconfiguration started for context[name=595b007d] at URI null (org.apache.logging.log4j.core.LoggerContext@7068e664) with optional ClassLoader: null
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger PluginManager 'ConfigurationFactory' found 6 plugins
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger Using configurationFactory org.apache.logging.log4j.core.config.ConfigurationFactory$Factory@222a59e6
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger Apache Log4j Core 2.19.0 initializing configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@13bc8645
+DEBUG StatusLogger PluginManager 'Core' found 134 plugins
+DEBUG StatusLogger PluginManager 'Level' found 0 plugins
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+DEBUG StatusLogger createLoggers(={})
+DEBUG StatusLogger Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+DEBUG StatusLogger createAppenders(={})
+WARN StatusLogger No Root logger was configured, creating default ERROR-level Root logger with Console appender
+DEBUG StatusLogger PluginManager 'Converter' found 48 plugins
+DEBUG StatusLogger Starting OutputStreamManager SYSTEM_OUT.false.false-2
+DEBUG StatusLogger Configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@13bc8645 initialized
+DEBUG StatusLogger Starting configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@13bc8645
+DEBUG StatusLogger Started configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@13bc8645 OK.
+TRACE StatusLogger Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@4082ba93...
+TRACE StatusLogger DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+TRACE StatusLogger DefaultConfiguration stopping root LoggerConfig.
+TRACE StatusLogger DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+TRACE StatusLogger DefaultConfiguration stopping remaining Appenders.
+DEBUG StatusLogger Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+DEBUG StatusLogger OutputStream closed
+DEBUG StatusLogger Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+DEBUG StatusLogger Appender DefaultConsole-1 stopped with status true
+TRACE StatusLogger DefaultConfiguration stopped 1 remaining Appenders.
+TRACE StatusLogger DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+DEBUG StatusLogger Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@4082ba93 OK
+TRACE StatusLogger Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@2bd08376
+TRACE StatusLogger Reregistering context (1/1): '595b007d' org.apache.logging.log4j.core.LoggerContext@7068e664
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d'
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d,component=StatusLogger'
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d,component=ContextSelector'
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d,component=Loggers,name=*'
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d,component=Appenders,name=*'
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d,component=AsyncAppenders,name=*'
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d,component=AsyncLoggerRingBuffer'
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d,component=Loggers,name=*,subtype=RingBuffer'
+DEBUG StatusLogger Registering MBean org.apache.logging.log4j2:type=595b007d
+DEBUG StatusLogger Registering MBean org.apache.logging.log4j2:type=595b007d,component=StatusLogger
+DEBUG StatusLogger Registering MBean org.apache.logging.log4j2:type=595b007d,component=ContextSelector
+DEBUG StatusLogger Registering MBean org.apache.logging.log4j2:type=595b007d,component=Appenders,name=DefaultConsole-2
+TRACE StatusLogger Using default SystemClock for timestamps.
+DEBUG StatusLogger org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+TRACE StatusLogger Using DummyNanoClock for nanosecond timestamps.
+DEBUG StatusLogger Reconfiguration complete for context[name=595b007d] at URI /opt/sparkbench/jars/log4j2.properties (org.apache.logging.log4j.core.LoggerContext@7068e664) with optional ClassLoader: null
+DEBUG StatusLogger Shutdown hook enabled. Registering a new one.
+DEBUG StatusLogger LoggerContext[name=595b007d, org.apache.logging.log4j.core.LoggerContext@7068e664] started OK.
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger PluginManager 'Converter' found 48 plugins
+DEBUG StatusLogger Starting OutputStreamManager SYSTEM_OUT.false.false-3
+DEBUG StatusLogger Starting LoggerContext[name=Default, org.apache.logging.log4j.core.LoggerContext@19835e64]...
+DEBUG StatusLogger Reconfiguration started for context[name=Default] at URI null (org.apache.logging.log4j.core.LoggerContext@19835e64) with optional ClassLoader: null
+DEBUG StatusLogger Using configurationFactory org.apache.logging.log4j.core.config.ConfigurationFactory$Factory@222a59e6
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger Apache Log4j Core 2.19.0 initializing configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@bcef303
+DEBUG StatusLogger PluginManager 'Core' found 134 plugins
+DEBUG StatusLogger PluginManager 'Level' found 0 plugins
+DEBUG StatusLogger PluginManager 'Lookup' found 16 plugins
+DEBUG StatusLogger Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+DEBUG StatusLogger createLoggers(={})
+DEBUG StatusLogger Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+DEBUG StatusLogger createAppenders(={})
+WARN StatusLogger No Root logger was configured, creating default ERROR-level Root logger with Console appender
+DEBUG StatusLogger PluginManager 'Converter' found 48 plugins
+DEBUG StatusLogger Starting OutputStreamManager SYSTEM_OUT.false.false-4
+DEBUG StatusLogger Configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@bcef303 initialized
+DEBUG StatusLogger Starting configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@bcef303
+DEBUG StatusLogger Started configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@bcef303 OK.
+TRACE StatusLogger Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@30af5b6b...
+TRACE StatusLogger DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+TRACE StatusLogger DefaultConfiguration stopping root LoggerConfig.
+TRACE StatusLogger DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+TRACE StatusLogger DefaultConfiguration stopping remaining Appenders.
+DEBUG StatusLogger Shutting down OutputStreamManager SYSTEM_OUT.false.false-3
+DEBUG StatusLogger OutputStream closed
+DEBUG StatusLogger Shut down OutputStreamManager SYSTEM_OUT.false.false-3, all resources released: true
+DEBUG StatusLogger Appender DefaultConsole-3 stopped with status true
+TRACE StatusLogger DefaultConfiguration stopped 1 remaining Appenders.
+TRACE StatusLogger DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+DEBUG StatusLogger Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@30af5b6b OK
+TRACE StatusLogger Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@2bd08376
+TRACE StatusLogger Reregistering context (1/1): '595b007d' org.apache.logging.log4j.core.LoggerContext@7068e664
+TRACE StatusLogger Unregistering 1 MBeans: [org.apache.logging.log4j2:type=595b007d]
+TRACE StatusLogger Unregistering 1 MBeans: [org.apache.logging.log4j2:type=595b007d,component=StatusLogger]
+TRACE StatusLogger Unregistering 1 MBeans: [org.apache.logging.log4j2:type=595b007d,component=ContextSelector]
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d,component=Loggers,name=*'
+TRACE StatusLogger Unregistering 1 MBeans: [org.apache.logging.log4j2:type=595b007d,component=Appenders,name=DefaultConsole-2]
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d,component=AsyncAppenders,name=*'
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d,component=AsyncLoggerRingBuffer'
+TRACE StatusLogger Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=595b007d,component=Loggers,name=*,subtype=RingBuffer'
+DEBUG StatusLogger Registering MBean org.apache.logging.log4j2:type=595b007d
+DEBUG StatusLogger Registering MBean org.apache.logging.log4j2:type=595b007d,component=StatusLogger
+DEBUG StatusLogger Registering MBean org.apache.logging.log4j2:type=595b007d,component=ContextSelector
+DEBUG StatusLogger Registering MBean org.apache.logging.log4j2:type=595b007d,component=Appenders,name=DefaultConsole-2
+TRACE StatusLogger Using DummyNanoClock for nanosecond timestamps.
+DEBUG StatusLogger Reconfiguration complete for context[name=Default] at URI /opt/sparkbench/jars/log4j2.properties (org.apache.logging.log4j.core.LoggerContext@19835e64) with optional ClassLoader: null
+DEBUG StatusLogger Shutdown hook enabled. Registering a new one.
+DEBUG StatusLogger LoggerContext[name=Default, org.apache.logging.log4j.core.LoggerContext@19835e64] started OK.
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.util.JavaUtils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.conf.Configuration
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.conf.Configuration
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.util.ShutdownHookManager
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.util.Shell
+Files  local:///opt/sparkbench/sparkbench_2.12-1.0.jar from /opt/sparkbench/sparkbench_2.12-1.0.jar to /opt/spark/work-dir/./sparkbench_2.12-1.0.jar
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.security.UserGroupInformation
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.metrics2.impl.MetricsSystemImpl
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.metrics2.lib.Interns
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.metrics2.lib.MetricsSourceBuilder
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.metrics2.lib.MutableMetricsFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.security.SecurityUtil
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.security.authentication.util.KerberosName
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.security.HadoopKerberosName
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.security.Groups
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.util.NativeCodeLoader
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.util.PerformanceAdvisory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.mapred.JobConf
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.mapreduce.lib.output.FileOutputFormat
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.mapreduce.lib.partition.KeyFieldBasedPartitioner
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.conf.HiveConf
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.conf.SystemVariables
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.commons.logging.impl.SLF4JLogFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.commons.logging.impl.SLF4JLogFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.FileSystem
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.common.FileUtils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hive.common.HiveCompat
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.TransportContext
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.util.NettyLogger
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.protocol.MessageEncoder
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.protocol.MessageDecoder
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.server.RpcHandler$OneWayRpcCallback
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.client.TransportClientFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.server.TransportServer
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.shuffle.BlockStoreClient
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.utils.Utils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.Config
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.internal.CertUtils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.okhttp.OkHttpClientFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.utils.HttpClientUtils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.internal.SSLUtils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.okhttp.OkHttpClientImpl
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.dsl.internal.OperationSupport
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.dsl.internal.core.v1.PodOperationsImpl
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.dsl.internal.VersionUsageUtils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.utils.internal.ExponentialBackoffIntervalCalculator
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.informers.impl.DefaultSharedIndexInformer
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.informers.impl.cache.SharedProcessor
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.informers.impl.cache.Reflector
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.readiness.Readiness
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.dsl.internal.AbstractWatchManager
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.dsl.internal.WatchConnectionManager
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.client.dsl.internal.WatcherWebSocketListener
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.fabric8.kubernetes.model.jackson.BeanPropertyWriterDelegate
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.server.OneForOneStreamManager
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.permission.FsPermission
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3native.NativeS3FileSystem
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.HarFileSystem
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hdfs.DistributedFileSystem
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hdfs.web.WebHdfsFileSystem
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.S3AFileSystem
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.S3AFileSystem
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.Invoker
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.io.retry.RetryPolicies
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.audit.AuditIntegration
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.service.AbstractService
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.service.CompositeService
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.statistics.impl.IOStatisticsStoreImpl
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.S3AUtils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.security.ProviderUtils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.auth.delegation.S3ADelegationTokens
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.S3ARetryPolicy
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.S3AInstrumentation
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.metrics2.impl.MetricsConfig
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.commons.logging.impl.SLF4JLogFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.commons.logging.impl.SLF4JLogFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.metrics2.impl.MetricsSourceAdapter
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.metrics2.util.MBeans
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.S3GuardExistsRetryPolicy
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.util.BlockingThreadPoolExecutorService
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.auth.SignerManager
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.impl.RequestFactoryImpl
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.WriteOperationHelper
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.S3AInputPolicy
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.AWSCredentialProviderList
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.DefaultS3ClientFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.impl.NetworkBinding
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.security.ssl.DelegatingSSLSocketFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.util.VersionInfo
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.util.ThreadUtil
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.io.IOUtils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.impl.ChangeDetectionPolicy
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.commit.MagicCommitIntegration
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.S3ADataBlocks
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.s3guard.S3Guard
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.impl.DirectoryPolicyImpl
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.auth.MarshalledCredentialBinding
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.impl.MkdirOperation
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.S3ABlockOutputStream
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.io.nativeio.NativeIO
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.FileUtil
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.util.DiskChecker
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.client.TransportResponseHandler
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.client.TransportClient
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.server.ChunkFetchRequestHandler
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.server.TransportRequestHandler
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.spark.network.server.TransportChannelHandler
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class io.netty.util.internal.logging.Slf4JLoggerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+Custom start time given: 1718279240
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.FsUrlStreamHandlerFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hive.common.util.HiveVersionInfo
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.ql.session.SessionState
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.security.Credentials
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.commons.logging.impl.SLF4JLogFactory
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.ql.exec.Registry
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.ql.util.ResourceDownloader
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.ql.util.DependencyResolver
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.ql.metadata.Hive
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.metastore.RetryingMetaStoreClient
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.metastore.MetaStoreUtils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.common.JavaUtils
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.metastore.HiveMetaStoreClient
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.thrift.transport.TIOStreamTransport
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.thrift.transport.TSocket
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.hive.shims.Utils
+Submission for query 'q10' at T+0 ms waiting for its time to shine...
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.sparkproject.jetty.util.log.Slf4jLog
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor interface org.apache.spark.internal.Logging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.impl.CallableSupplier
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.impl.BulkDeleteRetryHandler
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.impl.BulkDeleteRetryHandler
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.impl.RenameOperation
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.s3guard.RenameTracker
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.impl.ChangeTracker
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.s3a.impl.HeaderProcessing
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.fs.statistics.IOStatisticsLogging
+TRACE StatusLogger Log4jLoggerFactory.getContext() found anchor class org.apache.hadoop.service.ServiceOperations

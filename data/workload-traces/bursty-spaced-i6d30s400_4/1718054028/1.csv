@@ -1,0 +1,37 @@
+app,start,query,range,delay,duration
+1,40000,q13,d_year = 2000 and d_moy between 1 and 5,9,113067
+1,40000,q13,d_year = 2000 and d_moy between 1 and 5,25,111557
+1,40000,q13,d_year = 2000 and d_moy between 1 and 3,26,111968
+1,40000,q7,d_year = 2000 and d_moy between 1 and 9,28,103969
+1,40000,q12,d_year = 2000 and d_moy between 1 and 2,29,70388
+1,40000,q7,d_year = 2000 and d_moy between 1 and 9,30,62673
+1,160000,q7,d_year = 2000 and d_moy between 1 and 8,97,73736
+1,160000,q13,d_year = 2000 and d_moy between 1 and 4,98,80804
+1,160000,q12,d_year = 2000 and d_moy between 1 and 5,98,27356
+1,160000,q1,d_year = 2000 and d_moy between 1 and 2,98,87821
+1,160000,q13,d_year = 2000 and d_moy between 1 and 5,99,47056
+1,160000,q13,d_year = 2000 and d_moy between 1 and 4,99,41549
+1,280000,q7,d_year = 2000 and d_moy between 1 and 8,12,36219
+1,280000,q7,d_year = 2000 and d_moy between 1 and 7,12,35419
+1,280000,q12,d_year = 2000 and d_moy between 1 and 3,12,40544
+1,280000,q12,d_year = 2000 and d_moy between 1 and 4,12,65451
+1,280000,q7,d_year = 2000 and d_moy between 1 and 8,13,52459
+1,280000,q7,d_year = 2000 and d_moy between 1 and 8,13,53000
+1,400000,q12,d_year = 2000 and d_moy between 1 and 3,39,28712
+1,400000,q12,d_year = 2000 and d_moy between 1 and 4,39,28604
+1,400000,q1,d_year = 2000 and d_moy between 1 and 2,39,56063
+1,400000,q7,d_year = 2000 and d_moy between 1 and 7,39,27843
+1,400000,q12,d_year = 2000 and d_moy between 1 and 5,39,27205
+1,400000,q7,d_year = 2000 and d_moy between 1 and 8,39,27442
+1,520000,q7,d_year = 2000 and d_moy between 1 and 7,90,24647
+1,520000,q12,d_year = 2000 and d_moy between 1 and 4,90,21061
+1,520000,q1,d_year = 2000 and d_moy = 1,90,47553
+1,520000,q1,d_year = 2000 and d_moy between 1 and 2,106,65111
+1,520000,q7,d_year = 2000 and d_moy between 1 and 9,114,42109
+1,520000,q7,d_year = 2000 and d_moy between 1 and 7,114,39550
+1,640000,q7,d_year = 2000 and d_moy between 1 and 9,66,57267
+1,640000,q7,d_year = 2000 and d_moy between 1 and 9,66,47016
+1,640000,q13,d_year = 2000 and d_moy between 1 and 3,69,66594
+1,640000,q1,d_year = 2000 and d_moy between 1 and 2,73,68305
+1,640000,q12,d_year = 2000 and d_moy between 1 and 2,73,20021
+1,640000,q12,d_year = 2000 and d_moy between 1 and 3,73,10968

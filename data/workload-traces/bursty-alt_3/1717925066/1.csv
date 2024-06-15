@@ -1,0 +1,7 @@
+app,start,query,range,delay,duration
+1,40206,q7,d_moy = 11,53,33895
+1,40638,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '10' day)),30,45197
+1,41900,q12,d_year = 2000 and d_moy between 1 and 9,69,37493
+1,130633,q1,d_year = 2000 and d_moy between 1 and 3,90,18068
+1,130671,q1,d_date = cast('2000-04-30' as date),53,16343
+1,131817,q1,d_moy = 11,12,17605

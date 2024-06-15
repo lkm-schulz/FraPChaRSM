@@ -1,0 +1,10 @@
+app,start,query,range,delay,duration
+1,0,q12,d_year = 2000,8817,60991
+1,0,q13,d_year = 2000 and d_moy between 1 and 7,8838,61215
+1,0,q7,d_year = 2000 and d_moy between 1 and 10,8838,56509
+1,120000,q13,d_year = 2000 and d_moy between 1 and 7,97,29069
+1,120000,q13,d_year = 2000 and d_moy between 1 and 7,99,27996
+1,120000,q12,d_year = 2000 and d_moy between 1 and 11,102,26758
+1,240000,q7,d_year = 2000 and d_moy between 1 and 11,64,27491
+1,240000,q13,d_year = 2000 and d_moy between 1 and 6,66,29861
+1,240000,q12,d_year = 2000,66,25762

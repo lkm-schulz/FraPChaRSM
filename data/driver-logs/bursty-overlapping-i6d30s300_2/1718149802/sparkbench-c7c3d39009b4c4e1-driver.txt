@@ -1,0 +1,190 @@
+Files  local:///opt/sparkbench/sparkbench_2.12-1.0.jar from /opt/sparkbench/sparkbench_2.12-1.0.jar to /opt/spark/work-dir/./sparkbench_2.12-1.0.jar
+24/06/11 23:49:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/06/11 23:49:27 INFO HiveConf: Found configuration file null
+24/06/11 23:49:27 INFO SparkContext: Running Spark version 3.4.1
+24/06/11 23:49:27 INFO ResourceUtils: ==============================================================
+24/06/11 23:49:27 INFO ResourceUtils: No custom resources configured for spark.driver.
+24/06/11 23:49:27 INFO ResourceUtils: ==============================================================
+24/06/11 23:49:27 INFO SparkContext: Submitted application: Data Generator
+24/06/11 23:49:27 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 4, script: , vendor: , memory -> name: memory, amount: 28672, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+24/06/11 23:49:27 INFO ResourceProfile: Limiting resource is cpus at 4 tasks per executor
+24/06/11 23:49:27 INFO ResourceProfileManager: Added ResourceProfile id: 0
+24/06/11 23:49:28 INFO SecurityManager: Changing view acls to: spark,lennart
+24/06/11 23:49:28 INFO SecurityManager: Changing modify acls to: spark,lennart
+24/06/11 23:49:28 INFO SecurityManager: Changing view acls groups to: 
+24/06/11 23:49:28 INFO SecurityManager: Changing modify acls groups to: 
+24/06/11 23:49:28 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark, lennart; groups with view permissions: EMPTY; users with modify permissions: spark, lennart; groups with modify permissions: EMPTY
+24/06/11 23:49:28 INFO Utils: Successfully started service 'sparkDriver' on port 7078.
+24/06/11 23:49:28 INFO SparkEnv: Registering MapOutputTracker
+24/06/11 23:49:28 INFO SparkEnv: Registering BlockManagerMaster
+24/06/11 23:49:28 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+24/06/11 23:49:28 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+24/06/11 23:49:28 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+24/06/11 23:49:28 INFO DiskBlockManager: Created local directory at /var/data/spark-bdf4c049-4ec7-4fd1-ade1-2ad53a8d25af/blockmgr-f29cb25b-be06-46b6-a28f-fbeaffd7f682
+24/06/11 23:49:28 INFO MemoryStore: MemoryStore started with capacity 11.8 GiB
+24/06/11 23:49:28 INFO SparkEnv: Registering OutputCommitCoordinator
+24/06/11 23:49:28 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+24/06/11 23:49:28 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+24/06/11 23:49:28 INFO SparkContext: Added JAR local:/opt/sparkbench/sparkbench_2.12-1.0.jar at file:/opt/sparkbench/sparkbench_2.12-1.0.jar with timestamp 1718149767822
+24/06/11 23:49:28 WARN SparkContext: The JAR local:///opt/sparkbench/sparkbench_2.12-1.0.jar at file:/opt/sparkbench/sparkbench_2.12-1.0.jar has been added already. Overwriting of added jar is not supported in the current version.
+24/06/11 23:49:29 INFO SparkKubernetesClientFactory: Auto-configuring K8S client using current context from users K8S config file
+24/06/11 23:49:30 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 5, known: 0, sharedSlotFromPendingPods: 2147483647.
+24/06/11 23:49:30 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/11 23:49:31 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/11 23:49:31 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 7079.
+24/06/11 23:49:31 INFO NettyBlockTransferService: Server created on sparkbench-c7c3d39009b4c4e1-driver-svc.default.svc 10.244.2.32:7079
+24/06/11 23:49:31 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/06/11 23:49:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, sparkbench-c7c3d39009b4c4e1-driver-svc.default.svc, 7079, None)
+24/06/11 23:49:31 INFO BlockManagerMasterEndpoint: Registering block manager sparkbench-c7c3d39009b4c4e1-driver-svc.default.svc:7079 with 11.8 GiB RAM, BlockManagerId(driver, sparkbench-c7c3d39009b4c4e1-driver-svc.default.svc, 7079, None)
+24/06/11 23:49:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, sparkbench-c7c3d39009b4c4e1-driver-svc.default.svc, 7079, None)
+24/06/11 23:49:31 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, sparkbench-c7c3d39009b4c4e1-driver-svc.default.svc, 7079, None)
+24/06/11 23:49:31 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/11 23:49:31 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/11 23:49:32 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+24/06/11 23:49:32 INFO MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
+24/06/11 23:49:32 INFO MetricsSystemImpl: s3a-file-system metrics system started
+24/06/11 23:49:32 INFO ExecutorPodsAllocator: Going to request 2 executors from Kubernetes for ResourceProfile Id: 0, target: 5, known: 3, sharedSlotFromPendingPods: 2147483644.
+24/06/11 23:49:32 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/11 23:49:32 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/11 23:49:32 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/11 23:49:33 INFO SingleEventLogFileWriter: Logging events to s3a://logs/spark-events/spark-50135c9c37024c0dbfda8fc58253f56a.inprogress
+24/06/11 23:49:33 WARN S3ABlockOutputStream: Application invoked the Syncable API against stream writing to spark-events/spark-50135c9c37024c0dbfda8fc58253f56a.inprogress. This is unsupported
+24/06/11 23:49:36 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.8.30:47400
+24/06/11 23:49:36 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.1.31:60310
+24/06/11 23:49:36 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.9.31:42226
+24/06/11 23:49:36 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.9.31:42236) with ID 1,  ResourceProfileId 0
+24/06/11 23:49:37 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.1.31:60312) with ID 3,  ResourceProfileId 0
+24/06/11 23:49:37 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.8.30:47404) with ID 2,  ResourceProfileId 0
+24/06/11 23:49:37 INFO BlockManagerMasterEndpoint: Registering block manager 10.244.8.30:43239 with 16.6 GiB RAM, BlockManagerId(2, 10.244.8.30, 43239, None)
+24/06/11 23:49:37 INFO BlockManagerMasterEndpoint: Registering block manager 10.244.1.31:44725 with 16.6 GiB RAM, BlockManagerId(3, 10.244.1.31, 44725, None)
+24/06/11 23:49:37 INFO BlockManagerMasterEndpoint: Registering block manager 10.244.9.31:35227 with 16.6 GiB RAM, BlockManagerId(1, 10.244.9.31, 35227, None)
+24/06/11 23:49:37 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.10.29:50164
+24/06/11 23:49:37 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.3.30:55556
+24/06/11 23:49:38 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.10.29:50178) with ID 4,  ResourceProfileId 0
+24/06/11 23:49:38 INFO KubernetesClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+24/06/11 23:49:38 INFO BlockManagerMasterEndpoint: Registering block manager 10.244.10.29:46305 with 16.6 GiB RAM, BlockManagerId(4, 10.244.10.29, 46305, None)
+Custom start time given: 1718149802
+24/06/11 23:49:38 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+24/06/11 23:49:38 INFO SharedState: Warehouse path is 'file:/opt/spark/work-dir/spark-warehouse'.
+24/06/11 23:49:38 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.3.30:55572) with ID 5,  ResourceProfileId 0
+24/06/11 23:49:38 INFO BlockManagerMasterEndpoint: Registering block manager 10.244.3.30:46085 with 16.6 GiB RAM, BlockManagerId(5, 10.244.3.30, 46085, None)
+24/06/11 23:49:42 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.9 using Spark classes.
+24/06/11 23:49:42 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.9) is file:/opt/spark/work-dir/spark-warehouse
+24/06/11 23:49:42 INFO metastore: Trying to connect to metastore with URI thrift://192.168.1.104:9083
+24/06/11 23:49:42 INFO metastore: Opened a connection to metastore, current connections: 1
+24/06/11 23:49:42 INFO metastore: Connected to metastore.
+Submission for query 'q12' at T+0 ms waiting for its time to shine...
+Submitting 'q12' at T+0 ms (17 ms delay)...
+Submission for query 'q1' at T+0 ms waiting for its time to shine...
+Submitting 'q1' at T+0 ms (23 ms delay)...
+Submission for query 'q10' at T+0 ms waiting for its time to shine...
+Submitting 'q10' at T+0 ms (30 ms delay)...
+Submission for query 'q7' at T+0 ms waiting for its time to shine...
+Submitting 'q7' at T+0 ms (31 ms delay)...
+Submission for query 'q10' at T+0 ms waiting for its time to shine...
+Submitting 'q10' at T+0 ms (32 ms delay)...
+Submission for query 'q13' at T+0 ms waiting for its time to shine...
+Submitting 'q13' at T+0 ms (33 ms delay)...
+Query 'q7' at T+0 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+0 ms waiting for its time to shine...
+Query 'q10' at T+0 ms submitted (0 ms after submission was started).
+Query 'q10' at T+0 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+0 ms (34 ms delay)...
+Query 'q13' at T+0 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+0 ms waiting for its time to shine...
+Submitting 'q10' at T+0 ms (37 ms delay)...
+Query 'q13' at T+0 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+0 ms waiting for its time to shine...
+Submitting 'q12' at T+0 ms (41 ms delay)...
+Query 'q10' at T+0 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+0 ms waiting for its time to shine...
+Submitting 'q10' at T+0 ms (44 ms delay)...
+Submission for query 'q10' at T+0 ms waiting for its time to shine...
+Submitting 'q10' at T+0 ms (44 ms delay)...
+Query 'q10' at T+0 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+0 ms waiting for its time to shine...
+Query 'q10' at T+0 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+0 ms (46 ms delay)...
+Query 'q12' at T+0 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+120000 ms waiting for its time to shine...
+Query 'q13' at T+0 ms submitted (0 ms after submission was started).
+Query 'q12' at T+0 ms submitted (0 ms after submission was started).
+Query 'q1' at T+0 ms submitted (0 ms after submission was started).
+24/06/11 23:50:04 INFO InMemoryFileIndex: It took 92 ms to list leaf files for 1 paths.
+24/06/11 23:50:04 INFO InMemoryFileIndex: It took 100 ms to list leaf files for 1 paths.
+24/06/11 23:50:04 INFO InMemoryFileIndex: It took 151 ms to list leaf files for 1 paths.
+24/06/11 23:50:05 INFO InMemoryFileIndex: It took 80 ms to list leaf files for 1 paths.
+24/06/11 23:50:05 INFO InMemoryFileIndex: It took 39 ms to list leaf files for 1 paths.
+24/06/11 23:50:05 INFO InMemoryFileIndex: It took 19 ms to list leaf files for 1 paths.
+24/06/11 23:50:05 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Disabling executor 1.
+24/06/11 23:50:05 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Disabling executor 2.
+24/06/11 23:50:05 INFO DAGScheduler: Executor lost: 1 (epoch 0)
+24/06/11 23:50:05 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Disabling executor 3.
+24/06/11 23:50:05 INFO BlockManagerMasterEndpoint: Trying to remove executor 1 from BlockManagerMaster.
+24/06/11 23:50:05 INFO BlockManagerMasterEndpoint: Removing block manager BlockManagerId(1, 10.244.9.31, 35227, None)
+24/06/11 23:50:05 INFO InMemoryFileIndex: It took 99 ms to list leaf files for 1 paths.
+24/06/11 23:50:05 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Disabling executor 5.
+24/06/11 23:50:05 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Disabling executor 4.
+24/06/11 23:50:05 INFO BlockManagerMaster: Removed 1 successfully in removeExecutor
+24/06/11 23:50:05 INFO DAGScheduler: Shuffle files lost for executor: 1 (epoch 0)
+24/06/11 23:50:05 INFO DAGScheduler: Executor lost: 2 (epoch 1)
+24/06/11 23:50:05 INFO BlockManagerMasterEndpoint: Trying to remove executor 2 from BlockManagerMaster.
+24/06/11 23:50:05 INFO BlockManagerMasterEndpoint: Removing block manager BlockManagerId(2, 10.244.8.30, 43239, None)
+24/06/11 23:50:05 INFO BlockManagerMaster: Removed 2 successfully in removeExecutor
+24/06/11 23:50:05 INFO DAGScheduler: Shuffle files lost for executor: 2 (epoch 1)
+24/06/11 23:50:05 INFO DAGScheduler: Executor lost: 3 (epoch 2)
+24/06/11 23:50:05 INFO BlockManagerMasterEndpoint: Trying to remove executor 3 from BlockManagerMaster.
+24/06/11 23:50:05 INFO BlockManagerMasterEndpoint: Removing block manager BlockManagerId(3, 10.244.1.31, 44725, None)
+24/06/11 23:50:05 INFO BlockManagerMaster: Removed 3 successfully in removeExecutor
+24/06/11 23:50:05 INFO DAGScheduler: Shuffle files lost for executor: 3 (epoch 2)
+24/06/11 23:50:05 INFO DAGScheduler: Executor lost: 5 (epoch 3)
+24/06/11 23:50:05 INFO BlockManagerMasterEndpoint: Trying to remove executor 5 from BlockManagerMaster.
+24/06/11 23:50:05 INFO BlockManagerMasterEndpoint: Removing block manager BlockManagerId(5, 10.244.3.30, 46085, None)
+24/06/11 23:50:05 INFO BlockManagerMaster: Removed 5 successfully in removeExecutor
+24/06/11 23:50:05 INFO InMemoryFileIndex: It took 167 ms to list leaf files for 1 paths.
+24/06/11 23:50:05 INFO DAGScheduler: Shuffle files lost for executor: 5 (epoch 3)
+24/06/11 23:50:05 INFO DAGScheduler: Executor lost: 4 (epoch 4)
+24/06/11 23:50:05 INFO BlockManagerMasterEndpoint: Trying to remove executor 4 from BlockManagerMaster.
+24/06/11 23:50:05 INFO BlockManagerMasterEndpoint: Removing block manager BlockManagerId(4, 10.244.10.29, 46305, None)
+24/06/11 23:50:05 INFO BlockManagerMaster: Removed 4 successfully in removeExecutor
+24/06/11 23:50:05 INFO DAGScheduler: Shuffle files lost for executor: 4 (epoch 4)
+24/06/11 23:50:05 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 5, known: 0, sharedSlotFromPendingPods: 2147483647.
+24/06/11 23:50:05 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/11 23:50:05 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/11 23:50:05 INFO SparkContext: Invoking stop() from shutdown hook
+24/06/11 23:50:05 INFO SparkContext: SparkContext is stopping with exitCode 0.
+24/06/11 23:50:05 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/11 23:50:06 ERROR TaskSchedulerImpl: Lost executor 2 on 10.244.8.30: The executor with id 2 was deleted by a user or the framework.
+24/06/11 23:50:06 ERROR TaskSchedulerImpl: Lost executor 1 on 10.244.9.31: The executor with id 1 was deleted by a user or the framework.
+24/06/11 23:50:06 ERROR TaskSchedulerImpl: Lost executor 5 on 10.244.3.30: The executor with id 5 was deleted by a user or the framework.
+24/06/11 23:50:06 ERROR TaskSchedulerImpl: Lost executor 3 on 10.244.1.31: The executor with id 3 was deleted by a user or the framework.
+24/06/11 23:50:06 ERROR TaskSchedulerImpl: Lost executor 4 on 10.244.10.29: The executor with id 4 was deleted by a user or the framework.
+24/06/11 23:50:06 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/11 23:50:06 INFO SparkUI: Stopped Spark web UI at http://sparkbench-c7c3d39009b4c4e1-driver-svc.default.svc:4040
+24/06/11 23:50:06 INFO KubernetesClusterSchedulerBackend: Shutting down all executors
+24/06/11 23:50:06 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asking each executor to shut down
+24/06/11 23:50:06 WARN ExecutorPodsWatchSnapshotSource: Kubernetes client has been closed.
+24/06/11 23:50:07 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+24/06/11 23:50:07 INFO MemoryStore: MemoryStore cleared
+24/06/11 23:50:07 INFO BlockManager: BlockManager stopped
+24/06/11 23:50:07 INFO BlockManagerMaster: BlockManagerMaster stopped
+24/06/11 23:50:07 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+24/06/11 23:50:07 INFO SparkContext: Successfully stopped SparkContext
+24/06/11 23:50:07 INFO ShutdownHookManager: Shutdown hook called
+24/06/11 23:50:07 INFO ShutdownHookManager: Deleting directory /tmp/spark-3809699d-839c-4d01-bbe0-cac3c48b813c
+24/06/11 23:50:07 INFO ShutdownHookManager: Deleting directory /tmp/spark-25352c5b-1cb7-458a-b8cb-96daa20f489b
+24/06/11 23:50:07 INFO ShutdownHookManager: Deleting directory /var/data/spark-bdf4c049-4ec7-4fd1-ade1-2ad53a8d25af/spark-49e2c83a-1353-4a29-aabd-9a57302d1917
+24/06/11 23:50:07 INFO ShutdownHookManager: Deleting directory /tmp/spark-ddc32493-cb68-41f0-8eaf-76a3c966f66f
+24/06/11 23:50:07 INFO ShutdownHookManager: Deleting directory /tmp/spark-95f3179b-9566-4adc-90f5-ac09cc70959e
+24/06/11 23:50:07 INFO ShutdownHookManager: Deleting directory /tmp/spark-d5d5b025-38e9-47a0-aa47-1eccd267ad0f
+24/06/11 23:50:07 INFO ShutdownHookManager: Deleting directory /tmp/spark-760efbba-ac1f-428e-83a2-7bafe1794920
+24/06/11 23:50:07 INFO ShutdownHookManager: Deleting directory /tmp/spark-e9ef6750-dc63-46e3-81eb-35236517d316
+24/06/11 23:50:07 INFO ShutdownHookManager: Deleting directory /tmp/spark-ed01577f-0d31-412c-8baf-161c6852185f
+24/06/11 23:50:07 INFO ShutdownHookManager: Deleting directory /tmp/spark-ed0c25a4-a746-4505-bd78-7247bdcc2876
+24/06/11 23:50:07 INFO ShutdownHookManager: Deleting directory /tmp/spark-f9d2a867-a590-43dd-8c6f-c429dc41547e
+24/06/11 23:50:07 INFO MetricsSystemImpl: Stopping s3a-file-system metrics system...
+24/06/11 23:50:07 INFO MetricsSystemImpl: s3a-file-system metrics system stopped.
+24/06/11 23:50:07 INFO MetricsSystemImpl: s3a-file-system metrics system shutdown complete.
+24/06/11 23:50:07 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+24/06/11 23:50:07 INFO MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
+24/06/11 23:50:07 INFO MetricsSystemImpl: s3a-file-system metrics system started

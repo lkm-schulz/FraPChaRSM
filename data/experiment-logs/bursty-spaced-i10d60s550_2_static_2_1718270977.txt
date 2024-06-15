@@ -1,0 +1,221 @@
+[i] Script start time: 1718270977, Workload start time: 1718271022
+[i] SessionID: 'bursty-spaced-i10d60s550_2/1718271022'
+[…] Starting app 1/2...
+./work-dir/spark-3.5.1-bin-hadoop3/bin/spark-submit --class Sparkbench --master k8s://https://192.168.185.2:6443 --conf spark.executor.instances=3 --conf spark.kubernetes.driver.podTemplateFile=./pod-templates/driver.yaml --deploy-mode cluster --conf spark.kubernetes.executor.podTemplateFile=./pod-templates/.tmp/executor_0.yaml --conf spark.executor.memory=24g --conf spark.executor.instances=5  local:///opt/sparkbench/sparkbench_2.12-1.0.jar workload bursty-spaced-i10d60s550_2 0 1718271022
+[…] Starting app 2/2...
+./work-dir/spark-3.5.1-bin-hadoop3/bin/spark-submit --class Sparkbench --master k8s://https://192.168.185.2:6443 --conf spark.executor.instances=3 --conf spark.kubernetes.driver.podTemplateFile=./pod-templates/driver.yaml --deploy-mode cluster --conf spark.kubernetes.executor.podTemplateFile=./pod-templates/.tmp/executor_1.yaml --conf spark.executor.memory=24g --conf spark.executor.instances=5  local:///opt/sparkbench/sparkbench_2.12-1.0.jar workload bursty-spaced-i10d60s550_2 1 1718271022
+[✓] All apps started!
+Picked up _JAVA_OPTIONS: -Xmx26624m
+Picked up _JAVA_OPTIONS: -Xmx26624m
+24/06/13 11:29:39 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/06/13 11:29:39 INFO SparkKubernetesClientFactory: Auto-configuring K8S client using current context from users K8S config file
+24/06/13 11:29:41 INFO KerberosConfDriverFeatureStep: You have not specified a krb5.conf file locally or via a ConfigMap. Make sure that you have the krb5.conf locally on the driver image.
+24/06/13 11:29:42 INFO LoggingPodStatusWatcherImpl: State changed, new state: 
+	 pod name: sparkbench-2f10109010ee6f02-driver
+	 namespace: default
+	 labels: spark-app-name -> sparkbench, spark-app-selector -> spark-755b844cbbe84dc8b79da8b83334b0c1, spark-role -> driver, spark-version -> 3.5.1
+	 pod uid: 0f0e3c20-dd95-45d6-9ebb-c3e22c83dded
+	 creation time: 2024-06-13T09:29:42Z
+	 service account name: spark
+	 volumes: pod-template-volume, spark-local-dir-1, spark-conf-volume-driver, kube-api-access-4c6gg
+	 node name: cloud1lennart
+	 start time: 2024-06-13T09:29:42Z
+	 phase: Pending
+	 container status: 
+		 container name: sparkbench
+		 container image: lkmschulz2/sparkbench:latest
+		 container state: waiting
+		 pending reason: ContainerCreating
+24/06/13 11:29:42 INFO LoggingPodStatusWatcherImpl: State changed, new state: 
+	 pod name: sparkbench-2f10109010ee6f02-driver
+	 namespace: default
+	 labels: spark-app-name -> sparkbench, spark-app-selector -> spark-755b844cbbe84dc8b79da8b83334b0c1, spark-role -> driver, spark-version -> 3.5.1
+	 pod uid: 0f0e3c20-dd95-45d6-9ebb-c3e22c83dded
+	 creation time: 2024-06-13T09:29:42Z
+	 service account name: spark
+	 volumes: pod-template-volume, spark-local-dir-1, spark-conf-volume-driver, kube-api-access-4c6gg
+	 node name: cloud1lennart
+	 start time: 2024-06-13T09:29:42Z
+	 phase: Pending
+	 container status: 
+		 container name: sparkbench
+		 container image: lkmschulz2/sparkbench:latest
+		 container state: waiting
+		 pending reason: ContainerCreating
+24/06/13 11:29:42 INFO LoggingPodStatusWatcherImpl: Waiting for application Sparkbench with application ID spark-755b844cbbe84dc8b79da8b83334b0c1 and submission ID default:sparkbench-2f10109010ee6f02-driver to finish...
+24/06/13 11:29:44 INFO LoggingPodStatusWatcherImpl: State changed, new state: 
+	 pod name: sparkbench-2f10109010ee6f02-driver
+	 namespace: default
+	 labels: spark-app-name -> sparkbench, spark-app-selector -> spark-755b844cbbe84dc8b79da8b83334b0c1, spark-role -> driver, spark-version -> 3.5.1
+	 pod uid: 0f0e3c20-dd95-45d6-9ebb-c3e22c83dded
+	 creation time: 2024-06-13T09:29:42Z
+	 service account name: spark
+	 volumes: pod-template-volume, spark-local-dir-1, spark-conf-volume-driver, kube-api-access-4c6gg
+	 node name: cloud1lennart
+	 start time: 2024-06-13T09:29:42Z
+	 phase: Running
+	 container status: 
+		 container name: sparkbench
+		 container image: docker.io/lkmschulz2/sparkbench:latest
+		 container state: running
+		 container started at: 2024-06-13T09:29:43Z
+24/06/13 11:29:45 INFO LoggingPodStatusWatcherImpl: State changed, new state: 
+	 pod name: sparkbench-2f10109010ee6f02-driver
+	 namespace: default
+	 labels: spark-app-name -> sparkbench, spark-app-selector -> spark-755b844cbbe84dc8b79da8b83334b0c1, spark-role -> driver, spark-version -> 3.5.1
+	 pod uid: 0f0e3c20-dd95-45d6-9ebb-c3e22c83dded
+	 creation time: 2024-06-13T09:29:42Z
+	 service account name: spark
+	 volumes: pod-template-volume, spark-local-dir-1, spark-conf-volume-driver, kube-api-access-4c6gg
+	 node name: cloud1lennart
+	 start time: 2024-06-13T09:29:42Z
+	 phase: Running
+	 container status: 
+		 container name: sparkbench
+		 container image: docker.io/lkmschulz2/sparkbench:latest
+		 container state: running
+		 container started at: 2024-06-13T09:29:43Z
+24/06/13 11:29:46 INFO LoggingPodStatusWatcherImpl: State changed, new state: 
+	 pod name: sparkbench-2f10109010ee6f02-driver
+	 namespace: default
+	 labels: spark-app-name -> sparkbench, spark-app-selector -> spark-755b844cbbe84dc8b79da8b83334b0c1, spark-role -> driver, spark-version -> 3.5.1
+	 pod uid: 0f0e3c20-dd95-45d6-9ebb-c3e22c83dded
+	 creation time: 2024-06-13T09:29:42Z
+	 service account name: spark
+	 volumes: pod-template-volume, spark-local-dir-1, spark-conf-volume-driver, kube-api-access-4c6gg
+	 node name: cloud1lennart
+	 start time: 2024-06-13T09:29:42Z
+	 phase: Failed
+	 container status: 
+		 container name: sparkbench
+		 container image: docker.io/lkmschulz2/sparkbench:latest
+		 container state: terminated
+		 container started at: 2024-06-13T09:29:43Z
+		 container finished at: 2024-06-13T09:29:46Z
+		 exit code: 143
+		 termination reason: Error
+24/06/13 11:29:46 INFO LoggingPodStatusWatcherImpl: Container final statuses:
+
+
+	 container name: sparkbench
+	 container image: docker.io/lkmschulz2/sparkbench:latest
+	 container state: terminated
+	 container started at: 2024-06-13T09:29:43Z
+	 container finished at: 2024-06-13T09:29:46Z
+	 exit code: 143
+	 termination reason: Error
+24/06/13 11:29:46 INFO LoggingPodStatusWatcherImpl: Application Sparkbench with application ID spark-755b844cbbe84dc8b79da8b83334b0c1 and submission ID default:sparkbench-2f10109010ee6f02-driver finished
+24/06/13 11:29:46 INFO ShutdownHookManager: Shutdown hook called
+24/06/13 11:29:46 INFO ShutdownHookManager: Deleting directory /tmp/spark-eac91371-5a1f-4281-91c3-40e5f6a9a45a
+24/06/13 11:29:46 INFO ShutdownHookManager: Deleting directory /tmp/spark-b2b80f6a-06fd-4940-b3b7-a44d70565a43
+24/06/13 11:29:46 INFO ShutdownHookManager: Deleting directory /tmp/spark-82040382-26ae-465d-a59a-88003166e909
+Picked up _JAVA_OPTIONS: -Xmx26624m
+Picked up _JAVA_OPTIONS: -Xmx26624m
+24/06/13 11:29:39 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/06/13 11:29:39 INFO SparkKubernetesClientFactory: Auto-configuring K8S client using current context from users K8S config file
+24/06/13 11:29:41 INFO KerberosConfDriverFeatureStep: You have not specified a krb5.conf file locally or via a ConfigMap. Make sure that you have the krb5.conf locally on the driver image.
+24/06/13 11:29:42 INFO LoggingPodStatusWatcherImpl: State changed, new state: 
+	 pod name: sparkbench-49ab4c9010ee6e70-driver
+	 namespace: default
+	 labels: spark-app-name -> sparkbench, spark-app-selector -> spark-e06baa3c63eb456a9c92d205b24ed449, spark-role -> driver, spark-version -> 3.5.1
+	 pod uid: c7b07f04-50d8-4e0a-b567-74d1df243e0c
+	 creation time: 2024-06-13T09:29:41Z
+	 service account name: spark
+	 volumes: pod-template-volume, spark-local-dir-1, spark-conf-volume-driver, kube-api-access-2q996
+	 node name: cloud0lennart
+	 start time: 2024-06-13T09:29:41Z
+	 phase: Pending
+	 container status: 
+		 container name: sparkbench
+		 container image: lkmschulz2/sparkbench:latest
+		 container state: waiting
+		 pending reason: ContainerCreating
+24/06/13 11:29:42 INFO LoggingPodStatusWatcherImpl: Waiting for application Sparkbench with application ID spark-e06baa3c63eb456a9c92d205b24ed449 and submission ID default:sparkbench-49ab4c9010ee6e70-driver to finish...
+24/06/13 11:29:42 INFO LoggingPodStatusWatcherImpl: State changed, new state: 
+	 pod name: sparkbench-49ab4c9010ee6e70-driver
+	 namespace: default
+	 labels: spark-app-name -> sparkbench, spark-app-selector -> spark-e06baa3c63eb456a9c92d205b24ed449, spark-role -> driver, spark-version -> 3.5.1
+	 pod uid: c7b07f04-50d8-4e0a-b567-74d1df243e0c
+	 creation time: 2024-06-13T09:29:41Z
+	 service account name: spark
+	 volumes: pod-template-volume, spark-local-dir-1, spark-conf-volume-driver, kube-api-access-2q996
+	 node name: cloud0lennart
+	 start time: 2024-06-13T09:29:41Z
+	 phase: Pending
+	 container status: 
+		 container name: sparkbench
+		 container image: lkmschulz2/sparkbench:latest
+		 container state: waiting
+		 pending reason: ContainerCreating
+24/06/13 11:29:44 INFO LoggingPodStatusWatcherImpl: State changed, new state: 
+	 pod name: sparkbench-49ab4c9010ee6e70-driver
+	 namespace: default
+	 labels: spark-app-name -> sparkbench, spark-app-selector -> spark-e06baa3c63eb456a9c92d205b24ed449, spark-role -> driver, spark-version -> 3.5.1
+	 pod uid: c7b07f04-50d8-4e0a-b567-74d1df243e0c
+	 creation time: 2024-06-13T09:29:41Z
+	 service account name: spark
+	 volumes: pod-template-volume, spark-local-dir-1, spark-conf-volume-driver, kube-api-access-2q996
+	 node name: cloud0lennart
+	 start time: 2024-06-13T09:29:41Z
+	 phase: Running
+	 container status: 
+		 container name: sparkbench
+		 container image: docker.io/lkmschulz2/sparkbench:latest
+		 container state: running
+		 container started at: 2024-06-13T09:29:44Z
+24/06/13 11:29:45 INFO LoggingPodStatusWatcherImpl: State changed, new state: 
+	 pod name: sparkbench-49ab4c9010ee6e70-driver
+	 namespace: default
+	 labels: spark-app-name -> sparkbench, spark-app-selector -> spark-e06baa3c63eb456a9c92d205b24ed449, spark-role -> driver, spark-version -> 3.5.1
+	 pod uid: c7b07f04-50d8-4e0a-b567-74d1df243e0c
+	 creation time: 2024-06-13T09:29:41Z
+	 service account name: spark
+	 volumes: pod-template-volume, spark-local-dir-1, spark-conf-volume-driver, kube-api-access-2q996
+	 node name: cloud0lennart
+	 start time: 2024-06-13T09:29:41Z
+	 phase: Running
+	 container status: 
+		 container name: sparkbench
+		 container image: docker.io/lkmschulz2/sparkbench:latest
+		 container state: running
+		 container started at: 2024-06-13T09:29:44Z
+24/06/13 11:29:47 INFO LoggingPodStatusWatcherImpl: State changed, new state: 
+	 pod name: sparkbench-49ab4c9010ee6e70-driver
+	 namespace: default
+	 labels: spark-app-name -> sparkbench, spark-app-selector -> spark-e06baa3c63eb456a9c92d205b24ed449, spark-role -> driver, spark-version -> 3.5.1
+	 pod uid: c7b07f04-50d8-4e0a-b567-74d1df243e0c
+	 creation time: 2024-06-13T09:29:41Z
+	 service account name: spark
+	 volumes: pod-template-volume, spark-local-dir-1, spark-conf-volume-driver, kube-api-access-2q996
+	 node name: cloud0lennart
+	 start time: 2024-06-13T09:29:41Z
+	 phase: Failed
+	 container status: 
+		 container name: sparkbench
+		 container image: docker.io/lkmschulz2/sparkbench:latest
+		 container state: terminated
+		 container started at: 2024-06-13T09:29:44Z
+		 container finished at: 2024-06-13T09:29:46Z
+		 exit code: 143
+		 termination reason: Error
+24/06/13 11:29:47 INFO LoggingPodStatusWatcherImpl: Container final statuses:
+
+
+	 container name: sparkbench
+	 container image: docker.io/lkmschulz2/sparkbench:latest
+	 container state: terminated
+	 container started at: 2024-06-13T09:29:44Z
+	 container finished at: 2024-06-13T09:29:46Z
+	 exit code: 143
+	 termination reason: Error
+24/06/13 11:29:47 INFO LoggingPodStatusWatcherImpl: Application Sparkbench with application ID spark-e06baa3c63eb456a9c92d205b24ed449 and submission ID default:sparkbench-49ab4c9010ee6e70-driver finished
+24/06/13 11:29:47 INFO ShutdownHookManager: Shutdown hook called
+24/06/13 11:29:47 INFO ShutdownHookManager: Deleting directory /tmp/spark-58510d47-e1b8-4fa2-b318-165b7f00ec17
+24/06/13 11:29:47 INFO ShutdownHookManager: Deleting directory /tmp/spark-b4d7eb0a-b432-46db-89f6-aa6ef5d4b00c
+24/06/13 11:29:47 INFO ShutdownHookManager: Deleting directory /tmp/spark-26e20dac-c7a0-4062-af1b-c10eebc20f72
+[i] Execution took -35 seconds since the given start time (+ 45 seconds of setup wait)
+[✓] Logs of 'sparkbench-49ab4c9010ee6e70-driver' saved to './data/driver-logs/bursty-spaced-i10d60s550_2/1718271022/sparkbench-49ab4c9010ee6e70-driver.txt'!
+[!] Bucket sparkbench/data/workload-traces/bursty-spaced-i10d60s550_2/1718271022 does not exist in the S3 storage. Something must have gone wrong with the trace collection in the applications.
+[…] Sleeping for 20 seconds before collecting the metrics...
+[✓] Saved CPU metrics with query 'from(bucket:"telegraf") |> range(start: 1718270967) |> filter(fn: (r) => r._measurement == "cpu")' to ./data/telegraf/bursty-spaced-i10d60s550_2/1718271022/cpu.csv
+[✓] Saved memory metrics with query 'from(bucket:"telegraf") |> range(start: 1718270967) |> filter(fn: (r) => r._measurement == "cpu")' to ./data/telegraf/bursty-spaced-i10d60s550_2/1718271022/mem.csv

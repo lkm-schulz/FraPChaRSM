@@ -1,0 +1,1141 @@
+Files  local:///opt/sparkbench/sparkbench_2.12-1.0.jar from /opt/sparkbench/sparkbench_2.12-1.0.jar to /opt/spark/work-dir/./sparkbench_2.12-1.0.jar
+24/06/15 08:46:42 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/06/15 08:46:43 WARN SparkContext: The JAR local:///opt/sparkbench/sparkbench_2.12-1.0.jar at file:/opt/sparkbench/sparkbench_2.12-1.0.jar has been added already. Overwriting of added jar is not supported in the current version.
+24/06/15 08:46:45 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 8, known: 0, sharedSlotFromPendingPods: 2147483647.
+24/06/15 08:46:45 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/15 08:46:46 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+24/06/15 08:46:47 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 8, known: 3, sharedSlotFromPendingPods: 2147483644.
+24/06/15 08:46:47 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/15 08:46:47 WARN S3ABlockOutputStream: Application invoked the Syncable API against stream writing to spark-events/spark-9eb99bb33e9840f4937afd6e5b851dec.inprogress. This is unsupported
+24/06/15 08:46:48 INFO ExecutorPodsAllocator: Going to request 2 executors from Kubernetes for ResourceProfile Id: 0, target: 8, known: 6, sharedSlotFromPendingPods: 2147483642.
+24/06/15 08:46:48 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/15 08:46:53 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.6.29:47542
+24/06/15 08:46:53 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.1.30:34904
+24/06/15 08:46:53 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.10.30:38906
+24/06/15 08:46:54 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.1.30:34910) with ID 1,  ResourceProfileId 0
+24/06/15 08:46:54 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.6.29:47558) with ID 3,  ResourceProfileId 0
+24/06/15 08:46:54 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.10.30:38916) with ID 2,  ResourceProfileId 0
+24/06/15 08:46:55 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.11.31:43556
+24/06/15 08:46:56 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.7.30:52830
+24/06/15 08:46:56 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.11.31:43564) with ID 5,  ResourceProfileId 0
+24/06/15 08:46:56 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.9.32:60326
+24/06/15 08:46:57 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.8.34:40834
+24/06/15 08:46:57 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.12.33:38832
+24/06/15 08:46:57 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.9.32:60330) with ID 6,  ResourceProfileId 0
+24/06/15 08:46:57 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.7.30:52834) with ID 4,  ResourceProfileId 0
+24/06/15 08:46:57 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.8.34:40844) with ID 7,  ResourceProfileId 0
+24/06/15 08:46:57 INFO KubernetesClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+Custom start time given: 1718441237
+24/06/15 08:46:58 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.12.33:38848) with ID 8,  ResourceProfileId 0
+Submission for query 'q7' at T+0 ms waiting for its time to shine...
+Submitting 'q7' at T+0 ms (94 ms delay)...
+Submission for query 'q13' at T+0 ms waiting for its time to shine...
+Submitting 'q13' at T+0 ms (99 ms delay)...
+Submission for query 'q13' at T+0 ms waiting for its time to shine...
+Submitting 'q13' at T+0 ms (100 ms delay)...
+Submission for query 'q10' at T+0 ms waiting for its time to shine...
+Submitting 'q10' at T+0 ms (110 ms delay)...
+Query 'q7' at T+0 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+176250 ms waiting for its time to shine...
+Query 'q13' at T+0 ms submitted (0 ms after submission was started).
+Query 'q10' at T+0 ms submitted (0 ms after submission was started).
+Query 'q13' at T+0 ms submitted (1 ms after submission was started).
+24/06/15 08:48:42 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:48:42 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:49:24 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q7' at T+0 ms finished in 127973 ms!
+Submission for query 'q13' at T+0 ms finished in 135865 ms!
+Submission for query 'q13' at T+0 ms finished in 140313 ms!
+24/06/15 08:49:38 WARN DAGScheduler: Broadcasting large task binary with size 1151.6 KiB
+24/06/15 08:49:45 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q10' at T+0 ms finished in 148770 ms!
+Submitting 'q7' at T+176250 ms (43 ms delay)...
+Submission for query 'q12' at T+190281 ms waiting for its time to shine...
+Query 'q7' at T+176250 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+190281 ms (41 ms delay)...
+Submission for query 'q7' at T+205066 ms waiting for its time to shine...
+Query 'q12' at T+190281 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+205066 ms (9 ms delay)...
+Submission for query 'q7' at T+217731 ms waiting for its time to shine...
+Query 'q7' at T+205066 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+176250 ms finished in 32761 ms!
+Submitting 'q7' at T+217731 ms (72 ms delay)...
+Submission for query 'q10' at T+230373 ms waiting for its time to shine...
+Query 'q7' at T+217731 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+230373 ms (63 ms delay)...
+Submission for query 'q7' at T+243387 ms waiting for its time to shine...
+Query 'q10' at T+230373 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+190281 ms finished in 40872 ms!
+24/06/15 08:51:09 WARN RetryingMetaStoreClient: MetaStoreClient lost connection. Attempting to reconnect (1 of 1) after 1s. listPartitions
+org.apache.thrift.transport.TTransportException: java.net.SocketException: Connection reset
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:129)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readStringBody(TBinaryProtocol.java:379)
+	at org.apache.thrift.protocol.TBinaryProtocol.readString(TBinaryProtocol.java:372)
+	at org.apache.hadoop.hive.metastore.api.FieldSchema$FieldSchemaStandardScheme.read(FieldSchema.java:494)
+	at org.apache.hadoop.hive.metastore.api.FieldSchema$FieldSchemaStandardScheme.read(FieldSchema.java:480)
+	at org.apache.hadoop.hive.metastore.api.FieldSchema.read(FieldSchema.java:414)
+	at org.apache.hadoop.hive.metastore.api.StorageDescriptor$StorageDescriptorStandardScheme.read(StorageDescriptor.java:1299)
+	at org.apache.hadoop.hive.metastore.api.StorageDescriptor$StorageDescriptorStandardScheme.read(StorageDescriptor.java:1278)
+	at org.apache.hadoop.hive.metastore.api.StorageDescriptor.read(StorageDescriptor.java:1140)
+	at org.apache.hadoop.hive.metastore.api.Partition$PartitionStandardScheme.read(Partition.java:984)
+	at org.apache.hadoop.hive.metastore.api.Partition$PartitionStandardScheme.read(Partition.java:919)
+	at org.apache.hadoop.hive.metastore.api.Partition.read(Partition.java:811)
+	at org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore$get_partitions_result$get_partitions_resultStandardScheme.read(ThriftHiveMetastore.java)
+	at org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore$get_partitions_result$get_partitions_resultStandardScheme.read(ThriftHiveMetastore.java)
+	at org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore$get_partitions_result.read(ThriftHiveMetastore.java)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:88)
+	at org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore$Client.recv_get_partitions(ThriftHiveMetastore.java:2381)
+	at org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore$Client.get_partitions(ThriftHiveMetastore.java:2366)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.listPartitions(HiveMetaStoreClient.java:1175)
+	at jdk.internal.reflect.GeneratedMethodAccessor276.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.invoke(RetryingMetaStoreClient.java:173)
+	at com.sun.proxy.$Proxy55.listPartitions(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor276.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient$SynchronizedHandler.invoke(HiveMetaStoreClient.java:2327)
+	at com.sun.proxy.$Proxy55.listPartitions(Unknown Source)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getAllPartitionsOf(Hive.java:2528)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.spark.sql.hive.client.Shim_v0_13.prunePartitionsFastFallback(HiveShim.scala:1164)
+	at org.apache.spark.sql.hive.client.Shim_v0_13.getPartitionsByFilter(HiveShim.scala:1102)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.$anonfun$getPartitionsByFilter$1(HiveClientImpl.scala:813)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.$anonfun$withHiveState$1(HiveClientImpl.scala:303)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.liftedTree1$1(HiveClientImpl.scala:234)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.retryLocked(HiveClientImpl.scala:233)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.withHiveState(HiveClientImpl.scala:283)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.getPartitionsByFilter(HiveClientImpl.scala:809)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.$anonfun$listPartitionsByFilter$1(HiveExternalCatalog.scala:1294)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.withClient(HiveExternalCatalog.scala:101)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.listPartitionsByFilter(HiveExternalCatalog.scala:1289)
+	at org.apache.spark.sql.catalyst.catalog.ExternalCatalogWithListener.listPartitionsByFilter(ExternalCatalogWithListener.scala:262)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.listPartitionsByFilter(SessionCatalog.scala:1302)
+	at org.apache.spark.sql.catalyst.catalog.ExternalCatalogUtils$.listPartitionsByFilter(ExternalCatalogUtils.scala:144)
+	at org.apache.spark.sql.execution.datasources.CatalogFileIndex.filterPartitions(CatalogFileIndex.scala:74)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$$anonfun$apply$1.applyOrElse(PruneFileSourcePartitions.scala:72)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$$anonfun$apply$1.applyOrElse(PruneFileSourcePartitions.scala:50)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1275)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.plans.logical.Join.mapChildren(basicLogicalOperators.scala:527)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Subquery.mapChildren(basicLogicalOperators.scala:58)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:488)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$.apply(PruneFileSourcePartitions.scala:50)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$.apply(PruneFileSourcePartitions.scala:35)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:222)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:219)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:211)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:211)
+	at org.apache.spark.sql.catalyst.optimizer.Optimizer$OptimizeSubqueries$$anonfun$apply$4.applyOrElse(Optimizer.scala:318)
+	at org.apache.spark.sql.catalyst.optimizer.Optimizer$OptimizeSubqueries$$anonfun$apply$4.applyOrElse(Optimizer.scala:313)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1277)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.expressions.BinaryExpression.mapChildren(Expression.scala:652)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1277)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.expressions.BinaryExpression.mapChildren(Expression.scala:652)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1277)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.expressions.BinaryExpression.mapChildren(Expression.scala:652)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.$anonfun$transformExpressionsDownWithPruning$1(QueryPlan.scala:166)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.$anonfun$mapExpressions$1(QueryPlan.scala:207)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:207)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.recursiveTransform$1(QueryPlan.scala:218)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.$anonfun$mapExpressions$4(QueryPlan.scala:228)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:355)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:228)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsDownWithPruning(QueryPlan.scala:166)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsWithPruning(QueryPlan.scala:137)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformAllExpressionsWithPruning$1.applyOrElse(QueryPlan.scala:250)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformAllExpressionsWithPruning$1.applyOrElse(QueryPlan.scala:248)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Aggregate.mapChildren(basicLogicalOperators.scala:1122)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Sort.mapChildren(basicLogicalOperators.scala:893)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Aggregate.mapChildren(basicLogicalOperators.scala:1122)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformWithPruning(TreeNode.scala:478)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformAllExpressionsWithPruning(QueryPlan.scala:248)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformAllExpressionsWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformAllExpressionsWithPruning(AnalysisHelper.scala:291)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformAllExpressionsWithPruning$(AnalysisHelper.scala:286)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformAllExpressionsWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.optimizer.Optimizer$OptimizeSubqueries$.apply(Optimizer.scala:313)
+	at org.apache.spark.sql.catalyst.optimizer.Optimizer$OptimizeSubqueries$.apply(Optimizer.scala:301)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:222)
+	at scala.collection.IndexedSeqOptimized.foldLeft(IndexedSeqOptimized.scala:60)
+	at scala.collection.IndexedSeqOptimized.foldLeft$(IndexedSeqOptimized.scala:68)
+	at scala.collection.mutable.WrappedArray.foldLeft(WrappedArray.scala:38)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:219)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:211)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:211)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:182)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:88)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:182)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$optimizedPlan$1(QueryExecution.scala:143)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:202)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:526)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:202)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:201)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan$lzycompute(QueryExecution.scala:139)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan(QueryExecution.scala:135)
+	at org.apache.spark.sql.execution.QueryExecution.assertOptimized(QueryExecution.scala:153)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan$lzycompute(QueryExecution.scala:171)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan(QueryExecution.scala:168)
+	at org.apache.spark.sql.execution.QueryExecution.simpleString(QueryExecution.scala:221)
+	at org.apache.spark.sql.execution.QueryExecution.org$apache$spark$sql$execution$QueryExecution$$explainString(QueryExecution.scala:266)
+	at org.apache.spark.sql.execution.QueryExecution.explainString(QueryExecution.scala:235)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:112)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)
+	at org.apache.spark.sql.Dataset.withAction(Dataset.scala:4165)
+	at org.apache.spark.sql.Dataset.count(Dataset.scala:3458)
+	at data_structures.QuerySubmission.run(QuerySubmission.scala:30)
+	at data_structures.QuerySubmission.$anonfun$runWhenReady$1(QuerySubmission.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.io.BufferedInputStream.fill(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read1(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:127)
+	... 213 more
+24/06/15 08:51:10 WARN TIOStreamTransport: Error closing output stream.
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.base/java.net.SocketOutputStream.write(Unknown Source)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.base/java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.base/java.io.FilterOutputStream.close(Unknown Source)
+	at org.apache.thrift.transport.TIOStreamTransport.close(TIOStreamTransport.java:110)
+	at org.apache.thrift.transport.TSocket.close(TSocket.java:235)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.close(HiveMetaStoreClient.java:561)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.reconnect(HiveMetaStoreClient.java:333)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.invoke(RetryingMetaStoreClient.java:163)
+	at com.sun.proxy.$Proxy55.listPartitions(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor276.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient$SynchronizedHandler.invoke(HiveMetaStoreClient.java:2327)
+	at com.sun.proxy.$Proxy55.listPartitions(Unknown Source)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getAllPartitionsOf(Hive.java:2528)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.spark.sql.hive.client.Shim_v0_13.prunePartitionsFastFallback(HiveShim.scala:1164)
+	at org.apache.spark.sql.hive.client.Shim_v0_13.getPartitionsByFilter(HiveShim.scala:1102)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.$anonfun$getPartitionsByFilter$1(HiveClientImpl.scala:813)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.$anonfun$withHiveState$1(HiveClientImpl.scala:303)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.liftedTree1$1(HiveClientImpl.scala:234)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.retryLocked(HiveClientImpl.scala:233)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.withHiveState(HiveClientImpl.scala:283)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.getPartitionsByFilter(HiveClientImpl.scala:809)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.$anonfun$listPartitionsByFilter$1(HiveExternalCatalog.scala:1294)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.withClient(HiveExternalCatalog.scala:101)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.listPartitionsByFilter(HiveExternalCatalog.scala:1289)
+	at org.apache.spark.sql.catalyst.catalog.ExternalCatalogWithListener.listPartitionsByFilter(ExternalCatalogWithListener.scala:262)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.listPartitionsByFilter(SessionCatalog.scala:1302)
+	at org.apache.spark.sql.catalyst.catalog.ExternalCatalogUtils$.listPartitionsByFilter(ExternalCatalogUtils.scala:144)
+	at org.apache.spark.sql.execution.datasources.CatalogFileIndex.filterPartitions(CatalogFileIndex.scala:74)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$$anonfun$apply$1.applyOrElse(PruneFileSourcePartitions.scala:72)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$$anonfun$apply$1.applyOrElse(PruneFileSourcePartitions.scala:50)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1275)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.plans.logical.Join.mapChildren(basicLogicalOperators.scala:527)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Subquery.mapChildren(basicLogicalOperators.scala:58)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:488)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$.apply(PruneFileSourcePartitions.scala:50)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$.apply(PruneFileSourcePartitions.scala:35)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:222)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:219)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:211)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:211)
+	at org.apache.spark.sql.catalyst.optimizer.Optimizer$OptimizeSubqueries$$anonfun$apply$4.applyOrElse(Optimizer.scala:318)
+	at org.apache.spark.sql.catalyst.optimizer.Optimizer$OptimizeSubqueries$$anonfun$apply$4.applyOrElse(Optimizer.scala:313)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1277)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.expressions.BinaryExpression.mapChildren(Expression.scala:652)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1277)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.expressions.BinaryExpression.mapChildren(Expression.scala:652)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1277)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.expressions.BinaryExpression.mapChildren(Expression.scala:652)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.$anonfun$transformExpressionsDownWithPruning$1(QueryPlan.scala:166)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.$anonfun$mapExpressions$1(QueryPlan.scala:207)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:207)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.recursiveTransform$1(QueryPlan.scala:218)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.$anonfun$mapExpressions$4(QueryPlan.scala:228)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:355)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:228)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsDownWithPruning(QueryPlan.scala:166)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsWithPruning(QueryPlan.scala:137)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformAllExpressionsWithPruning$1.applyOrElse(QueryPlan.scala:250)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformAllExpressionsWithPruning$1.applyOrElse(QueryPlan.scala:248)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Aggregate.mapChildren(basicLogicalOperators.scala:1122)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Sort.mapChildren(basicLogicalOperators.scala:893)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Aggregate.mapChildren(basicLogicalOperators.scala:1122)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformWithPruning(TreeNode.scala:478)
+	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformAllExpressionsWithPruning(QueryPlan.scala:248)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformAllExpressionsWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformAllExpressionsWithPruning(AnalysisHelper.scala:291)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformAllExpressionsWithPruning$(AnalysisHelper.scala:286)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformAllExpressionsWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.optimizer.Optimizer$OptimizeSubqueries$.apply(Optimizer.scala:313)
+	at org.apache.spark.sql.catalyst.optimizer.Optimizer$OptimizeSubqueries$.apply(Optimizer.scala:301)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:222)
+	at scala.collection.IndexedSeqOptimized.foldLeft(IndexedSeqOptimized.scala:60)
+	at scala.collection.IndexedSeqOptimized.foldLeft$(IndexedSeqOptimized.scala:68)
+	at scala.collection.mutable.WrappedArray.foldLeft(WrappedArray.scala:38)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:219)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:211)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:211)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:182)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:88)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:182)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$optimizedPlan$1(QueryExecution.scala:143)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:202)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:526)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:202)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:201)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan$lzycompute(QueryExecution.scala:139)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan(QueryExecution.scala:135)
+	at org.apache.spark.sql.execution.QueryExecution.assertOptimized(QueryExecution.scala:153)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan$lzycompute(QueryExecution.scala:171)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan(QueryExecution.scala:168)
+	at org.apache.spark.sql.execution.QueryExecution.simpleString(QueryExecution.scala:221)
+	at org.apache.spark.sql.execution.QueryExecution.org$apache$spark$sql$execution$QueryExecution$$explainString(QueryExecution.scala:266)
+	at org.apache.spark.sql.execution.QueryExecution.explainString(QueryExecution.scala:235)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:112)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)
+	at org.apache.spark.sql.Dataset.withAction(Dataset.scala:4165)
+	at org.apache.spark.sql.Dataset.count(Dataset.scala:3458)
+	at data_structures.QuerySubmission.run(QuerySubmission.scala:30)
+	at data_structures.QuerySubmission.$anonfun$runWhenReady$1(QuerySubmission.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Submitting 'q7' at T+243387 ms (73 ms delay)...
+Submission for query 'q1' at T+257668 ms waiting for its time to shine...
+Query 'q7' at T+243387 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+205066 ms finished in 43072 ms!
+Submitting 'q1' at T+257668 ms (27 ms delay)...
+Submission for query 'q12' at T+271684 ms waiting for its time to shine...
+Query 'q1' at T+257668 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+271684 ms (38 ms delay)...
+Submission for query 'q7' at T+289072 ms waiting for its time to shine...
+Query 'q12' at T+271684 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+217731 ms finished in 62437 ms!
+24/06/15 08:51:57 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:52:00 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:52:03 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q7' at T+289072 ms (55 ms delay)...
+Submission for query 'q7' at T+305301 ms waiting for its time to shine...
+Query 'q7' at T+289072 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+243387 ms finished in 48518 ms!
+24/06/15 08:52:10 WARN DAGScheduler: Broadcasting large task binary with size 1096.1 KiB
+Submitting 'q7' at T+305301 ms (56 ms delay)...
+Submission for query 'q7' at T+321672 ms waiting for its time to shine...
+Query 'q7' at T+305301 ms submitted (0 ms after submission was started).
+24/06/15 08:52:28 WARN DAGScheduler: Broadcasting large task binary with size 1130.4 KiB
+Submitting 'q7' at T+321672 ms (72 ms delay)...
+Submission for query 'q7' at T+335373 ms waiting for its time to shine...
+Query 'q7' at T+321672 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+335373 ms (0 ms delay)...
+Submission for query 'q1' at T+352206 ms waiting for its time to shine...
+Query 'q7' at T+335373 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+230373 ms finished in 112956 ms!
+Submitting 'q1' at T+352206 ms (41 ms delay)...
+Submission for query 'q1' at T+366728 ms waiting for its time to shine...
+Query 'q1' at T+352206 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+366728 ms (45 ms delay)...
+Submission for query 'q10' at T+384457 ms waiting for its time to shine...
+Query 'q1' at T+366728 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+271684 ms finished in 95106 ms!
+Submitting 'q10' at T+384457 ms (51 ms delay)...
+Submission for query 'q13' at T+397785 ms waiting for its time to shine...
+Query 'q10' at T+384457 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+397785 ms (47 ms delay)...
+Submission for query 'q10' at T+412051 ms waiting for its time to shine...
+Query 'q13' at T+397785 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+412051 ms (25 ms delay)...
+Submission for query 'q1' at T+424297 ms waiting for its time to shine...
+Query 'q10' at T+412051 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+289072 ms finished in 126025 ms!
+24/06/15 08:54:13 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:54:13 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submission for query 'q7' at T+305301 ms finished in 112630 ms!
+Submitting 'q1' at T+424297 ms (81 ms delay)...
+Submission for query 'q13' at T+441116 ms waiting for its time to shine...
+Query 'q1' at T+424297 ms submitted (0 ms after submission was started).
+24/06/15 08:54:23 WARN DAGScheduler: Broadcasting large task binary with size 1096.1 KiB
+24/06/15 08:54:24 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q1' at T+257668 ms finished in 177125 ms!
+Submission for query 'q7' at T+335373 ms finished in 99466 ms!
+24/06/15 08:54:32 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:54:32 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+441116 ms (99 ms delay)...
+Submission for query 'q7' at T+456046 ms waiting for its time to shine...
+Query 'q13' at T+441116 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+456046 ms (21 ms delay)...
+Submission for query 'q10' at T+470041 ms waiting for its time to shine...
+Query 'q7' at T+456046 ms submitted (0 ms after submission was started).
+24/06/15 08:54:53 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submission for query 'q7' at T+321672 ms finished in 135410 ms!
+24/06/15 08:54:55 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q10' at T+470041 ms (55 ms delay)...
+Submission for query 'q12' at T+483236 ms waiting for its time to shine...
+Query 'q10' at T+470041 ms submitted (0 ms after submission was started).
+24/06/15 08:55:09 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:55:13 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:55:17 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q12' at T+483236 ms (63 ms delay)...
+Submission for query 'q13' at T+500404 ms waiting for its time to shine...
+Query 'q12' at T+483236 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+500404 ms (41 ms delay)...
+Submission for query 'q12' at T+514914 ms waiting for its time to shine...
+Query 'q13' at T+500404 ms submitted (0 ms after submission was started).
+24/06/15 08:55:38 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q10' at T+384457 ms finished in 121754 ms!
+Submitting 'q12' at T+514914 ms (33 ms delay)...
+Submission for query 'q1' at T+530211 ms waiting for its time to shine...
+Query 'q12' at T+514914 ms submitted (0 ms after submission was started).
+24/06/15 08:55:54 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submission for query 'q13' at T+397785 ms finished in 124955 ms!
+Submitting 'q1' at T+530211 ms (68 ms delay)...
+Submission for query 'q10' at T+547661 ms waiting for its time to shine...
+Query 'q1' at T+530211 ms submitted (0 ms after submission was started).
+24/06/15 08:56:16 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q1' at T+366728 ms finished in 173920 ms!
+Submission for query 'q7' at T+456046 ms finished in 84652 ms!
+Submitting 'q10' at T+547661 ms (65 ms delay)...
+Submission for query 'q10' at T+561488 ms waiting for its time to shine...
+Query 'q10' at T+547661 ms submitted (0 ms after submission was started).
+24/06/15 08:56:26 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:56:28 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:56:35 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q10' at T+561488 ms (99 ms delay)...
+Submission for query 'q7' at T+577039 ms waiting for its time to shine...
+Query 'q10' at T+561488 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+352206 ms finished in 212396 ms!
+Submitting 'q7' at T+577039 ms (77 ms delay)...
+Submission for query 'q12' at T+589383 ms waiting for its time to shine...
+Query 'q7' at T+577039 ms submitted (0 ms after submission was started).
+24/06/15 08:56:56 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submission for query 'q13' at T+441116 ms finished in 140138 ms!
+Submission for query 'q12' at T+483236 ms finished in 98180 ms!
+Submitting 'q12' at T+589383 ms (51 ms delay)...
+Submission for query 'q7' at T+603871 ms waiting for its time to shine...
+Query 'q12' at T+589383 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+412051 ms finished in 184146 ms!
+Submission for query 'q12' at T+514914 ms finished in 81882 ms!
+Submission for query 'q1' at T+424297 ms finished in 172457 ms!
+24/06/15 08:57:13 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:57:14 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:57:17 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q7' at T+603871 ms (100 ms delay)...
+Submission for query 'q10' at T+617228 ms waiting for its time to shine...
+Query 'q7' at T+603871 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+617228 ms (75 ms delay)...
+Submission for query 'q13' at T+631974 ms waiting for its time to shine...
+Query 'q10' at T+617228 ms submitted (0 ms after submission was started).
+24/06/15 08:57:36 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+631974 ms (54 ms delay)...
+Submission for query 'q7' at T+645838 ms waiting for its time to shine...
+Query 'q13' at T+631974 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+470041 ms finished in 166465 ms!
+24/06/15 08:57:57 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submission for query 'q13' at T+500404 ms finished in 141780 ms!
+Submitting 'q7' at T+645838 ms (76 ms delay)...
+Submission for query 'q12' at T+662781 ms waiting for its time to shine...
+Query 'q7' at T+645838 ms submitted (0 ms after submission was started).
+24/06/15 08:58:09 WARN DAGScheduler: Broadcasting large task binary with size 1154.5 KiB
+Submitting 'q12' at T+662781 ms (74 ms delay)...
+Submission for query 'q10' at T+680253 ms waiting for its time to shine...
+Query 'q12' at T+662781 ms submitted (0 ms after submission was started).
+24/06/15 08:58:25 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q7' at T+577039 ms finished in 94222 ms!
+Submitting 'q10' at T+680253 ms (21 ms delay)...
+Submission for query 'q7' at T+693089 ms waiting for its time to shine...
+Query 'q10' at T+680253 ms submitted (0 ms after submission was started).
+24/06/15 08:58:44 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:58:46 WARN DAGScheduler: Broadcasting large task binary with size 1154.5 KiB
+Submitting 'q7' at T+693089 ms (17 ms delay)...
+Submission for query 'q1' at T+709129 ms waiting for its time to shine...
+Query 'q7' at T+693089 ms submitted (0 ms after submission was started).
+24/06/15 08:58:55 WARN DAGScheduler: Broadcasting large task binary with size 1136.0 KiB
+Submission for query 'q12' at T+589383 ms finished in 117292 ms!
+24/06/15 08:59:04 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q1' at T+709129 ms (13 ms delay)...
+Submission for query 'q1' at T+726497 ms waiting for its time to shine...
+Query 'q1' at T+709129 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+726497 ms (6 ms delay)...
+Submission for query 'q13' at T+739627 ms waiting for its time to shine...
+Query 'q1' at T+726497 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+739627 ms (4 ms delay)...
+Submission for query 'q7' at T+754642 ms waiting for its time to shine...
+Query 'q13' at T+739627 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+603871 ms finished in 142468 ms!
+Submission for query 'q10' at T+547661 ms finished in 199088 ms!
+Submission for query 'q10' at T+561488 ms finished in 185232 ms!
+24/06/15 08:59:48 WARN DAGScheduler: Broadcasting large task binary with size 1136.0 KiB
+Submitting 'q7' at T+754642 ms (66 ms delay)...
+Submission for query 'q1' at T+770120 ms waiting for its time to shine...
+Query 'q7' at T+754642 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+770120 ms (14 ms delay)...
+Submission for query 'q10' at T+786442 ms waiting for its time to shine...
+Query 'q1' at T+770120 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+645838 ms finished in 129680 ms!
+Submission for query 'q1' at T+530211 ms finished in 245317 ms!
+24/06/15 09:00:13 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:00:14 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 09:00:17 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submission for query 'q12' at T+662781 ms finished in 119737 ms!
+Submitting 'q10' at T+786442 ms (20 ms delay)...
+Submission for query 'q7' at T+802339 ms waiting for its time to shine...
+Query 'q10' at T+786442 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+617228 ms finished in 169749 ms!
+24/06/15 09:00:24 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 09:00:27 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q7' at T+802339 ms (59 ms delay)...
+Submission for query 'q7' at T+817673 ms waiting for its time to shine...
+Query 'q7' at T+802339 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+631974 ms finished in 177528 ms!
+24/06/15 09:00:53 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 09:00:53 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 09:00:53 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q7' at T+817673 ms (4 ms delay)...
+Submission for query 'q10' at T+830089 ms waiting for its time to shine...
+Query 'q7' at T+817673 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+830089 ms (87 ms delay)...
+Submission for query 'q10' at T+842759 ms waiting for its time to shine...
+Query 'q10' at T+830089 ms submitted (0 ms after submission was started).
+24/06/15 09:01:15 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 09:01:16 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q10' at T+842759 ms (39 ms delay)...
+Submission for query 'q7' at T+855973 ms waiting for its time to shine...
+Query 'q10' at T+842759 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+693089 ms finished in 156127 ms!
+24/06/15 09:01:32 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q7' at T+855973 ms (38 ms delay)...
+Submission for query 'q13' at T+872923 ms waiting for its time to shine...
+Query 'q7' at T+855973 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+872923 ms (19 ms delay)...
+Submission for query 'q1' at T+888090 ms waiting for its time to shine...
+Query 'q13' at T+872923 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+888090 ms (18 ms delay)...
+Submission for query 'q12' at T+902443 ms waiting for its time to shine...
+Query 'q1' at T+888090 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+902443 ms (94 ms delay)...
+Submission for query 'q1' at T+916870 ms waiting for its time to shine...
+Query 'q12' at T+902443 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+754642 ms finished in 153165 ms!
+Submission for query 'q10' at T+680253 ms finished in 228206 ms!
+24/06/15 09:02:26 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:02:26 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q1' at T+916870 ms (65 ms delay)...
+Submission for query 'q13' at T+934591 ms waiting for its time to shine...
+Query 'q1' at T+916870 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+802339 ms finished in 116323 ms!
+24/06/15 09:02:35 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 09:02:36 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+24/06/15 09:02:44 WARN DAGScheduler: Broadcasting large task binary with size 1154.5 KiB
+24/06/15 09:02:45 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q13' at T+934591 ms (83 ms delay)...
+Submission for query 'q12' at T+949146 ms waiting for its time to shine...
+Query 'q13' at T+934591 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+739627 ms finished in 199294 ms!
+24/06/15 09:02:56 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 09:03:03 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q12' at T+949146 ms (20 ms delay)...
+Submission for query 'q13' at T+965956 ms waiting for its time to shine...
+Query 'q12' at T+949146 ms submitted (0 ms after submission was started).
+24/06/15 09:03:21 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submission for query 'q1' at T+709129 ms finished in 256752 ms!
+Submitting 'q13' at T+965956 ms (42 ms delay)...
+Submission for query 'q10' at T+980462 ms waiting for its time to shine...
+Query 'q13' at T+965956 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+980462 ms (69 ms delay)...
+Submission for query 'q1' at T+992390 ms waiting for its time to shine...
+Query 'q10' at T+980462 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+992390 ms (63 ms delay)...
+Submission for query 'q1' at T+1009080 ms waiting for its time to shine...
+Query 'q1' at T+992390 ms submitted (0 ms after submission was started).
+24/06/15 09:03:49 WARN DAGScheduler: Broadcasting large task binary with size 1136.0 KiB
+Submission for query 'q7' at T+817673 ms finished in 176565 ms!
+24/06/15 09:03:54 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q1' at T+726497 ms finished in 278097 ms!
+24/06/15 09:04:03 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submission for query 'q7' at T+855973 ms finished in 150924 ms!
+Submission for query 'q10' at T+830089 ms finished in 176778 ms!
+Submission for query 'q1' at T+770120 ms finished in 238520 ms!
+Submitting 'q1' at T+1009080 ms (24 ms delay)...
+Submission for query 'q1' at T+1022389 ms waiting for its time to shine...
+Query 'q1' at T+1009080 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+1022389 ms (31 ms delay)...
+Submission for query 'q10' at T+1035460 ms waiting for its time to shine...
+Query 'q1' at T+1022389 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+786442 ms finished in 244505 ms!
+Submission for query 'q10' at T+842759 ms finished in 188349 ms!
+24/06/15 09:04:28 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q12' at T+902443 ms finished in 128972 ms!
+24/06/15 09:04:28 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 09:04:29 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:04:30 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 09:04:32 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q10' at T+1035460 ms (84 ms delay)...
+Query 'q10' at T+1035460 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+1048925 ms waiting for its time to shine...
+Submitting 'q1' at T+1048925 ms (47 ms delay)...
+Submission for query 'q1' at T+1063191 ms waiting for its time to shine...
+Query 'q1' at T+1048925 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+1063191 ms (6 ms delay)...
+Submission for query 'q7' at T+1079150 ms waiting for its time to shine...
+Query 'q1' at T+1063191 ms submitted (0 ms after submission was started).
+24/06/15 09:05:05 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+24/06/15 09:05:14 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q12' at T+949146 ms finished in 129381 ms!
+Submitting 'q7' at T+1079150 ms (54 ms delay)...
+Submission for query 'q7' at T+1095472 ms waiting for its time to shine...
+Query 'q7' at T+1079150 ms submitted (0 ms after submission was started).
+24/06/15 09:05:16 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submission for query 'q13' at T+872923 ms finished in 206893 ms!
+24/06/15 09:05:17 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 09:05:23 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 09:05:26 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:05:32 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q7' at T+1095472 ms (83 ms delay)...
+Submission for query 'q10' at T+1111388 ms waiting for its time to shine...
+Query 'q7' at T+1095472 ms submitted (1 ms after submission was started).
+24/06/15 09:05:36 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submission for query 'q1' at T+888090 ms finished in 212667 ms!
+24/06/15 09:05:37 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 09:05:41 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submission for query 'q13' at T+934591 ms finished in 169780 ms!
+24/06/15 09:05:42 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q10' at T+1111388 ms (95 ms delay)...
+Submission for query 'q13' at T+1124386 ms waiting for its time to shine...
+Query 'q10' at T+1111388 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1124386 ms (25 ms delay)...
+Submission for query 'q12' at T+1138393 ms waiting for its time to shine...
+Query 'q13' at T+1124386 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+1138393 ms (48 ms delay)...
+Submission for query 'q12' at T+1153497 ms waiting for its time to shine...
+Query 'q12' at T+1138393 ms submitted (0 ms after submission was started).
+24/06/15 09:06:19 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q13' at T+965956 ms finished in 181303 ms!
+24/06/15 09:06:25 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q12' at T+1153497 ms (72 ms delay)...
+Submission for query 'q7' at T+1169384 ms waiting for its time to shine...
+Query 'q12' at T+1153497 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+1169384 ms (46 ms delay)...
+Submission for query 'q7' at T+1185827 ms waiting for its time to shine...
+Query 'q7' at T+1169384 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+980462 ms finished in 191687 ms!
+Submission for query 'q1' at T+916870 ms finished in 265664 ms!
+Submission for query 'q7' at T+1079150 ms finished in 106281 ms!
+Submitting 'q7' at T+1185827 ms (75 ms delay)...
+Submission for query 'q12' at T+1199105 ms waiting for its time to shine...
+Query 'q7' at T+1185827 ms submitted (0 ms after submission was started).
+24/06/15 09:07:14 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q12' at T+1199105 ms (75 ms delay)...
+Submission for query 'q10' at T+1215956 ms waiting for its time to shine...
+Query 'q12' at T+1199105 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1215956 ms (56 ms delay)...
+Submission for query 'q1' at T+1228334 ms waiting for its time to shine...
+Query 'q10' at T+1215956 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1095472 ms finished in 122316 ms!
+24/06/15 09:07:35 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 09:07:35 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q1' at T+1228334 ms (49 ms delay)...
+Query 'q1' at T+1228334 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1241589 ms waiting for its time to shine...
+Submitting 'q10' at T+1241589 ms (23 ms delay)...
+Submission for query 'q10' at T+1255184 ms waiting for its time to shine...
+Query 'q10' at T+1241589 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1255184 ms (55 ms delay)...
+Submission for query 'q13' at T+1268262 ms waiting for its time to shine...
+Query 'q10' at T+1255184 ms submitted (0 ms after submission was started).
+24/06/15 09:08:24 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q13' at T+1268262 ms (2 ms delay)...
+Submission for query 'q10' at T+1283572 ms waiting for its time to shine...
+Query 'q13' at T+1268262 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1035460 ms finished in 237955 ms!
+Submission for query 'q1' at T+1009080 ms finished in 265172 ms!
+Submitting 'q10' at T+1283572 ms (22 ms delay)...
+Submission for query 'q13' at T+1295528 ms waiting for its time to shine...
+Query 'q10' at T+1283572 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1138393 ms finished in 152191 ms!
+Submission for query 'q1' at T+992390 ms finished in 299492 ms!
+Submission for query 'q7' at T+1169384 ms finished in 124609 ms!
+24/06/15 09:08:51 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q12' at T+1153497 ms finished in 141445 ms!
+Submission for query 'q1' at T+1022389 ms finished in 272599 ms!
+Submitting 'q13' at T+1295528 ms (0 ms delay)...
+Submission for query 'q12' at T+1311084 ms waiting for its time to shine...
+Query 'q13' at T+1295528 ms submitted (0 ms after submission was started).
+24/06/15 09:08:55 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 09:08:55 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q7' at T+1185827 ms finished in 120363 ms!
+24/06/15 09:09:03 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q12' at T+1311084 ms (33 ms delay)...
+Submission for query 'q1' at T+1328269 ms waiting for its time to shine...
+Query 'q12' at T+1311084 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+1048925 ms finished in 266921 ms!
+24/06/15 09:09:13 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q13' at T+1124386 ms finished in 192903 ms!
+24/06/15 09:09:14 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 09:09:15 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q12' at T+1199105 ms finished in 120995 ms!
+24/06/15 09:09:17 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q1' at T+1063191 ms finished in 258101 ms!
+24/06/15 09:09:19 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q1' at T+1328269 ms (43 ms delay)...
+Submission for query 'q10' at T+1343109 ms waiting for its time to shine...
+Query 'q1' at T+1328269 ms submitted (0 ms after submission was started).
+24/06/15 09:09:33 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 09:09:35 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submitting 'q10' at T+1343109 ms (54 ms delay)...
+Submission for query 'q13' at T+1357085 ms waiting for its time to shine...
+Query 'q10' at T+1343109 ms submitted (0 ms after submission was started).
+24/06/15 09:09:48 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 09:09:52 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q10' at T+1111388 ms finished in 245510 ms!
+Submitting 'q13' at T+1357085 ms (62 ms delay)...
+Submission for query 'q10' at T+1372179 ms waiting for its time to shine...
+Query 'q13' at T+1357085 ms submitted (0 ms after submission was started).
+24/06/15 09:09:55 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q10' at T+1372179 ms (88 ms delay)...
+Submission for query 'q10' at T+1385502 ms waiting for its time to shine...
+Query 'q10' at T+1372179 ms submitted (0 ms after submission was started).
+24/06/15 09:10:13 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q10' at T+1385502 ms (51 ms delay)...
+Submission for query 'q10' at T+1398242 ms waiting for its time to shine...
+Query 'q10' at T+1385502 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1215956 ms finished in 175508 ms!
+24/06/15 09:10:29 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:10:30 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 09:10:32 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q10' at T+1398242 ms (78 ms delay)...
+Submission for query 'q10' at T+1412043 ms waiting for its time to shine...
+Query 'q10' at T+1398242 ms submitted (0 ms after submission was started).
+24/06/15 09:10:35 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submission for query 'q10' at T+1241589 ms finished in 161643 ms!
+Submission for query 'q12' at T+1311084 ms finished in 92320 ms!
+Submission for query 'q13' at T+1268262 ms finished in 136904 ms!
+24/06/15 09:10:42 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q10' at T+1283572 ms finished in 121621 ms!
+24/06/15 09:10:42 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:10:42 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 09:10:44 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q10' at T+1412043 ms (16 ms delay)...
+Submission for query 'q12' at T+1426658 ms waiting for its time to shine...
+Query 'q10' at T+1412043 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1255184 ms finished in 160586 ms!
+Submission for query 'q1' at T+1228334 ms finished in 190938 ms!
+24/06/15 09:10:56 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:11:02 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q12' at T+1426658 ms (35 ms delay)...
+Submission for query 'q7' at T+1442346 ms waiting for its time to shine...
+Query 'q12' at T+1426658 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1357085 ms finished in 73064 ms!
+24/06/15 09:11:13 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q7' at T+1442346 ms (126 ms delay)...
+Submission for query 'q13' at T+1455579 ms waiting for its time to shine...
+Query 'q7' at T+1442346 ms submitted (0 ms after submission was started).
+24/06/15 09:11:19 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q1' at T+1328269 ms finished in 118086 ms!
+24/06/15 09:11:24 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:11:24 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:11:24 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submission for query 'q10' at T+1343109 ms finished in 105864 ms!
+Submission for query 'q10' at T+1372179 ms finished in 80744 ms!
+Submitting 'q13' at T+1455579 ms (47 ms delay)...
+Submission for query 'q13' at T+1470825 ms waiting for its time to shine...
+Query 'q13' at T+1455579 ms submitted (0 ms after submission was started).
+24/06/15 09:11:39 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 09:11:39 WARN DAGScheduler: Broadcasting large task binary with size 1154.5 KiB
+Submitting 'q13' at T+1470825 ms (88 ms delay)...
+Submission for query 'q13' at T+1485469 ms waiting for its time to shine...
+Query 'q13' at T+1470825 ms submitted (0 ms after submission was started).
+24/06/15 09:11:49 WARN DAGScheduler: Broadcasting large task binary with size 1130.4 KiB
+24/06/15 09:11:59 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q12' at T+1426658 ms finished in 55339 ms!
+Submission for query 'q10' at T+1385502 ms finished in 96664 ms!
+24/06/15 09:12:01 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q13' at T+1485469 ms (92 ms delay)...
+Submission for query 'q7' at T+1499502 ms waiting for its time to shine...
+Query 'q13' at T+1485469 ms submitted (0 ms after submission was started).
+24/06/15 09:12:11 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q7' at T+1442346 ms finished in 55287 ms!
+24/06/15 09:12:15 WARN DAGScheduler: Broadcasting large task binary with size 1136.0 KiB
+Submitting 'q7' at T+1499502 ms (93 ms delay)...
+Submission for query 'q10' at T+1511997 ms waiting for its time to shine...
+Query 'q7' at T+1499502 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1412043 ms finished in 98409 ms!
+Submission for query 'q10' at T+1398242 ms finished in 112171 ms!
+24/06/15 09:12:29 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q10' at T+1511997 ms (52 ms delay)...
+Submission for query 'q13' at T+1523788 ms waiting for its time to shine...
+Query 'q10' at T+1511997 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1523788 ms (83 ms delay)...
+Submission for query 'q10' at T+1538110 ms waiting for its time to shine...
+Query 'q13' at T+1523788 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1538110 ms (60 ms delay)...
+Submission for query 'q12' at T+1553320 ms waiting for its time to shine...
+Query 'q10' at T+1538110 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1485469 ms finished in 55910 ms!
+24/06/15 09:12:58 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:12:59 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q12' at T+1553320 ms (17 ms delay)...
+Submission for query 'q10' at T+1569246 ms waiting for its time to shine...
+Query 'q12' at T+1553320 ms submitted (0 ms after submission was started).
+24/06/15 09:13:12 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q13' at T+1455579 ms finished in 100523 ms!
+Submission for query 'q13' at T+1470825 ms finished in 85406 ms!
+Submission for query 'q7' at T+1499502 ms finished in 58053 ms!
+24/06/15 09:13:15 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:13:17 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submission for query 'q10' at T+1511997 ms finished in 50146 ms!
+24/06/15 09:13:25 WARN DAGScheduler: Broadcasting large task binary with size 1154.5 KiB
+Submitting 'q10' at T+1569246 ms (24 ms delay)...
+Submission for query 'q7' at T+1583366 ms waiting for its time to shine...
+Query 'q10' at T+1569246 ms submitted (0 ms after submission was started).
+24/06/15 09:13:32 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q7' at T+1583366 ms (55 ms delay)...
+Submission for query 'q13' at T+1597043 ms waiting for its time to shine...
+Query 'q7' at T+1583366 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1523788 ms finished in 62474 ms!
+Submission for query 'q12' at T+1553320 ms finished in 33342 ms!
+24/06/15 09:13:46 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q13' at T+1597043 ms (4 ms delay)...
+Submission for query 'q10' at T+1610640 ms waiting for its time to shine...
+Query 'q13' at T+1597043 ms submitted (0 ms after submission was started).
+24/06/15 09:13:57 WARN DAGScheduler: Broadcasting large task binary with size 1136.0 KiB
+Submission for query 'q13' at T+1295528 ms finished in 309463 ms!
+Submission for query 'q10' at T+1538110 ms finished in 69026 ms!
+Submitting 'q10' at T+1610640 ms (6 ms delay)...
+Submission for query 'q10' at T+1622906 ms waiting for its time to shine...
+Query 'q10' at T+1610640 ms submitted (0 ms after submission was started).
+24/06/15 09:14:09 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q10' at T+1622906 ms (64 ms delay)...
+Submission for query 'q13' at T+1634927 ms waiting for its time to shine...
+Query 'q10' at T+1622906 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1583366 ms finished in 42375 ms!
+24/06/15 09:14:24 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:14:26 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q10' at T+1569246 ms finished in 60903 ms!
+24/06/15 09:14:29 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+1634927 ms (3 ms delay)...
+Submission for query 'q10' at T+1650298 ms waiting for its time to shine...
+Query 'q13' at T+1634927 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1597043 ms finished in 38307 ms!
+24/06/15 09:14:33 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+24/06/15 09:14:33 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+24/06/15 09:14:42 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q10' at T+1650298 ms (68 ms delay)...
+Submission for query 'q7' at T+1663778 ms waiting for its time to shine...
+Query 'q10' at T+1650298 ms submitted (0 ms after submission was started).
+24/06/15 09:14:48 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+24/06/15 09:14:53 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submission for query 'q10' at T+1622906 ms finished in 35769 ms!
+Submission for query 'q10' at T+1610640 ms finished in 48564 ms!
+24/06/15 09:14:57 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q7' at T+1663778 ms (47 ms delay)...
+Submission for query 'q7' at T+1680560 ms waiting for its time to shine...
+Query 'q7' at T+1663778 ms submitted (0 ms after submission was started).
+24/06/15 09:15:11 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q7' at T+1680560 ms (68 ms delay)...
+Submission for query 'q12' at T+1694301 ms waiting for its time to shine...
+Query 'q7' at T+1680560 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+1694301 ms (90 ms delay)...
+Submission for query 'q13' at T+1710727 ms waiting for its time to shine...
+Query 'q12' at T+1694301 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1634927 ms finished in 68988 ms!
+Submission for query 'q7' at T+1663778 ms finished in 40243 ms!
+Submitting 'q13' at T+1710727 ms (93 ms delay)...
+Submission for query 'q10' at T+1725070 ms waiting for its time to shine...
+Query 'q13' at T+1710727 ms submitted (0 ms after submission was started).
+24/06/15 09:15:52 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submission for query 'q7' at T+1680560 ms finished in 43637 ms!
+Submission for query 'q10' at T+1650298 ms finished in 74160 ms!
+Submitting 'q10' at T+1725070 ms (77 ms delay)...
+Submission for query 'q12' at T+1739534 ms waiting for its time to shine...
+Query 'q10' at T+1725070 ms submitted (0 ms after submission was started).
+24/06/15 09:16:02 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q12' at T+1739534 ms (42 ms delay)...
+Submission for query 'q10' at T+1754510 ms waiting for its time to shine...
+Query 'q12' at T+1739534 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1694301 ms finished in 46699 ms!
+24/06/15 09:16:19 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q10' at T+1754510 ms (94 ms delay)...
+Submission for query 'q10' at T+1769879 ms waiting for its time to shine...
+Query 'q10' at T+1754510 ms submitted (0 ms after submission was started).
+24/06/15 09:16:33 WARN DAGScheduler: Broadcasting large task binary with size 1154.5 KiB
+Submission for query 'q13' at T+1710727 ms finished in 58047 ms!
+Submitting 'q10' at T+1769879 ms (84 ms delay)...
+Submission for query 'q10' at T+1783955 ms waiting for its time to shine...
+Query 'q10' at T+1769879 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1739534 ms finished in 30482 ms!
+24/06/15 09:16:50 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:16:59 WARN DAGScheduler: Broadcasting large task binary with size 1136.0 KiB
+Submission for query 'q10' at T+1725070 ms finished in 57233 ms!
+Submitting 'q10' at T+1783955 ms (45 ms delay)...
+Submission for query 'q7' at T+1800063 ms waiting for its time to shine...
+Query 'q10' at T+1783955 ms submitted (0 ms after submission was started).
+24/06/15 09:17:02 WARN DAGScheduler: Broadcasting large task binary with size 1154.5 KiB
+24/06/15 09:17:10 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:17:15 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q7' at T+1800063 ms (19 ms delay)...
+Submission for query 'q13' at T+1816118 ms waiting for its time to shine...
+Query 'q7' at T+1800063 ms submitted (0 ms after submission was started).
+24/06/15 09:17:19 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:17:20 WARN DAGScheduler: Broadcasting large task binary with size 1136.0 KiB
+24/06/15 09:17:27 WARN DAGScheduler: Broadcasting large task binary with size 1154.5 KiB
+Submitting 'q13' at T+1816118 ms (2 ms delay)...
+Submission for query 'q7' at T+1830049 ms waiting for its time to shine...
+Query 'q13' at T+1816118 ms submitted (0 ms after submission was started).
+24/06/15 09:17:40 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q10' at T+1769879 ms finished in 57685 ms!
+24/06/15 09:17:46 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q7' at T+1830049 ms (67 ms delay)...
+Submission for query 'q10' at T+1846820 ms waiting for its time to shine...
+Query 'q7' at T+1830049 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1754510 ms finished in 76299 ms!
+24/06/15 09:18:01 WARN DAGScheduler: Broadcasting large task binary with size 1136.0 KiB
+Submitting 'q10' at T+1846820 ms (74 ms delay)...
+Submission for query 'q10' at T+1860519 ms waiting for its time to shine...
+Query 'q10' at T+1846820 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1860519 ms (3 ms delay)...
+Submission for query 'q10' at T+1872811 ms waiting for its time to shine...
+Query 'q10' at T+1860519 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1800063 ms finished in 62507 ms!
+Submission for query 'q10' at T+1783955 ms finished in 82451 ms!
+Submission for query 'q13' at T+1816118 ms finished in 50795 ms!
+Submitting 'q10' at T+1872811 ms (95 ms delay)...
+Submission for query 'q10' at T+1885935 ms waiting for its time to shine...
+Query 'q10' at T+1872811 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1830049 ms finished in 43209 ms!
+24/06/15 09:18:34 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:18:35 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 09:18:36 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q10' at T+1885935 ms (79 ms delay)...
+Submission for query 'q7' at T+1899009 ms waiting for its time to shine...
+Query 'q10' at T+1885935 ms submitted (0 ms after submission was started).
+24/06/15 09:18:46 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 09:18:49 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 09:18:50 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q7' at T+1899009 ms (27 ms delay)...
+Submission for query 'q12' at T+1911414 ms waiting for its time to shine...
+Query 'q7' at T+1899009 ms submitted (0 ms after submission was started).
+24/06/15 09:19:02 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q12' at T+1911414 ms (45 ms delay)...
+Submission for query 'q12' at T+1927376 ms waiting for its time to shine...
+Query 'q12' at T+1911414 ms submitted (0 ms after submission was started).
+24/06/15 09:19:11 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 09:19:14 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q10' at T+1872811 ms finished in 49113 ms!
+Submission for query 'q10' at T+1860519 ms finished in 61572 ms!
+Submission for query 'q10' at T+1846820 ms finished in 75208 ms!
+24/06/15 09:19:19 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q12' at T+1927376 ms (30 ms delay)...
+Submission for query 'q7' at T+1943424 ms waiting for its time to shine...
+Query 'q12' at T+1927376 ms submitted (0 ms after submission was started).
+24/06/15 09:19:34 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q7' at T+1899009 ms finished in 42512 ms!
+Submitting 'q7' at T+1943424 ms (18 ms delay)...
+Submission for query 'q1' at T+1957213 ms waiting for its time to shine...
+Query 'q7' at T+1943424 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+1957213 ms (63 ms delay)...
+Query 'q1' at T+1957213 ms submitted (0 ms after submission was started).
+24/06/15 09:19:54 WARN DAGScheduler: Broadcasting large task binary with size 1130.4 KiB
+Submission for query 'q10' at T+1885935 ms finished in 72058 ms!
+Submission for query 'q12' at T+1911414 ms finished in 66610 ms!
+Submission for query 'q12' at T+1927376 ms finished in 50756 ms!
+24/06/15 09:20:15 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 09:20:21 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q7' at T+1943424 ms finished in 43339 ms!
+Submission for query 'q1' at T+1957213 ms finished in 37105 ms!
+thread pool status is: true
+run finished
+main returning...
+24/06/15 09:20:31 INFO KubernetesClusterSchedulerBackend: Shutting down all executors
+24/06/15 09:20:31 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asking each executor to shut down
+24/06/15 09:20:31 WARN ExecutorPodsWatchSnapshotSource: Kubernetes client has been closed.

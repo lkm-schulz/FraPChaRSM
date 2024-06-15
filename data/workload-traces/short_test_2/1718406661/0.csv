@@ -1,0 +1,10 @@
+app,start,query,range,delay,duration
+0,0,q12,d_year = 2000,48702,108420
+0,0,q1,d_year = 2000 and d_moy between 1 and 3,48708,113846
+0,0,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),48711,119396
+0,60000,q12,d_year = 2000,31,97071
+0,60000,q13,d_year = 2000 and d_moy between 1 and 7,32,102160
+0,60000,q7,d_year = 2000 and d_moy between 1 and 10,33,99925
+0,180000,q13,d_year = 2000 and d_moy between 1 and 7,47,30315
+0,180000,q13,d_year = 2000 and d_moy between 1 and 7,49,31713
+0,180000,q12,d_year = 2000 and d_moy between 1 and 11,50,29833

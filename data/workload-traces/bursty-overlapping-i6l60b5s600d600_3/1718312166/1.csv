@@ -1,0 +1,31 @@
+app,start,query,range,delay,duration
+1,0,q12,d_year = 2000 and d_moy between 1 and 10,57,122631
+1,0,q7,d_year = 2000 and d_moy between 1 and 9,64,121344
+1,0,q13,d_year = 2000 and d_moy between 1 and 6,67,123239
+1,0,q13,d_year = 2000 and d_moy between 1 and 7,70,123253
+1,0,q7,d_year = 2000 and d_moy between 1 and 9,85,120757
+1,0,q12,d_year = 2000 and d_moy between 1 and 10,87,122465
+1,180000,q13,d_year = 2000 and d_moy between 1 and 6,65,78991
+1,180000,q13,d_year = 2000 and d_moy between 1 and 6,66,76612
+1,180000,q12,d_year = 2000 and d_moy between 1 and 11,67,61797
+1,180000,q7,d_year = 2000 and d_moy between 1 and 9,67,61788
+1,180000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),68,80341
+1,180000,q7,d_year = 2000 and d_moy between 1 and 9,81,61812
+1,360000,q7,d_year = 2000 and d_moy between 1 and 10,89,42487
+1,360000,q13,d_year = 2000 and d_moy between 1 and 5,90,65530
+1,360000,q12,d_year = 2000 and d_moy between 1 and 10,94,62701
+1,360000,q10,d_date = cast('2000-04-30' as date),94,65376
+1,360000,q13,d_year = 2000 and d_moy between 1 and 6,102,65270
+1,360000,q13,d_year = 2000 and d_moy between 1 and 5,102,66633
+1,540000,q7,d_year = 2000 and d_moy between 1 and 10,24,81504
+1,540000,q13,d_year = 2000 and d_moy between 1 and 7,25,81541
+1,540000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),25,82283
+1,540000,q10,d_year = 2000 and d_moy = 1,25,82231
+1,540000,q7,d_year = 2000 and d_moy between 1 and 10,26,73597
+1,540000,q7,d_year = 2000 and d_moy between 1 and 10,26,74020
+1,720000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),99,63150
+1,720000,q10,d_year = 2000 and d_moy = 1,100,63703
+1,720000,q10,d_date = cast('2000-04-30' as date),100,64403
+1,720000,q13,d_year = 2000 and d_moy between 1 and 7,102,54234
+1,720000,q12,d_year = 2000 and d_moy between 1 and 10,102,45925
+1,720000,q7,d_year = 2000 and d_moy between 1 and 10,102,59023

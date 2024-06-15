@@ -1,0 +1,101 @@
+Files  local:///opt/sparkbench/sparkbench_2.12-1.0.jar from /opt/sparkbench/sparkbench_2.12-1.0.jar to /opt/spark/work-dir/./sparkbench_2.12-1.0.jar
+24/06/10 17:41:54 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/06/10 17:41:54 INFO HiveConf: Found configuration file null
+24/06/10 17:41:54 INFO SparkContext: Running Spark version 3.4.1
+24/06/10 17:41:54 INFO ResourceUtils: ==============================================================
+24/06/10 17:41:54 INFO ResourceUtils: No custom resources configured for spark.driver.
+24/06/10 17:41:54 INFO ResourceUtils: ==============================================================
+24/06/10 17:41:54 INFO SparkContext: Submitted application: Data Generator
+24/06/10 17:41:54 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 4, script: , vendor: , memory -> name: memory, amount: 28672, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+24/06/10 17:41:54 INFO ResourceProfile: Limiting resource is cpus at 4 tasks per executor
+24/06/10 17:41:54 INFO ResourceProfileManager: Added ResourceProfile id: 0
+24/06/10 17:41:54 INFO SecurityManager: Changing view acls to: spark,lennart
+24/06/10 17:41:54 INFO SecurityManager: Changing modify acls to: spark,lennart
+24/06/10 17:41:54 INFO SecurityManager: Changing view acls groups to: 
+24/06/10 17:41:54 INFO SecurityManager: Changing modify acls groups to: 
+24/06/10 17:41:54 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark, lennart; groups with view permissions: EMPTY; users with modify permissions: spark, lennart; groups with modify permissions: EMPTY
+24/06/10 17:41:55 INFO Utils: Successfully started service 'sparkDriver' on port 7078.
+24/06/10 17:41:55 INFO SparkEnv: Registering MapOutputTracker
+24/06/10 17:41:55 INFO SparkEnv: Registering BlockManagerMaster
+24/06/10 17:41:55 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+24/06/10 17:41:55 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+24/06/10 17:41:55 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+24/06/10 17:41:55 INFO DiskBlockManager: Created local directory at /var/data/spark-8efee66a-9def-4647-860f-fa8cd75d21b1/blockmgr-99e4175b-87e2-4997-a720-3c440c243c24
+24/06/10 17:41:55 INFO MemoryStore: MemoryStore started with capacity 11.8 GiB
+24/06/10 17:41:55 INFO SparkEnv: Registering OutputCommitCoordinator
+24/06/10 17:41:55 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+24/06/10 17:41:55 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+24/06/10 17:41:55 INFO SparkContext: Added JAR local:/opt/sparkbench/sparkbench_2.12-1.0.jar at file:/opt/sparkbench/sparkbench_2.12-1.0.jar with timestamp 1718041314565
+24/06/10 17:41:55 WARN SparkContext: The JAR local:///opt/sparkbench/sparkbench_2.12-1.0.jar at file:/opt/sparkbench/sparkbench_2.12-1.0.jar has been added already. Overwriting of added jar is not supported in the current version.
+24/06/10 17:41:55 INFO SparkKubernetesClientFactory: Auto-configuring K8S client using current context from users K8S config file
+24/06/10 17:41:57 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 3, known: 0, sharedSlotFromPendingPods: 2147483647.
+24/06/10 17:41:57 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/10 17:41:57 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/10 17:41:57 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 7079.
+24/06/10 17:41:57 INFO NettyBlockTransferService: Server created on sparkbench-75048990033de610-driver-svc.default.svc 10.244.2.6:7079
+24/06/10 17:41:57 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/06/10 17:41:57 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, sparkbench-75048990033de610-driver-svc.default.svc, 7079, None)
+24/06/10 17:41:57 INFO BlockManagerMasterEndpoint: Registering block manager sparkbench-75048990033de610-driver-svc.default.svc:7079 with 11.8 GiB RAM, BlockManagerId(driver, sparkbench-75048990033de610-driver-svc.default.svc, 7079, None)
+24/06/10 17:41:57 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, sparkbench-75048990033de610-driver-svc.default.svc, 7079, None)
+24/06/10 17:41:57 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, sparkbench-75048990033de610-driver-svc.default.svc, 7079, None)
+24/06/10 17:41:57 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/10 17:41:58 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/10 17:41:58 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+24/06/10 17:41:58 INFO MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
+24/06/10 17:41:58 INFO MetricsSystemImpl: s3a-file-system metrics system started
+24/06/10 17:41:59 INFO SingleEventLogFileWriter: Logging events to s3a://logs/spark-events/spark-7945fd15c8fc4bce86b322cd4265770b.inprogress
+24/06/10 17:41:59 WARN S3ABlockOutputStream: Application invoked the Syncable API against stream writing to spark-events/spark-7945fd15c8fc4bce86b322cd4265770b.inprogress. This is unsupported
+24/06/10 17:42:02 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.7.6:37984
+24/06/10 17:42:02 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.8.6:57222
+24/06/10 17:42:02 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.3.6:56884
+24/06/10 17:42:03 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.8.6:57234) with ID 3,  ResourceProfileId 0
+24/06/10 17:42:03 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.7.6:37992) with ID 2,  ResourceProfileId 0
+24/06/10 17:42:03 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.3.6:56890) with ID 1,  ResourceProfileId 0
+24/06/10 17:42:03 INFO KubernetesClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+24/06/10 17:42:03 INFO BlockManagerMasterEndpoint: Registering block manager 10.244.8.6:33093 with 16.6 GiB RAM, BlockManagerId(3, 10.244.8.6, 33093, None)
+24/06/10 17:42:03 INFO BlockManagerMasterEndpoint: Registering block manager 10.244.7.6:41159 with 16.6 GiB RAM, BlockManagerId(2, 10.244.7.6, 41159, None)
+24/06/10 17:42:03 INFO BlockManagerMasterEndpoint: Registering block manager 10.244.3.6:38253 with 16.6 GiB RAM, BlockManagerId(1, 10.244.3.6, 38253, None)
+Custom start time given: 1718041348
+24/06/10 17:42:03 INFO SparkContext: SparkContext is stopping with exitCode 0.
+24/06/10 17:42:03 INFO SparkUI: Stopped Spark web UI at http://sparkbench-75048990033de610-driver-svc.default.svc:4040
+24/06/10 17:42:03 INFO KubernetesClusterSchedulerBackend: Shutting down all executors
+24/06/10 17:42:03 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asking each executor to shut down
+24/06/10 17:42:03 WARN ExecutorPodsWatchSnapshotSource: Kubernetes client has been closed.
+24/06/10 17:42:04 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+24/06/10 17:42:04 INFO MemoryStore: MemoryStore cleared
+24/06/10 17:42:04 INFO BlockManager: BlockManager stopped
+24/06/10 17:42:04 INFO BlockManagerMaster: BlockManagerMaster stopped
+24/06/10 17:42:04 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+24/06/10 17:42:04 INFO SparkContext: Successfully stopped SparkContext
+Exception in thread "main" java.io.FileNotFoundException: /opt/sparkbench/workloads/bursty-spaced-i5d30s225_3.csv (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at scala.io.Source$.fromFile(Source.scala:94)
+	at scala.io.Source$.fromFile(Source.scala:79)
+	at scala.io.Source$.fromFile(Source.scala:57)
+	at Workload$.fromFile(Workload.scala:39)
+	at Sparkbench$.main(Sparkbench.scala:40)
+	at Sparkbench.main(Sparkbench.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:1020)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:192)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:215)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1111)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1120)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+24/06/10 17:42:04 INFO ShutdownHookManager: Shutdown hook called
+24/06/10 17:42:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-a954747c-e374-4c5a-9776-1a30f572e7ba
+24/06/10 17:42:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-cba83b99-71c3-4bd2-bd90-0d896905f675
+24/06/10 17:42:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-585d6aab-e441-4f67-bf27-142c67962052
+24/06/10 17:42:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-1376be14-6faa-4969-b63a-e6878ce956c3
+24/06/10 17:42:04 INFO ShutdownHookManager: Deleting directory /var/data/spark-8efee66a-9def-4647-860f-fa8cd75d21b1/spark-9cd508ea-e76e-448e-a3d2-2f06b308f57b
+24/06/10 17:42:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-62f3b7b0-72f7-40c1-89c6-8dfccb15e13d
+24/06/10 17:42:04 INFO MetricsSystemImpl: Stopping s3a-file-system metrics system...
+24/06/10 17:42:04 INFO MetricsSystemImpl: s3a-file-system metrics system stopped.
+24/06/10 17:42:04 INFO MetricsSystemImpl: s3a-file-system metrics system shutdown complete.

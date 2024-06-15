@@ -1,0 +1,7 @@
+[i] Script start time: 1718271078, Workload start time: 1718271123
+[i] SessionID: 'bursty-spaced-i10d60s550_2/1718271123'
+[…] Starting app 1/2...
+./work-dir/spark-3.5.1-bin-hadoop3/bin/spark-submit --class Sparkbench --master k8s://https://192.168.185.2:6443 --conf spark.executor.instances=3 --conf spark.kubernetes.driver.podTemplateFile=./pod-templates/driver.yaml --deploy-mode cluster --conf spark.kubernetes.executor.podTemplateFile=./pod-templates/.tmp/executor_0.yaml --conf spark.executor.memory=24g --conf spark.executor.instances=5  local:///opt/sparkbench/sparkbench_2.12-1.0.jar workload bursty-spaced-i10d60s550_2 0 1718271123
+[…] Starting app 2/2...
+./work-dir/spark-3.5.1-bin-hadoop3/bin/spark-submit --class Sparkbench --master k8s://https://192.168.185.2:6443 --conf spark.executor.instances=3 --conf spark.kubernetes.driver.podTemplateFile=./pod-templates/driver.yaml --deploy-mode cluster --conf spark.kubernetes.executor.podTemplateFile=./pod-templates/.tmp/executor_1.yaml --conf spark.executor.memory=24g --conf spark.executor.instances=5  local:///opt/sparkbench/sparkbench_2.12-1.0.jar workload bursty-spaced-i10d60s550_2 1 1718271123
+[✓] All apps started!

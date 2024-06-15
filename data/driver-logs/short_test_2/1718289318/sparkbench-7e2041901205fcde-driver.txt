@@ -1,0 +1,118 @@
+Files  local:///opt/sparkbench/sparkbench_2.12-1.0.jar from /opt/sparkbench/sparkbench_2.12-1.0.jar to /opt/spark/work-dir/./sparkbench_2.12-1.0.jar
+24/06/13 14:35:10 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/06/13 14:35:11 WARN SparkContext: The JAR local:///opt/sparkbench/sparkbench_2.12-1.0.jar at file:/opt/sparkbench/sparkbench_2.12-1.0.jar has been added already. Overwriting of added jar is not supported in the current version.
+24/06/13 14:35:13 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 3, known: 0, sharedSlotFromPendingPods: 2147483647.
+24/06/13 14:35:13 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:35:14 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+24/06/13 14:35:15 WARN S3ABlockOutputStream: Application invoked the Syncable API against stream writing to spark-events/spark-31b0fc495c9e4fd9a6bcf36ab3568533.inprogress. This is unsupported
+24/06/13 14:35:20 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.7.130:43726
+24/06/13 14:35:20 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.12.142:46340
+24/06/13 14:35:21 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.7.130:43738) with ID 2,  ResourceProfileId 0
+24/06/13 14:35:21 INFO ExecutorMonitor: New executor 2 has registered (new total is 1)
+24/06/13 14:35:21 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.8.130:45674
+24/06/13 14:35:21 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.12.142:46356) with ID 1,  ResourceProfileId 0
+24/06/13 14:35:21 INFO ExecutorMonitor: New executor 1 has registered (new total is 2)
+24/06/13 14:35:21 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.8.130:45676) with ID 3,  ResourceProfileId 0
+24/06/13 14:35:21 INFO ExecutorMonitor: New executor 3 has registered (new total is 3)
+24/06/13 14:35:21 INFO KubernetesClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+Custom start time given: 1718289318
+Submission for query 'q12' at T+0 ms waiting for its time to shine...
+Submitting 'q12' at T+0 ms (8817 ms delay)...
+Submission for query 'q13' at T+0 ms waiting for its time to shine...
+Submitting 'q13' at T+0 ms (8838 ms delay)...
+Submission for query 'q7' at T+0 ms waiting for its time to shine...
+Submitting 'q7' at T+0 ms (8838 ms delay)...
+Submission for query 'q13' at T+120000 ms waiting for its time to shine...
+Query 'q7' at T+0 ms submitted (0 ms after submission was started).
+Query 'q12' at T+0 ms submitted (0 ms after submission was started).
+Query 'q13' at T+0 ms submitted (0 ms after submission was started).
+24/06/13 14:35:31 INFO ExecutorPodsAllocator: Going to request 1 executors from Kubernetes for ResourceProfile Id: 0, target: 4, known: 3, sharedSlotFromPendingPods: 2147483647.
+24/06/13 14:35:31 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:35:33 INFO ExecutorPodsAllocator: Going to request 2 executors from Kubernetes for ResourceProfile Id: 0, target: 6, known: 4, sharedSlotFromPendingPods: 2147483646.
+24/06/13 14:35:33 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:35:34 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 10, known: 6, sharedSlotFromPendingPods: 2147483644.
+24/06/13 14:35:34 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:35:35 INFO ExecutorPodsAllocator: Going to request 1 executors from Kubernetes for ResourceProfile Id: 0, target: 10, known: 9, sharedSlotFromPendingPods: 2147483641.
+24/06/13 14:35:35 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:35:39 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.6.133:38638
+24/06/13 14:35:39 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.6.133:38650) with ID 4,  ResourceProfileId 0
+24/06/13 14:35:39 INFO ExecutorMonitor: New executor 4 has registered (new total is 4)
+24/06/13 14:35:40 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.9.129:52998
+24/06/13 14:35:40 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.4.128:42958
+24/06/13 14:35:40 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.9.129:53008) with ID 5,  ResourceProfileId 0
+24/06/13 14:35:40 INFO ExecutorMonitor: New executor 5 has registered (new total is 5)
+24/06/13 14:35:41 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.4.128:42964) with ID 6,  ResourceProfileId 0
+24/06/13 14:35:41 INFO ExecutorMonitor: New executor 6 has registered (new total is 6)
+24/06/13 14:36:12 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q7' at T+0 ms finished in 56509 ms!
+24/06/13 14:36:24 INFO ExecutorPodsAllocator: Deleting 1 excess pod requests (8).
+24/06/13 14:36:25 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asked to remove non-existent executor 8
+24/06/13 14:36:25 INFO ExecutorPodsAllocator: Deleting 3 excess pod requests (7,10,9).
+24/06/13 14:36:26 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asked to remove non-existent executor 10
+24/06/13 14:36:26 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asked to remove non-existent executor 7
+24/06/13 14:36:26 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asked to remove non-existent executor 9
+Submission for query 'q12' at T+0 ms finished in 60991 ms!
+Submission for query 'q13' at T+0 ms finished in 61215 ms!
+Submitting 'q13' at T+120000 ms (97 ms delay)...
+Submission for query 'q13' at T+120000 ms waiting for its time to shine...
+Submitting 'q13' at T+120000 ms (99 ms delay)...
+Query 'q13' at T+120000 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+120000 ms waiting for its time to shine...
+Submitting 'q12' at T+120000 ms (102 ms delay)...
+Query 'q13' at T+120000 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+240000 ms waiting for its time to shine...
+Query 'q12' at T+120000 ms submitted (0 ms after submission was started).
+24/06/13 14:37:22 INFO ExecutorPodsAllocator: Going to request 1 executors from Kubernetes for ResourceProfile Id: 0, target: 7, known: 6, sharedSlotFromPendingPods: 2147483647.
+24/06/13 14:37:22 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:37:23 INFO ExecutorPodsAllocator: Going to request 1 executors from Kubernetes for ResourceProfile Id: 0, target: 8, known: 7, sharedSlotFromPendingPods: 2147483646.
+24/06/13 14:37:23 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:37:25 INFO ExecutorPodsAllocator: Going to request 2 executors from Kubernetes for ResourceProfile Id: 0, target: 10, known: 8, sharedSlotFromPendingPods: 2147483645.
+24/06/13 14:37:25 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:37:25 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/13 14:37:25 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q12' at T+120000 ms finished in 26758 ms!
+Submission for query 'q13' at T+120000 ms finished in 27996 ms!
+Submission for query 'q13' at T+120000 ms finished in 29069 ms!
+24/06/13 14:37:52 INFO ExecutorPodsAllocator: Deleting 1 excess pod requests (11).
+24/06/13 14:37:52 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asked to remove non-existent executor 11
+24/06/13 14:37:54 INFO ExecutorPodsAllocator: Deleting 1 excess pod requests (12).
+24/06/13 14:37:54 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asked to remove non-existent executor 12
+24/06/13 14:37:55 INFO ExecutorPodsAllocator: Deleting 2 excess pod requests (14,13).
+24/06/13 14:37:55 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asked to remove non-existent executor 13
+24/06/13 14:37:55 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asked to remove non-existent executor 14
+Submitting 'q7' at T+240000 ms (64 ms delay)...
+Submission for query 'q13' at T+240000 ms waiting for its time to shine...
+Submitting 'q13' at T+240000 ms (66 ms delay)...
+Submission for query 'q12' at T+240000 ms waiting for its time to shine...
+Submitting 'q12' at T+240000 ms (66 ms delay)...
+Query 'q12' at T+240000 ms submitted (0 ms after submission was started).
+Query 'q7' at T+240000 ms submitted (0 ms after submission was started).
+Query 'q13' at T+240000 ms submitted (0 ms after submission was started).
+24/06/13 14:39:21 INFO ExecutorPodsAllocator: Going to request 1 executors from Kubernetes for ResourceProfile Id: 0, target: 7, known: 6, sharedSlotFromPendingPods: 2147483647.
+24/06/13 14:39:21 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:39:22 INFO ExecutorPodsAllocator: Going to request 1 executors from Kubernetes for ResourceProfile Id: 0, target: 8, known: 7, sharedSlotFromPendingPods: 2147483646.
+24/06/13 14:39:22 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:39:23 INFO ExecutorPodsAllocator: Going to request 2 executors from Kubernetes for ResourceProfile Id: 0, target: 10, known: 8, sharedSlotFromPendingPods: 2147483646.
+24/06/13 14:39:23 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:39:26 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.3.132:42012
+24/06/13 14:39:27 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.3.132:42028) with ID 15,  ResourceProfileId 0
+24/06/13 14:39:27 INFO ExecutorMonitor: New executor 15 has registered (new total is 7)
+24/06/13 14:39:27 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.10.145:60266
+24/06/13 14:39:28 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.10.145:60282) with ID 16,  ResourceProfileId 0
+24/06/13 14:39:28 INFO ExecutorMonitor: New executor 16 has registered (new total is 8)
+24/06/13 14:39:28 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.1.139:60012
+24/06/13 14:39:28 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.11.139:33300
+24/06/13 14:39:29 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.1.139:60018) with ID 17,  ResourceProfileId 0
+24/06/13 14:39:29 INFO ExecutorMonitor: New executor 17 has registered (new total is 9)
+24/06/13 14:39:29 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.11.139:33316) with ID 18,  ResourceProfileId 0
+24/06/13 14:39:29 INFO ExecutorMonitor: New executor 18 has registered (new total is 10)
+24/06/13 14:39:38 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q12' at T+240000 ms finished in 25762 ms!
+Submission for query 'q7' at T+240000 ms finished in 27491 ms!
+Submission for query 'q13' at T+240000 ms finished in 29861 ms!
+thread pool status is: true
+run finished
+main returning...
+24/06/13 14:39:48 INFO KubernetesClusterSchedulerBackend: Shutting down all executors
+24/06/13 14:39:48 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asking each executor to shut down
+24/06/13 14:39:48 WARN ExecutorPodsWatchSnapshotSource: Kubernetes client has been closed.

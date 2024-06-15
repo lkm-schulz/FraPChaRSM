@@ -1,0 +1,6 @@
+[i] Script start time: 1718270772, Workload start time: 
+[i] SessionID: '45/'
+[✓] All apps started!
+[i] Execution took 1718270772 seconds since the given start time (+ -1718270772 seconds of setup wait)
+[!] Bucket sparkbench/data/workload-traces/45/ does not exist in the S3 storage. Something must have gone wrong with the trace collection in the applications.
+[…] Sleeping for 20 seconds before collecting the metrics...

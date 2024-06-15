@@ -1,0 +1,2175 @@
+Files  local:///opt/sparkbench/sparkbench_2.12-1.0.jar from /opt/sparkbench/sparkbench_2.12-1.0.jar to /opt/spark/work-dir/./sparkbench_2.12-1.0.jar
+24/06/15 08:07:34 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/06/15 08:07:35 WARN SparkContext: The JAR local:///opt/sparkbench/sparkbench_2.12-1.0.jar at file:/opt/sparkbench/sparkbench_2.12-1.0.jar has been added already. Overwriting of added jar is not supported in the current version.
+24/06/15 08:07:37 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 10, known: 0, sharedSlotFromPendingPods: 2147483647.
+24/06/15 08:07:37 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/15 08:07:38 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+24/06/15 08:07:38 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 10, known: 3, sharedSlotFromPendingPods: 2147483644.
+24/06/15 08:07:38 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/15 08:07:39 WARN S3ABlockOutputStream: Application invoked the Syncable API against stream writing to spark-events/spark-56eb2e6a202f4ec1be9cadbb20cabdc7.inprogress. This is unsupported
+24/06/15 08:07:40 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 10, known: 6, sharedSlotFromPendingPods: 2147483644.
+24/06/15 08:07:40 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/15 08:07:41 INFO ExecutorPodsAllocator: Going to request 1 executors from Kubernetes for ResourceProfile Id: 0, target: 10, known: 9, sharedSlotFromPendingPods: 2147483644.
+24/06/15 08:07:41 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/15 08:07:42 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.10.28:53188
+24/06/15 08:07:42 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.11.28:43540
+24/06/15 08:07:43 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.9.28:47014
+24/06/15 08:07:43 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.10.28:53194) with ID 3,  ResourceProfileId 0
+24/06/15 08:07:43 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.11.28:43548) with ID 2,  ResourceProfileId 0
+24/06/15 08:07:43 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.9.28:47016) with ID 1,  ResourceProfileId 0
+24/06/15 08:07:44 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.8.29:46184
+24/06/15 08:07:44 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.1.28:54778
+24/06/15 08:07:44 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.8.29:46186) with ID 4,  ResourceProfileId 0
+24/06/15 08:07:45 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.7.27:50626
+24/06/15 08:07:45 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.1.28:54780) with ID 6,  ResourceProfileId 0
+24/06/15 08:07:45 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.3.20:42060
+24/06/15 08:07:45 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.6.28:33878
+24/06/15 08:07:45 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.12.29:37282
+24/06/15 08:07:45 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.7.27:50636) with ID 5,  ResourceProfileId 0
+24/06/15 08:07:46 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.3.20:42072) with ID 7,  ResourceProfileId 0
+24/06/15 08:07:46 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.6.28:33882) with ID 8,  ResourceProfileId 0
+24/06/15 08:07:46 INFO KubernetesClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+Custom start time given: 1718438889
+24/06/15 08:07:46 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.12.29:37286) with ID 9,  ResourceProfileId 0
+24/06/15 08:07:46 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.2.20:41500
+24/06/15 08:07:47 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.2.20:41514) with ID 10,  ResourceProfileId 0
+Submission for query 'q10' at T+0 ms waiting for its time to shine...
+Submitting 'q10' at T+0 ms (100 ms delay)...
+Submission for query 'q7' at T+0 ms waiting for its time to shine...
+Submitting 'q7' at T+0 ms (106 ms delay)...
+Submission for query 'q13' at T+0 ms waiting for its time to shine...
+Submitting 'q13' at T+0 ms (107 ms delay)...
+Submission for query 'q13' at T+0 ms waiting for its time to shine...
+Submitting 'q13' at T+0 ms (108 ms delay)...
+Submission for query 'q7' at T+0 ms waiting for its time to shine...
+Submitting 'q7' at T+0 ms (116 ms delay)...
+Submission for query 'q10' at T+0 ms waiting for its time to shine...
+Submitting 'q10' at T+0 ms (117 ms delay)...
+Submission for query 'q1' at T+0 ms waiting for its time to shine...
+Submitting 'q1' at T+0 ms (117 ms delay)...
+Submission for query 'q1' at T+0 ms waiting for its time to shine...
+Submitting 'q1' at T+0 ms (118 ms delay)...
+Submission for query 'q1' at T+0 ms waiting for its time to shine...
+Submitting 'q1' at T+0 ms (119 ms delay)...
+Query 'q13' at T+0 ms submitted (0 ms after submission was started).
+Query 'q10' at T+0 ms submitted (0 ms after submission was started).
+Query 'q1' at T+0 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+0 ms waiting for its time to shine...
+Query 'q10' at T+0 ms submitted (0 ms after submission was started).
+Query 'q7' at T+0 ms submitted (0 ms after submission was started).
+Query 'q7' at T+0 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+0 ms (133 ms delay)...
+Query 'q1' at T+0 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+168000 ms waiting for its time to shine...
+Query 'q12' at T+0 ms submitted (0 ms after submission was started).
+Query 'q1' at T+0 ms submitted (0 ms after submission was started).
+Query 'q13' at T+0 ms submitted (0 ms after submission was started).
+24/06/15 08:09:38 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:09:38 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:09:38 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:09:38 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:09:38 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:09:46 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:09:47 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:09:49 WARN DAGScheduler: Broadcasting large task binary with size 1096.1 KiB
+Submission for query 'q12' at T+0 ms finished in 117037 ms!
+Submission for query 'q7' at T+0 ms finished in 117162 ms!
+24/06/15 08:10:06 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:10:07 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q7' at T+0 ms finished in 127169 ms!
+24/06/15 08:10:16 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:10:18 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submission for query 'q13' at T+0 ms finished in 130144 ms!
+Submission for query 'q13' at T+0 ms finished in 134687 ms!
+Submission for query 'q1' at T+0 ms finished in 134683 ms!
+24/06/15 08:10:23 WARN DAGScheduler: Broadcasting large task binary with size 1136.7 KiB
+Submission for query 'q10' at T+0 ms finished in 135141 ms!
+Submission for query 'q1' at T+0 ms finished in 135326 ms!
+24/06/15 08:10:26 WARN DAGScheduler: Broadcasting large task binary with size 1136.7 KiB
+Submission for query 'q10' at T+0 ms finished in 137474 ms!
+Submission for query 'q1' at T+0 ms finished in 137717 ms!
+Submitting 'q13' at T+168000 ms (40 ms delay)...
+Submission for query 'q12' at T+173680 ms waiting for its time to shine...
+Query 'q13' at T+168000 ms submitted (0 ms after submission was started).
+24/06/15 08:10:59 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q12' at T+173680 ms (78 ms delay)...
+Submission for query 'q1' at T+179768 ms waiting for its time to shine...
+Query 'q12' at T+173680 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+179768 ms (1 ms delay)...
+Submission for query 'q10' at T+185267 ms waiting for its time to shine...
+Query 'q1' at T+179768 ms submitted (0 ms after submission was started).
+24/06/15 08:11:12 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q10' at T+185267 ms (11 ms delay)...
+Submission for query 'q12' at T+190325 ms waiting for its time to shine...
+Query 'q10' at T+185267 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+168000 ms finished in 17334 ms!
+24/06/15 08:11:14 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q12' at T+173680 ms finished in 14594 ms!
+Submitting 'q12' at T+190325 ms (5 ms delay)...
+Submission for query 'q10' at T+196545 ms waiting for its time to shine...
+Query 'q12' at T+190325 ms submitted (0 ms after submission was started).
+24/06/15 08:11:19 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q1' at T+179768 ms finished in 12966 ms!
+Submitting 'q10' at T+196545 ms (32 ms delay)...
+Submission for query 'q12' at T+202998 ms waiting for its time to shine...
+Query 'q10' at T+196545 ms submitted (0 ms after submission was started).
+24/06/15 08:11:26 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+24/06/15 08:11:30 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submission for query 'q10' at T+185267 ms finished in 16541 ms!
+24/06/15 08:11:30 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q12' at T+202998 ms (97 ms delay)...
+Submission for query 'q10' at T+208894 ms waiting for its time to shine...
+Query 'q12' at T+202998 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+190325 ms finished in 13575 ms!
+24/06/15 08:11:36 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submitting 'q10' at T+208894 ms (29 ms delay)...
+Submission for query 'q7' at T+213922 ms waiting for its time to shine...
+Query 'q10' at T+208894 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+213922 ms (11 ms delay)...
+Submission for query 'q1' at T+221389 ms waiting for its time to shine...
+Query 'q7' at T+213922 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+221389 ms (6 ms delay)...
+Submission for query 'q1' at T+227610 ms waiting for its time to shine...
+Query 'q1' at T+221389 ms submitted (0 ms after submission was started).
+24/06/15 08:11:52 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submitting 'q1' at T+227610 ms (95 ms delay)...
+Submission for query 'q1' at T+234863 ms waiting for its time to shine...
+Query 'q1' at T+227610 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+202998 ms finished in 29785 ms!
+24/06/15 08:12:02 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q10' at T+196545 ms finished in 36888 ms!
+Submitting 'q1' at T+234863 ms (82 ms delay)...
+Submission for query 'q13' at T+240328 ms waiting for its time to shine...
+Query 'q1' at T+234863 ms submitted (0 ms after submission was started).
+24/06/15 08:12:04 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:12:08 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:12:08 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q13' at T+240328 ms (25 ms delay)...
+Submission for query 'q7' at T+245427 ms waiting for its time to shine...
+Query 'q13' at T+240328 ms submitted (0 ms after submission was started).
+24/06/15 08:12:09 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submission for query 'q7' at T+213922 ms finished in 29989 ms!
+24/06/15 08:12:13 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q7' at T+245427 ms (78 ms delay)...
+Submission for query 'q7' at T+249892 ms waiting for its time to shine...
+Query 'q7' at T+245427 ms submitted (0 ms after submission was started).
+24/06/15 08:12:16 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:12:18 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q7' at T+249892 ms (24 ms delay)...
+Submission for query 'q13' at T+257109 ms waiting for its time to shine...
+Query 'q7' at T+249892 ms submitted (0 ms after submission was started).
+24/06/15 08:12:20 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q13' at T+257109 ms (19 ms delay)...
+Query 'q13' at T+257109 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+262894 ms waiting for its time to shine...
+24/06/15 08:12:31 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q12' at T+262894 ms (54 ms delay)...
+Submission for query 'q7' at T+269750 ms waiting for its time to shine...
+Query 'q12' at T+262894 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+208894 ms finished in 55428 ms!
+Submitting 'q7' at T+269750 ms (64 ms delay)...
+Submission for query 'q12' at T+274991 ms waiting for its time to shine...
+Query 'q7' at T+269750 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+274991 ms (60 ms delay)...
+Submission for query 'q7' at T+281979 ms waiting for its time to shine...
+Query 'q12' at T+274991 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+245427 ms finished in 35842 ms!
+24/06/15 08:12:50 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q7' at T+281979 ms (51 ms delay)...
+Submission for query 'q10' at T+287706 ms waiting for its time to shine...
+Query 'q7' at T+281979 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+287706 ms (33 ms delay)...
+Submission for query 'q13' at T+293597 ms waiting for its time to shine...
+Query 'q10' at T+287706 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+293597 ms (90 ms delay)...
+Submission for query 'q13' at T+298904 ms waiting for its time to shine...
+Query 'q13' at T+293597 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+221389 ms finished in 73293 ms!
+Submission for query 'q13' at T+240328 ms finished in 54405 ms!
+Submitting 'q13' at T+298904 ms (92 ms delay)...
+Submission for query 'q13' at T+303370 ms waiting for its time to shine...
+Query 'q13' at T+298904 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+303370 ms (33 ms delay)...
+Submission for query 'q10' at T+310159 ms waiting for its time to shine...
+Query 'q13' at T+303370 ms submitted (1 ms after submission was started).
+Submission for query 'q1' at T+227610 ms finished in 76057 ms!
+Submitting 'q10' at T+310159 ms (80 ms delay)...
+Submission for query 'q13' at T+315686 ms waiting for its time to shine...
+Query 'q10' at T+310159 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+234863 ms finished in 76106 ms!
+Submitting 'q13' at T+315686 ms (62 ms delay)...
+Submission for query 'q10' at T+320871 ms waiting for its time to shine...
+Query 'q13' at T+315686 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+320871 ms (35 ms delay)...
+Submission for query 'q7' at T+326362 ms waiting for its time to shine...
+Query 'q10' at T+320871 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+249892 ms finished in 73853 ms!
+Submission for query 'q7' at T+269750 ms finished in 54173 ms!
+Submitting 'q7' at T+326362 ms (65 ms delay)...
+Submission for query 'q1' at T+332607 ms waiting for its time to shine...
+Query 'q7' at T+326362 ms submitted (0 ms after submission was started).
+24/06/15 08:13:37 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:13:37 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:13:38 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q1' at T+332607 ms (32 ms delay)...
+Submission for query 'q7' at T+339399 ms waiting for its time to shine...
+Query 'q1' at T+332607 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+262894 ms finished in 76024 ms!
+24/06/15 08:13:48 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q7' at T+339399 ms (62 ms delay)...
+Submission for query 'q12' at T+345191 ms waiting for its time to shine...
+Query 'q7' at T+339399 ms submitted (0 ms after submission was started).
+24/06/15 08:13:54 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q12' at T+274991 ms finished in 70191 ms!
+Submitting 'q12' at T+345191 ms (80 ms delay)...
+Submission for query 'q10' at T+352803 ms waiting for its time to shine...
+Query 'q12' at T+345191 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+257109 ms finished in 88196 ms!
+24/06/15 08:13:54 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:13:54 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:13:58 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submitting 'q10' at T+352803 ms (97 ms delay)...
+Query 'q10' at T+352803 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+358850 ms waiting for its time to shine...
+Submitting 'q13' at T+358850 ms (69 ms delay)...
+Submission for query 'q13' at T+364040 ms waiting for its time to shine...
+Query 'q13' at T+358850 ms submitted (0 ms after submission was started).
+24/06/15 08:14:09 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submitting 'q13' at T+364040 ms (41 ms delay)...
+Submission for query 'q12' at T+369233 ms waiting for its time to shine...
+Query 'q13' at T+364040 ms submitted (0 ms after submission was started).
+24/06/15 08:14:17 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submitting 'q12' at T+369233 ms (60 ms delay)...
+Submission for query 'q13' at T+375643 ms waiting for its time to shine...
+Query 'q12' at T+369233 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+375643 ms (64 ms delay)...
+Submission for query 'q10' at T+381780 ms waiting for its time to shine...
+Query 'q13' at T+375643 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+281979 ms finished in 97369 ms!
+Submitting 'q10' at T+381780 ms (42 ms delay)...
+Submission for query 'q10' at T+387063 ms waiting for its time to shine...
+Query 'q10' at T+381780 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+387063 ms (1 ms delay)...
+Submission for query 'q12' at T+393992 ms waiting for its time to shine...
+Query 'q10' at T+387063 ms submitted (0 ms after submission was started).
+24/06/15 08:14:39 WARN DAGScheduler: Broadcasting large task binary with size 1136.7 KiB
+Submitting 'q12' at T+393992 ms (83 ms delay)...
+Submission for query 'q13' at T+399686 ms waiting for its time to shine...
+Query 'q12' at T+393992 ms submitted (0 ms after submission was started).
+24/06/15 08:14:47 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q13' at T+399686 ms (54 ms delay)...
+Submission for query 'q7' at T+405065 ms waiting for its time to shine...
+Query 'q13' at T+399686 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+405065 ms (35 ms delay)...
+Submission for query 'q12' at T+410399 ms waiting for its time to shine...
+24/06/15 08:14:54 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submitting 'q12' at T+410399 ms (17 ms delay)...
+Submission for query 'q10' at T+417374 ms waiting for its time to shine...
+24/06/15 08:15:01 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submitting 'q10' at T+417374 ms (58 ms delay)...
+Submission for query 'q10' at T+422873 ms waiting for its time to shine...
+24/06/15 08:15:11 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q10' at T+422873 ms (84 ms delay)...
+Submission for query 'q13' at T+428384 ms waiting for its time to shine...
+Submission for query 'q13' at T+298904 ms finished in 126430 ms!
+Query 'q7' at T+405065 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+287706 ms finished in 137894 ms!
+Query 'q12' at T+410399 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+326362 ms finished in 99296 ms!
+Query 'q10' at T+417374 ms submitted (0 ms after submission was started).
+24/06/15 08:15:14 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q13' at T+315686 ms finished in 111215 ms!
+Query 'q10' at T+422873 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+303370 ms finished in 123562 ms!
+Submission for query 'q10' at T+310159 ms finished in 116806 ms!
+24/06/15 08:15:16 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:15:16 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:15:16 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:15:16 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:15:16 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+428384 ms (30 ms delay)...
+Submission for query 'q10' at T+433715 ms waiting for its time to shine...
+Query 'q13' at T+428384 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+433715 ms (6 ms delay)...
+Submission for query 'q10' at T+438688 ms waiting for its time to shine...
+Query 'q10' at T+433715 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+320871 ms finished in 113555 ms!
+Submission for query 'q13' at T+293597 ms finished in 141413 ms!
+Submission for query 'q7' at T+339399 ms finished in 95742 ms!
+Submitting 'q10' at T+438688 ms (39 ms delay)...
+Submission for query 'q12' at T+444905 ms waiting for its time to shine...
+Query 'q10' at T+438688 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+444905 ms (36 ms delay)...
+Submission for query 'q7' at T+452338 ms waiting for its time to shine...
+Query 'q12' at T+444905 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+452338 ms (18 ms delay)...
+Submission for query 'q10' at T+459463 ms waiting for its time to shine...
+Query 'q7' at T+452338 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+459463 ms (56 ms delay)...
+Submission for query 'q13' at T+464629 ms waiting for its time to shine...
+Submission for query 'q12' at T+345191 ms finished in 114773 ms!
+Query 'q10' at T+459463 ms submitted (0 ms after submission was started).
+24/06/15 08:15:49 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:15:51 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q13' at T+464629 ms (40 ms delay)...
+Submission for query 'q10' at T+469307 ms waiting for its time to shine...
+Submitting 'q10' at T+469307 ms (74 ms delay)...
+Submission for query 'q1' at T+474113 ms waiting for its time to shine...
+24/06/15 08:16:01 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q1' at T+474113 ms (62 ms delay)...
+Submission for query 'q13' at T+480284 ms waiting for its time to shine...
+24/06/15 08:16:08 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submitting 'q13' at T+480284 ms (0 ms delay)...
+Submission for query 'q13' at T+486350 ms waiting for its time to shine...
+Submission for query 'q12' at T+369233 ms finished in 113598 ms!
+Query 'q13' at T+464629 ms submitted (0 ms after submission was started).
+24/06/15 08:16:12 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q12' at T+393992 ms finished in 89460 ms!
+Query 'q10' at T+469307 ms submitted (0 ms after submission was started).
+24/06/15 08:16:12 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:16:15 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submitting 'q13' at T+486350 ms (85 ms delay)...
+Submission for query 'q12' at T+491898 ms waiting for its time to shine...
+Submitting 'q12' at T+491898 ms (46 ms delay)...
+Submission for query 'q10' at T+498969 ms waiting for its time to shine...
+Submitting 'q10' at T+498969 ms (85 ms delay)...
+Submission for query 'q7' at T+504875 ms waiting for its time to shine...
+Submitting 'q7' at T+504875 ms (88 ms delay)...
+Submission for query 'q13' at T+510497 ms waiting for its time to shine...
+24/06/15 08:16:36 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:16:38 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:16:38 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q13' at T+510497 ms (75 ms delay)...
+Submission for query 'q1' at T+515048 ms waiting for its time to shine...
+24/06/15 08:16:43 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q1' at T+515048 ms (36 ms delay)...
+Submission for query 'q13' at T+522485 ms waiting for its time to shine...
+Submission for query 'q13' at T+358850 ms finished in 157691 ms!
+Query 'q1' at T+474113 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+364040 ms finished in 152558 ms!
+Query 'q13' at T+480284 ms submitted (0 ms after submission was started).
+24/06/15 08:16:45 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:16:46 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:16:46 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:16:47 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submitting 'q13' at T+522485 ms (70 ms delay)...
+Submission for query 'q12' at T+527457 ms waiting for its time to shine...
+Submitting 'q12' at T+527457 ms (7 ms delay)...
+Submission for query 'q13' at T+533541 ms waiting for its time to shine...
+Submission for query 'q10' at T+352803 ms finished in 179396 ms!
+Query 'q13' at T+486350 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+533541 ms (43 ms delay)...
+Submission for query 'q12' at T+538004 ms waiting for its time to shine...
+24/06/15 08:17:02 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submission for query 'q13' at T+375643 ms finished in 159753 ms!
+Query 'q12' at T+491898 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+405065 ms finished in 110100 ms!
+Query 'q10' at T+498969 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+452338 ms finished in 83180 ms!
+Query 'q7' at T+504875 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+381780 ms finished in 154264 ms!
+Query 'q13' at T+510497 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+410399 ms finished in 110617 ms!
+Query 'q1' at T+515048 ms submitted (0 ms after submission was started).
+24/06/15 08:17:05 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q12' at T+444905 ms finished in 91536 ms!
+Query 'q13' at T+522485 ms submitted (0 ms after submission was started).
+24/06/15 08:17:05 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q10' at T+387063 ms finished in 149800 ms!
+Query 'q12' at T+527457 ms submitted (0 ms after submission was started).
+24/06/15 08:17:06 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q12' at T+538004 ms (11 ms delay)...
+Submission for query 'q7' at T+543085 ms waiting for its time to shine...
+24/06/15 08:17:11 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submitting 'q7' at T+543085 ms (41 ms delay)...
+Submission for query 'q7' at T+550262 ms waiting for its time to shine...
+24/06/15 08:17:14 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:17:16 WARN DAGScheduler: Broadcasting large task binary with size 1136.7 KiB
+Submission for query 'q13' at T+399686 ms finished in 149175 ms!
+Query 'q13' at T+533541 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+332607 ms finished in 216513 ms!
+Query 'q12' at T+538004 ms submitted (0 ms after submission was started).
+24/06/15 08:17:18 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:17:18 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:17:18 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:17:18 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q7' at T+550262 ms (87 ms delay)...
+Submission for query 'q10' at T+555261 ms waiting for its time to shine...
+Submitting 'q10' at T+555261 ms (15 ms delay)...
+Submission for query 'q10' at T+559874 ms waiting for its time to shine...
+Submission for query 'q10' at T+422873 ms finished in 128789 ms!
+Query 'q7' at T+543085 ms submitted (0 ms after submission was started).
+24/06/15 08:17:26 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:17:27 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q10' at T+559874 ms (44 ms delay)...
+Submission for query 'q12' at T+564464 ms waiting for its time to shine...
+24/06/15 08:17:29 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+24/06/15 08:17:32 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q12' at T+564464 ms (61 ms delay)...
+Submission for query 'q12' at T+571411 ms waiting for its time to shine...
+Submitting 'q12' at T+571411 ms (23 ms delay)...
+Submission for query 'q13' at T+578982 ms waiting for its time to shine...
+Submitting 'q13' at T+578982 ms (65 ms delay)...
+Submission for query 'q13' at T+584374 ms waiting for its time to shine...
+Submitting 'q13' at T+584374 ms (79 ms delay)...
+Submission for query 'q12' at T+591069 ms waiting for its time to shine...
+Submitting 'q12' at T+591069 ms (40 ms delay)...
+Submission for query 'q10' at T+597124 ms waiting for its time to shine...
+Submission for query 'q10' at T+417374 ms finished in 167453 ms!
+Query 'q7' at T+550262 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+597124 ms (95 ms delay)...
+Submission for query 'q13' at T+602352 ms waiting for its time to shine...
+24/06/15 08:18:07 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q10' at T+438688 ms finished in 162615 ms!
+Query 'q10' at T+555261 ms submitted (0 ms after submission was started).
+24/06/15 08:18:11 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+602352 ms (84 ms delay)...
+Submission for query 'q7' at T+608602 ms waiting for its time to shine...
+Submission for query 'q10' at T+433715 ms finished in 173891 ms!
+Query 'q10' at T+559874 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+428384 ms finished in 179222 ms!
+Query 'q12' at T+564464 ms submitted (0 ms after submission was started).
+24/06/15 08:18:17 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q7' at T+608602 ms (54 ms delay)...
+Submission for query 'q1' at T+615702 ms waiting for its time to shine...
+Submitting 'q1' at T+615702 ms (66 ms delay)...
+Submission for query 'q1' at T+621820 ms waiting for its time to shine...
+Submission for query 'q10' at T+459463 ms finished in 159543 ms!
+Query 'q12' at T+571411 ms submitted (0 ms after submission was started).
+24/06/15 08:18:28 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q1' at T+621820 ms (25 ms delay)...
+Submission for query 'q13' at T+629500 ms waiting for its time to shine...
+24/06/15 08:18:34 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q13' at T+629500 ms (57 ms delay)...
+Submission for query 'q7' at T+635887 ms waiting for its time to shine...
+24/06/15 08:18:39 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q7' at T+635887 ms (80 ms delay)...
+Submission for query 'q13' at T+642036 ms waiting for its time to shine...
+Submitting 'q13' at T+642036 ms (50 ms delay)...
+Submission for query 'q10' at T+646830 ms waiting for its time to shine...
+Submission for query 'q10' at T+469307 ms finished in 160136 ms!
+Query 'q13' at T+578982 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+646830 ms (63 ms delay)...
+Submission for query 'q12' at T+652996 ms waiting for its time to shine...
+24/06/15 08:18:57 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q13' at T+464629 ms finished in 165797 ms!
+Query 'q13' at T+584374 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+504875 ms finished in 113181 ms!
+Query 'q12' at T+591069 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+491898 ms finished in 113279 ms!
+Query 'q10' at T+597124 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+486350 ms finished in 116445 ms!
+Query 'q13' at T+602352 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+480284 ms finished in 132118 ms!
+Query 'q7' at T+608602 ms submitted (0 ms after submission was started).
+24/06/15 08:18:58 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q12' at T+652996 ms (49 ms delay)...
+Submission for query 'q13' at T+659243 ms waiting for its time to shine...
+Submission for query 'q12' at T+527457 ms finished in 117925 ms!
+Query 'q1' at T+615702 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+659243 ms (17 ms delay)...
+Submission for query 'q1' at T+665787 ms waiting for its time to shine...
+Submission for query 'q12' at T+538004 ms finished in 111597 ms!
+Query 'q1' at T+621820 ms submitted (0 ms after submission was started).
+24/06/15 08:19:09 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q1' at T+665787 ms (93 ms delay)...
+Submission for query 'q13' at T+672451 ms waiting for its time to shine...
+Submitting 'q13' at T+672451 ms (51 ms delay)...
+Submission for query 'q10' at T+678414 ms waiting for its time to shine...
+24/06/15 08:19:21 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:19:23 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q10' at T+678414 ms (99 ms delay)...
+Submission for query 'q10' at T+683484 ms waiting for its time to shine...
+Submission for query 'q7' at T+543085 ms finished in 126614 ms!
+Query 'q13' at T+629500 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+550262 ms finished in 89758 ms!
+Query 'q7' at T+635887 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+683484 ms (37 ms delay)...
+Submission for query 'q10' at T+688949 ms waiting for its time to shine...
+Submitting 'q10' at T+688949 ms (54 ms delay)...
+Submission for query 'q13' at T+694785 ms waiting for its time to shine...
+Submitting 'q13' at T+694785 ms (27 ms delay)...
+Submission for query 'q1' at T+701274 ms waiting for its time to shine...
+Submitting 'q1' at T+701274 ms (45 ms delay)...
+Submission for query 'q13' at T+708287 ms waiting for its time to shine...
+24/06/15 08:19:51 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:19:54 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:19:54 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q13' at T+510497 ms finished in 171160 ms!
+Query 'q13' at T+642036 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+474113 ms finished in 190792 ms!
+Query 'q10' at T+646830 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+498969 ms finished in 171908 ms!
+Query 'q12' at T+652996 ms submitted (0 ms after submission was started).
+24/06/15 08:19:56 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:19:56 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:19:56 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:19:56 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q13' at T+708287 ms (46 ms delay)...
+Submission for query 'q7' at T+713181 ms waiting for its time to shine...
+Submission for query 'q12' at T+564464 ms finished in 101077 ms!
+Query 'q13' at T+659243 ms submitted (0 ms after submission was started).
+24/06/15 08:20:00 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:20:00 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q7' at T+713181 ms (58 ms delay)...
+Submission for query 'q12' at T+719034 ms waiting for its time to shine...
+Submission for query 'q13' at T+522485 ms finished in 180071 ms!
+Query 'q1' at T+665787 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+719034 ms (15 ms delay)...
+Submission for query 'q7' at T+725097 ms waiting for its time to shine...
+24/06/15 08:20:13 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q7' at T+725097 ms (14 ms delay)...
+Submission for query 'q7' at T+731096 ms waiting for its time to shine...
+24/06/15 08:20:15 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q7' at T+731096 ms (26 ms delay)...
+Submission for query 'q13' at T+736716 ms waiting for its time to shine...
+Submitting 'q13' at T+736716 ms (12 ms delay)...
+Submission for query 'q1' at T+742818 ms waiting for its time to shine...
+24/06/15 08:20:26 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q1' at T+742818 ms (18 ms delay)...
+Submission for query 'q7' at T+750403 ms waiting for its time to shine...
+Submission for query 'q12' at T+571411 ms finished in 128939 ms!
+Query 'q13' at T+672451 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+533541 ms finished in 199935 ms!
+Query 'q10' at T+678414 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+608602 ms finished in 100450 ms!
+Query 'q10' at T+683484 ms submitted (0 ms after submission was started).
+24/06/15 08:20:39 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q7' at T+750403 ms (7 ms delay)...
+Submission for query 'q7' at T+756498 ms waiting for its time to shine...
+Submitting 'q7' at T+756498 ms (54 ms delay)...
+Submission for query 'q10' at T+762803 ms waiting for its time to shine...
+Submitting 'q10' at T+762803 ms (60 ms delay)...
+Submission for query 'q10' at T+769518 ms waiting for its time to shine...
+Submission for query 'q12' at T+591069 ms finished in 114444 ms!
+Query 'q10' at T+688949 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+555261 ms finished in 161983 ms!
+Query 'q13' at T+694785 ms submitted (0 ms after submission was started).
+24/06/15 08:20:53 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:20:53 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:20:56 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submitting 'q10' at T+769518 ms (98 ms delay)...
+Submission for query 'q10' at T+773723 ms waiting for its time to shine...
+24/06/15 08:21:02 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:21:02 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q10' at T+773723 ms (99 ms delay)...
+Submission for query 'q7' at T+779139 ms waiting for its time to shine...
+Submission for query 'q1' at T+515048 ms finished in 239221 ms!
+Query 'q1' at T+701274 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+602352 ms finished in 126892 ms!
+Query 'q13' at T+708287 ms submitted (0 ms after submission was started).
+24/06/15 08:21:05 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q7' at T+779139 ms (95 ms delay)...
+Submission for query 'q12' at T+784883 ms waiting for its time to shine...
+24/06/15 08:21:09 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:21:10 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q12' at T+784883 ms (64 ms delay)...
+Submission for query 'q1' at T+791091 ms waiting for its time to shine...
+Submission for query 'q7' at T+635887 ms finished in 102573 ms!
+Query 'q7' at T+713181 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+578982 ms finished in 141909 ms!
+Query 'q12' at T+719034 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+559874 ms finished in 178651 ms!
+Query 'q7' at T+725097 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+597124 ms finished in 137933 ms!
+Query 'q7' at T+731096 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+584374 ms finished in 138264 ms!
+Query 'q13' at T+736716 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+791091 ms (58 ms delay)...
+Submission for query 'q12' at T+797354 ms waiting for its time to shine...
+24/06/15 08:21:20 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:21:24 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q12' at T+797354 ms (5 ms delay)...
+Submission for query 'q10' at T+803099 ms waiting for its time to shine...
+24/06/15 08:21:26 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:21:27 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:21:27 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submission for query 'q12' at T+652996 ms finished in 91895 ms!
+Query 'q1' at T+742818 ms submitted (0 ms after submission was started).
+24/06/15 08:21:28 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q10' at T+803099 ms (90 ms delay)...
+Submission for query 'q10' at T+807252 ms waiting for its time to shine...
+Submitting 'q10' at T+807252 ms (43 ms delay)...
+Submission for query 'q12' at T+812168 ms waiting for its time to shine...
+Submitting 'q12' at T+812168 ms (41 ms delay)...
+Submission for query 'q12' at T+818786 ms waiting for its time to shine...
+24/06/15 08:21:44 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submitting 'q12' at T+818786 ms (55 ms delay)...
+Submission for query 'q10' at T+825563 ms waiting for its time to shine...
+24/06/15 08:21:51 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q10' at T+825563 ms (88 ms delay)...
+Submission for query 'q10' at T+831131 ms waiting for its time to shine...
+Submitting 'q10' at T+831131 ms (30 ms delay)...
+Submission for query 'q1' at T+837572 ms waiting for its time to shine...
+24/06/15 08:22:00 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+24/06/15 08:22:00 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submission for query 'q1' at T+615702 ms finished in 180878 ms!
+Query 'q7' at T+750403 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+837572 ms (3 ms delay)...
+Submission for query 'q1' at T+842478 ms waiting for its time to shine...
+Submitting 'q1' at T+842478 ms (7 ms delay)...
+Submission for query 'q13' at T+850150 ms waiting for its time to shine...
+Submission for query 'q13' at T+629500 ms finished in 160492 ms!
+Query 'q7' at T+756498 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+850150 ms (47 ms delay)...
+Submission for query 'q7' at T+855354 ms waiting for its time to shine...
+Submission for query 'q1' at T+621820 ms finished in 192778 ms!
+Query 'q10' at T+762803 ms submitted (0 ms after submission was started).
+24/06/15 08:22:22 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:22:22 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q7' at T+855354 ms (73 ms delay)...
+Submission for query 'q12' at T+862067 ms waiting for its time to shine...
+Submitting 'q12' at T+862067 ms (72 ms delay)...
+Submission for query 'q10' at T+868475 ms waiting for its time to shine...
+24/06/15 08:22:33 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q10' at T+868475 ms (77 ms delay)...
+Submission for query 'q13' at T+872650 ms waiting for its time to shine...
+Submission for query 'q10' at T+646830 ms finished in 163809 ms!
+Query 'q10' at T+769518 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+872650 ms (50 ms delay)...
+Submission for query 'q12' at T+878484 ms waiting for its time to shine...
+24/06/15 08:22:41 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:22:43 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:22:43 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q12' at T+878484 ms (25 ms delay)...
+Submission for query 'q12' at T+883837 ms waiting for its time to shine...
+Submission for query 'q10' at T+678414 ms finished in 133767 ms!
+Query 'q10' at T+773723 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+883837 ms (83 ms delay)...
+Submission for query 'q12' at T+888951 ms waiting for its time to shine...
+24/06/15 08:22:56 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q12' at T+888951 ms (60 ms delay)...
+Submission for query 'q12' at T+895820 ms waiting for its time to shine...
+Submitting 'q12' at T+895820 ms (100 ms delay)...
+Submission for query 'q13' at T+902130 ms waiting for its time to shine...
+Submitting 'q13' at T+902130 ms (97 ms delay)...
+Submission for query 'q12' at T+907234 ms waiting for its time to shine...
+Submitting 'q12' at T+907234 ms (2 ms delay)...
+Submission for query 'q10' at T+913381 ms waiting for its time to shine...
+Submission for query 'q13' at T+642036 ms finished in 205833 ms!
+Query 'q7' at T+779139 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+713181 ms finished in 127695 ms!
+Query 'q12' at T+784883 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+719034 ms finished in 127703 ms!
+Query 'q1' at T+791091 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+913381 ms (67 ms delay)...
+Submission for query 'q12' at T+919170 ms waiting for its time to shine...
+Submission for query 'q13' at T+659243 ms finished in 205736 ms!
+Query 'q12' at T+797354 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+919170 ms (21 ms delay)...
+Submission for query 'q10' at T+924986 ms waiting for its time to shine...
+Submission for query 'q7' at T+731096 ms finished in 134806 ms!
+Query 'q10' at T+803099 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+672451 ms finished in 173323 ms!
+Query 'q10' at T+807252 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+694785 ms finished in 158550 ms!
+Query 'q12' at T+812168 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+683484 ms finished in 172754 ms!
+Query 'q12' at T+818786 ms submitted (0 ms after submission was started).
+24/06/15 08:23:31 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q10' at T+688949 ms finished in 158940 ms!
+Query 'q10' at T+825563 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+725097 ms finished in 135840 ms!
+Query 'q10' at T+831131 ms submitted (0 ms after submission was started).
+24/06/15 08:23:31 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:23:31 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q10' at T+924986 ms (37 ms delay)...
+Submission for query 'q10' at T+930672 ms waiting for its time to shine...
+Submission for query 'q7' at T+750403 ms finished in 90796 ms!
+Query 'q1' at T+837572 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+665787 ms finished in 209998 ms!
+Query 'q1' at T+842478 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+930672 ms (1 ms delay)...
+Submission for query 'q13' at T+936748 ms waiting for its time to shine...
+24/06/15 08:23:40 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submission for query 'q13' at T+708287 ms finished in 157189 ms!
+Query 'q13' at T+850150 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+736716 ms finished in 147371 ms!
+Query 'q7' at T+855354 ms submitted (0 ms after submission was started).
+24/06/15 08:23:43 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q13' at T+936748 ms (37 ms delay)...
+Submission for query 'q12' at T+943403 ms waiting for its time to shine...
+24/06/15 08:23:46 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q12' at T+943403 ms (2 ms delay)...
+Submission for query 'q1' at T+949673 ms waiting for its time to shine...
+Submitting 'q1' at T+949673 ms (42 ms delay)...
+Submission for query 'q13' at T+955210 ms waiting for its time to shine...
+Submitting 'q13' at T+955210 ms (57 ms delay)...
+Submission for query 'q1' at T+960856 ms waiting for its time to shine...
+Submission for query 'q7' at T+756498 ms finished in 112604 ms!
+Query 'q12' at T+862067 ms submitted (0 ms after submission was started).
+24/06/15 08:24:04 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:24:08 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q1' at T+960856 ms (69 ms delay)...
+Submission for query 'q13' at T+966135 ms waiting for its time to shine...
+24/06/15 08:24:12 WARN DAGScheduler: Broadcasting large task binary with size 1136.7 KiB
+Submitting 'q13' at T+966135 ms (19 ms delay)...
+Submission for query 'q10' at T+970765 ms waiting for its time to shine...
+24/06/15 08:24:15 WARN DAGScheduler: Broadcasting large task binary with size 1130.4 KiB
+Submitting 'q10' at T+970765 ms (99 ms delay)...
+Submission for query 'q7' at T+976263 ms waiting for its time to shine...
+Submitting 'q7' at T+976263 ms (54 ms delay)...
+Submission for query 'q13' at T+981845 ms waiting for its time to shine...
+24/06/15 08:24:28 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q1' at T+701274 ms finished in 204146 ms!
+Query 'q10' at T+868475 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+797354 ms finished in 65982 ms!
+Query 'q13' at T+872650 ms submitted (0 ms after submission was started).
+24/06/15 08:24:29 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+981845 ms (16 ms delay)...
+Submission for query 'q10' at T+988315 ms waiting for its time to shine...
+24/06/15 08:24:31 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q10' at T+988315 ms (71 ms delay)...
+Submission for query 'q10' at T+992703 ms waiting for its time to shine...
+Submitting 'q10' at T+992703 ms (57 ms delay)...
+Submission for query 'q10' at T+998660 ms waiting for its time to shine...
+24/06/15 08:24:43 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submission for query 'q7' at T+779139 ms finished in 82676 ms!
+Query 'q12' at T+878484 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+762803 ms finished in 142253 ms!
+Query 'q12' at T+883837 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+769518 ms finished in 124590 ms!
+Query 'q12' at T+888951 ms submitted (0 ms after submission was started).
+24/06/15 08:24:44 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:24:44 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q10' at T+998660 ms (20 ms delay)...
+Submission for query 'q13' at T+1004392 ms waiting for its time to shine...
+Submitting 'q13' at T+1004392 ms (99 ms delay)...
+Submission for query 'q10' at T+1010608 ms waiting for its time to shine...
+Submission for query 'q12' at T+818786 ms finished in 84903 ms!
+Query 'q12' at T+895820 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+784883 ms finished in 93720 ms!
+Query 'q13' at T+902130 ms submitted (0 ms after submission was started).
+24/06/15 08:24:57 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q10' at T+1010608 ms (96 ms delay)...
+Submission for query 'q10' at T+1016434 ms waiting for its time to shine...
+24/06/15 08:25:03 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:25:03 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:25:04 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q10' at T+1016434 ms (62 ms delay)...
+Submission for query 'q1' at T+1022088 ms waiting for its time to shine...
+Submission for query 'q12' at T+812168 ms finished in 95927 ms!
+Query 'q12' at T+907234 ms submitted (0 ms after submission was started).
+24/06/15 08:25:07 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+24/06/15 08:25:07 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:25:08 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+24/06/15 08:25:08 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q1' at T+1022088 ms (24 ms delay)...
+Submission for query 'q10' at T+1029408 ms waiting for its time to shine...
+24/06/15 08:25:17 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q10' at T+1029408 ms (60 ms delay)...
+Submission for query 'q7' at T+1035540 ms waiting for its time to shine...
+24/06/15 08:25:21 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submitting 'q7' at T+1035540 ms (39 ms delay)...
+Submission for query 'q10' at T+1041449 ms waiting for its time to shine...
+Submission for query 'q7' at T+855354 ms finished in 101345 ms!
+Query 'q10' at T+913381 ms submitted (0 ms after submission was started).
+24/06/15 08:25:25 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:25:27 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submitting 'q10' at T+1041449 ms (40 ms delay)...
+Submission for query 'q10' at T+1045908 ms waiting for its time to shine...
+Submission for query 'q1' at T+742818 ms finished in 243028 ms!
+Query 'q12' at T+919170 ms submitted (0 ms after submission was started).
+24/06/15 08:25:31 WARN DAGScheduler: Broadcasting large task binary with size 1136.7 KiB
+24/06/15 08:25:34 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submitting 'q10' at T+1045908 ms (91 ms delay)...
+Submission for query 'q12' at T+1051605 ms waiting for its time to shine...
+Submitting 'q12' at T+1051605 ms (6 ms delay)...
+Submission for query 'q7' at T+1057544 ms waiting for its time to shine...
+Submitting 'q7' at T+1057544 ms (79 ms delay)...
+Submission for query 'q10' at T+1063395 ms waiting for its time to shine...
+Submission for query 'q12' at T+862067 ms finished in 104564 ms!
+Query 'q10' at T+924986 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+773723 ms finished in 178486 ms!
+Query 'q10' at T+930672 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1063395 ms (50 ms delay)...
+Submission for query 'q1' at T+1068439 ms waiting for its time to shine...
+Submitting 'q1' at T+1068439 ms (16 ms delay)...
+Submission for query 'q10' at T+1074621 ms waiting for its time to shine...
+Submitting 'q10' at T+1074621 ms (60 ms delay)...
+Submission for query 'q10' at T+1078852 ms waiting for its time to shine...
+Submitting 'q10' at T+1078852 ms (48 ms delay)...
+Submission for query 'q10' at T+1083022 ms waiting for its time to shine...
+Submitting 'q10' at T+1083022 ms (85 ms delay)...
+Submission for query 'q13' at T+1089183 ms waiting for its time to shine...
+24/06/15 08:26:13 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q1' at T+791091 ms finished in 172411 ms!
+Query 'q13' at T+936748 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+803099 ms finished in 164463 ms!
+Query 'q12' at T+943403 ms submitted (0 ms after submission was started).
+24/06/15 08:26:15 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q10' at T+831131 ms finished in 165932 ms!
+Query 'q1' at T+949673 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+807252 ms finished in 166195 ms!
+Query 'q13' at T+955210 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1089183 ms (63 ms delay)...
+Submission for query 'q10' at T+1094537 ms waiting for its time to shine...
+24/06/15 08:26:18 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q12' at T+888951 ms finished in 97999 ms!
+Query 'q1' at T+960856 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1094537 ms (45 ms delay)...
+Submission for query 'q10' at T+1101434 ms waiting for its time to shine...
+24/06/15 08:26:26 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q10' at T+1101434 ms (68 ms delay)...
+Submission for query 'q7' at T+1108418 ms waiting for its time to shine...
+Submission for query 'q12' at T+895820 ms finished in 94760 ms!
+Query 'q13' at T+966135 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+878484 ms finished in 107218 ms!
+Query 'q10' at T+970765 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+850150 ms finished in 170188 ms!
+Query 'q7' at T+976263 ms submitted (0 ms after submission was started).
+24/06/15 08:26:32 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:26:33 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:26:34 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submission for query 'q12' at T+883837 ms finished in 110939 ms!
+Query 'q13' at T+981845 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+907234 ms finished in 89288 ms!
+Query 'q10' at T+988315 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+1108418 ms (62 ms delay)...
+Submission for query 'q10' at T+1115241 ms waiting for its time to shine...
+Submission for query 'q13' at T+872650 ms finished in 131830 ms!
+Query 'q10' at T+992703 ms submitted (0 ms after submission was started).
+24/06/15 08:26:41 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submitting 'q10' at T+1115241 ms (92 ms delay)...
+Submission for query 'q7' at T+1121479 ms waiting for its time to shine...
+Submission for query 'q10' at T+825563 ms finished in 196134 ms!
+Query 'q10' at T+998660 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+919170 ms finished in 75972 ms!
+Query 'q13' at T+1004392 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+837572 ms finished in 191910 ms!
+Query 'q10' at T+1010608 ms submitted (0 ms after submission was started).
+24/06/15 08:26:47 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:26:49 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submission for query 'q10' at T+868475 ms finished in 141490 ms!
+Query 'q10' at T+1016434 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+1121479 ms (27 ms delay)...
+Submission for query 'q13' at T+1127400 ms waiting for its time to shine...
+24/06/15 08:26:50 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:26:55 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submitting 'q13' at T+1127400 ms (61 ms delay)...
+Submission for query 'q7' at T+1132480 ms waiting for its time to shine...
+24/06/15 08:26:59 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:26:59 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q7' at T+1132480 ms (10 ms delay)...
+Submission for query 'q10' at T+1138457 ms waiting for its time to shine...
+24/06/15 08:27:02 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:27:06 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q1' at T+842478 ms finished in 210614 ms!
+Query 'q1' at T+1022088 ms submitted (0 ms after submission was started).
+24/06/15 08:27:06 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:27:07 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q10' at T+1138457 ms (89 ms delay)...
+Submission for query 'q1' at T+1144368 ms waiting for its time to shine...
+24/06/15 08:27:12 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q1' at T+1144368 ms (43 ms delay)...
+Submission for query 'q10' at T+1151626 ms waiting for its time to shine...
+Submitting 'q10' at T+1151626 ms (36 ms delay)...
+Submission for query 'q1' at T+1158118 ms waiting for its time to shine...
+24/06/15 08:27:22 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:27:26 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q13' at T+902130 ms finished in 150274 ms!
+Query 'q10' at T+1029408 ms submitted (0 ms after submission was started).
+24/06/15 08:27:26 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q1' at T+1158118 ms (89 ms delay)...
+Submission for query 'q13' at T+1164657 ms waiting for its time to shine...
+24/06/15 08:27:29 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+1164657 ms (62 ms delay)...
+Submission for query 'q10' at T+1169649 ms waiting for its time to shine...
+Submission for query 'q10' at T+913381 ms finished in 129647 ms!
+Query 'q7' at T+1035540 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+943403 ms finished in 79470 ms!
+Query 'q10' at T+1041449 ms submitted (0 ms after submission was started).
+24/06/15 08:27:34 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+24/06/15 08:27:34 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:27:34 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q10' at T+1169649 ms (91 ms delay)...
+Submission for query 'q1' at T+1174168 ms waiting for its time to shine...
+24/06/15 08:27:39 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submitting 'q1' at T+1174168 ms (8 ms delay)...
+Submission for query 'q10' at T+1180720 ms waiting for its time to shine...
+Submitting 'q10' at T+1180720 ms (63 ms delay)...
+Submission for query 'q12' at T+1186144 ms waiting for its time to shine...
+24/06/15 08:27:51 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:27:53 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submission for query 'q10' at T+924986 ms finished in 124551 ms!
+Query 'q10' at T+1045908 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+1186144 ms (77 ms delay)...
+Submission for query 'q10' at T+1193624 ms waiting for its time to shine...
+24/06/15 08:27:57 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:28:01 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q10' at T+1193624 ms (72 ms delay)...
+Submission for query 'q7' at T+1199629 ms waiting for its time to shine...
+Submission for query 'q7' at T+976263 ms finished in 92279 ms!
+Query 'q12' at T+1051605 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+930672 ms finished in 135256 ms!
+Query 'q7' at T+1057544 ms submitted (0 ms after submission was started).
+24/06/15 08:28:05 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:28:05 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q7' at T+1199629 ms (99 ms delay)...
+Submission for query 'q10' at T+1205950 ms waiting for its time to shine...
+24/06/15 08:28:13 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q10' at T+1205950 ms (9 ms delay)...
+Submission for query 'q10' at T+1210440 ms waiting for its time to shine...
+24/06/15 08:28:15 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+24/06/15 08:28:16 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submission for query 'q13' at T+936748 ms finished in 122937 ms!
+Query 'q10' at T+1063395 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1210440 ms (20 ms delay)...
+Submission for query 'q10' at T+1217083 ms waiting for its time to shine...
+24/06/15 08:28:19 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+24/06/15 08:28:20 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q10' at T+1217083 ms (10 ms delay)...
+Submission for query 'q10' at T+1222632 ms waiting for its time to shine...
+Submission for query 'q13' at T+955210 ms finished in 129652 ms!
+Query 'q1' at T+1068439 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+992703 ms finished in 105861 ms!
+Query 'q10' at T+1074621 ms submitted (0 ms after submission was started).
+24/06/15 08:28:27 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:28:28 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q10' at T+1222632 ms (18 ms delay)...
+Submission for query 'q7' at T+1227788 ms waiting for its time to shine...
+24/06/15 08:28:36 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submission for query 'q10' at T+988315 ms finished in 120285 ms!
+Query 'q10' at T+1078852 ms submitted (0 ms after submission was started).
+24/06/15 08:28:36 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q7' at T+1227788 ms (74 ms delay)...
+Submission for query 'q12' at T+1233019 ms waiting for its time to shine...
+24/06/15 08:28:36 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:28:37 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:28:39 WARN DAGScheduler: Broadcasting large task binary with size 1130.4 KiB
+Submitting 'q12' at T+1233019 ms (26 ms delay)...
+Submission for query 'q13' at T+1239441 ms waiting for its time to shine...
+Submitting 'q13' at T+1239441 ms (15 ms delay)...
+Submission for query 'q10' at T+1243883 ms waiting for its time to shine...
+Submitting 'q10' at T+1243883 ms (82 ms delay)...
+Submission for query 'q13' at T+1250014 ms waiting for its time to shine...
+Submission for query 'q13' at T+966135 ms finished in 145191 ms!
+Query 'q10' at T+1083022 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+981845 ms finished in 140545 ms!
+Query 'q13' at T+1089183 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+960856 ms finished in 153602 ms!
+Query 'q10' at T+1094537 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+949673 ms finished in 159372 ms!
+Query 'q10' at T+1101434 ms submitted (0 ms after submission was started).
+24/06/15 08:28:56 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q10' at T+998660 ms finished in 130113 ms!
+Query 'q7' at T+1108418 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1010608 ms finished in 130013 ms!
+Query 'q10' at T+1115241 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1004392 ms finished in 130054 ms!
+Query 'q7' at T+1121479 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1035540 ms finished in 83072 ms!
+Query 'q13' at T+1127400 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+970765 ms finished in 145436 ms!
+Query 'q7' at T+1132480 ms submitted (0 ms after submission was started).
+24/06/15 08:28:57 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+24/06/15 08:28:57 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+1250014 ms (90 ms delay)...
+Submission for query 'q13' at T+1256320 ms waiting for its time to shine...
+24/06/15 08:29:01 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:29:02 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+1256320 ms (43 ms delay)...
+Submission for query 'q1' at T+1262658 ms waiting for its time to shine...
+24/06/15 08:29:05 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:29:05 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 08:29:08 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+24/06/15 08:29:09 WARN DAGScheduler: Broadcasting large task binary with size 1136.7 KiB
+Submitting 'q1' at T+1262658 ms (37 ms delay)...
+Submission for query 'q10' at T+1268515 ms waiting for its time to shine...
+Submission for query 'q7' at T+1057544 ms finished in 66656 ms!
+Query 'q10' at T+1138457 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1016434 ms finished in 142201 ms!
+Query 'q1' at T+1144368 ms submitted (0 ms after submission was started).
+24/06/15 08:29:12 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:29:12 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q10' at T+1268515 ms (34 ms delay)...
+Submission for query 'q1' at T+1272789 ms waiting for its time to shine...
+24/06/15 08:29:21 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submitting 'q1' at T+1272789 ms (15 ms delay)...
+Submission for query 'q10' at T+1278110 ms waiting for its time to shine...
+Submission for query 'q12' at T+1051605 ms finished in 78890 ms!
+Query 'q10' at T+1151626 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1041449 ms finished in 108797 ms!
+Query 'q1' at T+1158118 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1045908 ms finished in 90040 ms!
+Query 'q13' at T+1164657 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1278110 ms (2 ms delay)...
+Submission for query 'q10' at T+1282249 ms waiting for its time to shine...
+24/06/15 08:29:29 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q10' at T+1282249 ms (23 ms delay)...
+Submission for query 'q12' at T+1287026 ms waiting for its time to shine...
+Submitting 'q12' at T+1287026 ms (11 ms delay)...
+Submission for query 'q10' at T+1292680 ms waiting for its time to shine...
+Submitting 'q10' at T+1292680 ms (65 ms delay)...
+Submission for query 'q7' at T+1298921 ms waiting for its time to shine...
+Submission for query 'q1' at T+1022088 ms finished in 158655 ms!
+Query 'q10' at T+1169649 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+1298921 ms (35 ms delay)...
+Submission for query 'q12' at T+1306048 ms waiting for its time to shine...
+Submission for query 'q10' at T+1029408 ms finished in 143175 ms!
+Query 'q1' at T+1174168 ms submitted (0 ms after submission was started).
+24/06/15 08:29:49 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:29:50 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+24/06/15 08:29:53 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q12' at T+1306048 ms (97 ms delay)...
+Submission for query 'q13' at T+1311239 ms waiting for its time to shine...
+24/06/15 08:29:55 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+24/06/15 08:29:55 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q7' at T+1121479 ms finished in 58744 ms!
+Query 'q10' at T+1180720 ms submitted (0 ms after submission was started).
+24/06/15 08:29:57 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 08:29:57 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submission for query 'q7' at T+1108418 ms finished in 62339 ms!
+Query 'q12' at T+1186144 ms submitted (0 ms after submission was started).
+24/06/15 08:29:59 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q13' at T+1311239 ms (72 ms delay)...
+Submission for query 'q13' at T+1317408 ms waiting for its time to shine...
+24/06/15 08:30:05 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submission for query 'q7' at T+1132480 ms finished in 68113 ms!
+Query 'q10' at T+1193624 ms submitted (0 ms after submission was started).
+24/06/15 08:30:05 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:30:05 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q10' at T+1063395 ms finished in 108116 ms!
+Query 'q7' at T+1199629 ms submitted (0 ms after submission was started).
+24/06/15 08:30:06 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+1317408 ms (13 ms delay)...
+Submission for query 'q10' at T+1322205 ms waiting for its time to shine...
+24/06/15 08:30:10 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q10' at T+1322205 ms (66 ms delay)...
+Submission for query 'q7' at T+1326748 ms waiting for its time to shine...
+24/06/15 08:30:11 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:30:12 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:30:12 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:30:13 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:30:15 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q7' at T+1326748 ms (43 ms delay)...
+Submission for query 'q13' at T+1333585 ms waiting for its time to shine...
+24/06/15 08:30:18 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q10' at T+1078852 ms finished in 104274 ms!
+Query 'q10' at T+1205950 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1333585 ms (75 ms delay)...
+Submission for query 'q13' at T+1340355 ms waiting for its time to shine...
+Submission for query 'q10' at T+1074621 ms finished in 118615 ms!
+Query 'q10' at T+1210440 ms submitted (0 ms after submission was started).
+24/06/15 08:30:25 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:30:28 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+1340355 ms (16 ms delay)...
+Submission for query 'q10' at T+1345494 ms waiting for its time to shine...
+24/06/15 08:30:30 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q10' at T+1345494 ms (24 ms delay)...
+Submission for query 'q13' at T+1349801 ms waiting for its time to shine...
+24/06/15 08:30:35 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q13' at T+1349801 ms (31 ms delay)...
+Submission for query 'q12' at T+1355432 ms waiting for its time to shine...
+24/06/15 08:30:39 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:30:39 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submitting 'q12' at T+1355432 ms (26 ms delay)...
+Submission for query 'q7' at T+1360531 ms waiting for its time to shine...
+24/06/15 08:30:46 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:30:47 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submitting 'q7' at T+1360531 ms (37 ms delay)...
+Submission for query 'q13' at T+1366078 ms waiting for its time to shine...
+24/06/15 08:30:50 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q1' at T+1068439 ms finished in 145556 ms!
+Query 'q10' at T+1217083 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1366078 ms (8 ms delay)...
+Submission for query 'q1' at T+1372690 ms waiting for its time to shine...
+Submitting 'q1' at T+1372690 ms (6 ms delay)...
+Submission for query 'q7' at T+1377666 ms waiting for its time to shine...
+Submitting 'q7' at T+1377666 ms (46 ms delay)...
+Submission for query 'q13' at T+1382228 ms waiting for its time to shine...
+24/06/15 08:31:08 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+1382228 ms (19 ms delay)...
+Submission for query 'q10' at T+1387299 ms waiting for its time to shine...
+24/06/15 08:31:15 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:31:16 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submitting 'q10' at T+1387299 ms (55 ms delay)...
+Submission for query 'q13' at T+1393298 ms waiting for its time to shine...
+24/06/15 08:31:16 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:31:19 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+24/06/15 08:31:21 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q10' at T+1101434 ms finished in 145623 ms!
+Query 'q10' at T+1222632 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1083022 ms finished in 146230 ms!
+Query 'q7' at T+1227788 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1393298 ms (75 ms delay)...
+Submission for query 'q13' at T+1397940 ms waiting for its time to shine...
+24/06/15 08:31:22 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:31:24 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+24/06/15 08:31:24 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q13' at T+1127400 ms finished in 147977 ms!
+Query 'q12' at T+1233019 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1186144 ms finished in 85871 ms!
+Query 'q13' at T+1239441 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1397940 ms (31 ms delay)...
+Submission for query 'q13' at T+1404255 ms waiting for its time to shine...
+24/06/15 08:31:31 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submission for query 'q13' at T+1164657 ms finished in 128559 ms!
+Query 'q10' at T+1243883 ms submitted (0 ms after submission was started).
+24/06/15 08:31:32 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:31:33 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+24/06/15 08:31:33 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q13' at T+1404255 ms (66 ms delay)...
+Submission for query 'q12' at T+1409872 ms waiting for its time to shine...
+Submission for query 'q7' at T+1199629 ms finished in 88775 ms!
+Query 'q13' at T+1250014 ms submitted (0 ms after submission was started).
+24/06/15 08:31:34 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submission for query 'q10' at T+1094537 ms finished in 158411 ms!
+Query 'q13' at T+1256320 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1089183 ms finished in 158559 ms!
+Query 'q1' at T+1262658 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1169649 ms finished in 110017 ms!
+Query 'q10' at T+1268515 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1138457 ms finished in 143077 ms!
+Query 'q1' at T+1272789 ms submitted (0 ms after submission was started).
+24/06/15 08:31:35 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q12' at T+1409872 ms (28 ms delay)...
+Submission for query 'q10' at T+1415869 ms waiting for its time to shine...
+Submitting 'q10' at T+1415869 ms (43 ms delay)...
+Submission for query 'q1' at T+1420587 ms waiting for its time to shine...
+24/06/15 08:31:47 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q10' at T+1151626 ms finished in 144793 ms!
+Query 'q10' at T+1278110 ms submitted (0 ms after submission was started).
+24/06/15 08:31:48 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submission for query 'q1' at T+1144368 ms finished in 156269 ms!
+Query 'q10' at T+1282249 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+1420587 ms (61 ms delay)...
+Submission for query 'q12' at T+1428161 ms waiting for its time to shine...
+24/06/15 08:31:50 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:31:53 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q10' at T+1115241 ms finished in 179546 ms!
+Query 'q12' at T+1287026 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1180720 ms finished in 120848 ms!
+Query 'q10' at T+1292680 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+1428161 ms (6 ms delay)...
+Submission for query 'q7' at T+1435127 ms waiting for its time to shine...
+Submission for query 'q10' at T+1193624 ms finished in 112572 ms!
+Query 'q7' at T+1298921 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+1158118 ms finished in 154914 ms!
+Query 'q12' at T+1306048 ms submitted (0 ms after submission was started).
+24/06/15 08:31:58 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:31:58 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:31:58 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:31:58 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submission for query 'q10' at T+1205950 ms finished in 99565 ms!
+Query 'q13' at T+1311239 ms submitted (0 ms after submission was started).
+24/06/15 08:32:02 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submitting 'q7' at T+1435127 ms (42 ms delay)...
+Submission for query 'q10' at T+1440736 ms waiting for its time to shine...
+24/06/15 08:32:05 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+24/06/15 08:32:07 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q10' at T+1440736 ms (40 ms delay)...
+Submission for query 'q13' at T+1445185 ms waiting for its time to shine...
+24/06/15 08:32:11 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:32:12 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q13' at T+1445185 ms (4 ms delay)...
+Submission for query 'q10' at T+1452064 ms waiting for its time to shine...
+24/06/15 08:32:14 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:32:14 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:32:14 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:32:15 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q1' at T+1174168 ms finished in 146098 ms!
+Query 'q13' at T+1317408 ms submitted (0 ms after submission was started).
+24/06/15 08:32:20 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q10' at T+1452064 ms (44 ms delay)...
+Submission for query 'q7' at T+1456350 ms waiting for its time to shine...
+Submitting 'q7' at T+1456350 ms (66 ms delay)...
+Submission for query 'q10' at T+1461849 ms waiting for its time to shine...
+24/06/15 08:32:25 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q10' at T+1217083 ms finished in 96581 ms!
+Query 'q10' at T+1322205 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1461849 ms (75 ms delay)...
+Submission for query 'q7' at T+1466243 ms waiting for its time to shine...
+Submitting 'q7' at T+1466243 ms (87 ms delay)...
+Submission for query 'q13' at T+1472376 ms waiting for its time to shine...
+Submitting 'q13' at T+1472376 ms (64 ms delay)...
+Submission for query 'q13' at T+1479160 ms waiting for its time to shine...
+24/06/15 08:32:42 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submission for query 'q10' at T+1210440 ms finished in 136726 ms!
+Query 'q7' at T+1326748 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1227788 ms finished in 80478 ms!
+Query 'q13' at T+1333585 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1233019 ms finished in 77212 ms!
+Query 'q13' at T+1340355 ms submitted (0 ms after submission was started).
+24/06/15 08:32:42 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+1479160 ms (93 ms delay)...
+Submission for query 'q13' at T+1485150 ms waiting for its time to shine...
+24/06/15 08:32:51 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submitting 'q13' at T+1485150 ms (25 ms delay)...
+Submission for query 'q1' at T+1490675 ms waiting for its time to shine...
+Submitting 'q1' at T+1490675 ms (11 ms delay)...
+Submission for query 'q1' at T+1495763 ms waiting for its time to shine...
+Submitting 'q1' at T+1495763 ms (27 ms delay)...
+Submission for query 'q7' at T+1501876 ms waiting for its time to shine...
+24/06/15 08:33:09 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q7' at T+1501876 ms (29 ms delay)...
+Submission for query 'q1' at T+1506795 ms waiting for its time to shine...
+Submitting 'q1' at T+1506795 ms (68 ms delay)...
+Submission for query 'q10' at T+1512237 ms waiting for its time to shine...
+Submission for query 'q10' at T+1243883 ms finished in 105998 ms!
+Query 'q10' at T+1345494 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1222632 ms finished in 116357 ms!
+Query 'q13' at T+1349801 ms submitted (0 ms after submission was started).
+24/06/15 08:33:18 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q10' at T+1512237 ms (98 ms delay)...
+Submission for query 'q13' at T+1517425 ms waiting for its time to shine...
+24/06/15 08:33:24 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q13' at T+1517425 ms (60 ms delay)...
+Submission for query 'q10' at T+1522071 ms waiting for its time to shine...
+Submitting 'q10' at T+1522071 ms (20 ms delay)...
+Submission for query 'q7' at T+1526404 ms waiting for its time to shine...
+Submission for query 'q12' at T+1287026 ms finished in 94345 ms!
+Query 'q12' at T+1355432 ms submitted (0 ms after submission was started).
+24/06/15 08:33:31 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:33:33 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:33:33 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q13' at T+1239441 ms finished in 128383 ms!
+Query 'q7' at T+1360531 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1306048 ms finished in 95995 ms!
+Query 'q13' at T+1366078 ms submitted (0 ms after submission was started).
+24/06/15 08:33:34 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:33:34 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:33:34 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+24/06/15 08:33:34 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q7' at T+1526404 ms (94 ms delay)...
+Submission for query 'q13' at T+1532049 ms waiting for its time to shine...
+Submission for query 'q13' at T+1256320 ms finished in 124616 ms!
+Query 'q1' at T+1372690 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1298921 ms finished in 101385 ms!
+Query 'q7' at T+1377666 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1532049 ms (19 ms delay)...
+Submission for query 'q13' at T+1536577 ms waiting for its time to shine...
+Submission for query 'q13' at T+1250014 ms finished in 130347 ms!
+Query 'q13' at T+1382228 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1536577 ms (9 ms delay)...
+Submission for query 'q10' at T+1541800 ms waiting for its time to shine...
+24/06/15 08:33:48 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submitting 'q10' at T+1541800 ms (97 ms delay)...
+Submission for query 'q12' at T+1547193 ms waiting for its time to shine...
+24/06/15 08:33:50 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q12' at T+1547193 ms (15 ms delay)...
+Submission for query 'q10' at T+1553725 ms waiting for its time to shine...
+Submission for query 'q10' at T+1268515 ms finished in 144212 ms!
+Query 'q10' at T+1387299 ms submitted (0 ms after submission was started).
+24/06/15 08:34:02 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 08:34:02 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q10' at T+1553725 ms (96 ms delay)...
+Submission for query 'q7' at T+1558301 ms waiting for its time to shine...
+Submission for query 'q1' at T+1272789 ms finished in 148601 ms!
+Query 'q13' at T+1393298 ms submitted (0 ms after submission was started).
+24/06/15 08:34:04 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:34:05 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submitting 'q7' at T+1558301 ms (48 ms delay)...
+Submission for query 'q7' at T+1563483 ms waiting for its time to shine...
+24/06/15 08:34:09 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q10' at T+1278110 ms finished in 143764 ms!
+Query 'q13' at T+1397940 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1326748 ms finished in 89449 ms!
+Query 'q13' at T+1404255 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+1563483 ms (74 ms delay)...
+Submission for query 'q10' at T+1570247 ms waiting for its time to shine...
+24/06/15 08:34:19 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q10' at T+1570247 ms (19 ms delay)...
+Submission for query 'q12' at T+1574496 ms waiting for its time to shine...
+24/06/15 08:34:20 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q12' at T+1574496 ms (78 ms delay)...
+Submission for query 'q12' at T+1580436 ms waiting for its time to shine...
+Submission for query 'q10' at T+1282249 ms finished in 157106 ms!
+Query 'q12' at T+1409872 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+1262658 ms finished in 170945 ms!
+Query 'q10' at T+1415869 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+1580436 ms (46 ms delay)...
+Submission for query 'q12' at T+1586809 ms waiting for its time to shine...
+Submitting 'q12' at T+1586809 ms (82 ms delay)...
+Submission for query 'q7' at T+1594341 ms waiting for its time to shine...
+Submission for query 'q13' at T+1311239 ms finished in 161437 ms!
+Query 'q1' at T+1420587 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+1594341 ms (17 ms delay)...
+Submission for query 'q13' at T+1599946 ms waiting for its time to shine...
+Submission for query 'q10' at T+1292680 ms finished in 166905 ms!
+Query 'q12' at T+1428161 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1317408 ms finished in 148802 ms!
+Query 'q7' at T+1435127 ms submitted (0 ms after submission was started).
+24/06/15 08:34:45 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q13' at T+1599946 ms (26 ms delay)...
+Submission for query 'q13' at T+1605145 ms waiting for its time to shine...
+24/06/15 08:34:49 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:34:50 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:34:54 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:34:54 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q13' at T+1605145 ms (99 ms delay)...
+Submission for query 'q7' at T+1610872 ms waiting for its time to shine...
+24/06/15 08:34:54 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:34:56 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:34:58 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q13' at T+1333585 ms finished in 137348 ms!
+Query 'q10' at T+1440736 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+1610872 ms (84 ms delay)...
+Submission for query 'q7' at T+1616666 ms waiting for its time to shine...
+24/06/15 08:35:00 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q7' at T+1616666 ms (98 ms delay)...
+Submission for query 'q7' at T+1622797 ms waiting for its time to shine...
+Submitting 'q7' at T+1622797 ms (76 ms delay)...
+Submission for query 'q1' at T+1628694 ms waiting for its time to shine...
+Submitting 'q1' at T+1628694 ms (97 ms delay)...
+Submission for query 'q1' at T+1634980 ms waiting for its time to shine...
+Submitting 'q1' at T+1634980 ms (21 ms delay)...
+Submission for query 'q10' at T+1641621 ms waiting for its time to shine...
+24/06/15 08:35:29 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q10' at T+1641621 ms (96 ms delay)...
+Submission for query 'q10' at T+1647814 ms waiting for its time to shine...
+Submission for query 'q10' at T+1322205 ms finished in 182392 ms!
+Query 'q13' at T+1445185 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1377666 ms finished in 112391 ms!
+Query 'q10' at T+1452064 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1647814 ms (12 ms delay)...
+Submission for query 'q1' at T+1653699 ms waiting for its time to shine...
+Submission for query 'q7' at T+1360531 ms finished in 127219 ms!
+Query 'q7' at T+1456350 ms submitted (0 ms after submission was started).
+Submitting 'q1' at T+1653699 ms (37 ms delay)...
+Submission for query 'q10' at T+1659952 ms waiting for its time to shine...
+Submitting 'q10' at T+1659952 ms (93 ms delay)...
+Submission for query 'q7' at T+1665202 ms waiting for its time to shine...
+24/06/15 08:35:50 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q7' at T+1665202 ms (68 ms delay)...
+Submission for query 'q13' at T+1672068 ms waiting for its time to shine...
+24/06/15 08:35:54 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submission for query 'q13' at T+1349801 ms finished in 158720 ms!
+Query 'q10' at T+1461849 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1345494 ms finished in 158975 ms!
+Query 'q7' at T+1466243 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1355432 ms finished in 145932 ms!
+Query 'q13' at T+1472376 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1340355 ms finished in 194665 ms!
+Query 'q13' at T+1479160 ms submitted (0 ms after submission was started).
+24/06/15 08:35:58 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submission for query 'q12' at T+1409872 ms finished in 93565 ms!
+Query 'q13' at T+1485150 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1672068 ms (1 ms delay)...
+Submission for query 'q10' at T+1678552 ms waiting for its time to shine...
+24/06/15 08:36:07 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 08:36:07 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submitting 'q10' at T+1678552 ms (35 ms delay)...
+Submission for query 'q10' at T+1683737 ms waiting for its time to shine...
+24/06/15 08:36:07 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q13' at T+1393298 ms finished in 125607 ms!
+Query 'q1' at T+1490675 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1683737 ms (57 ms delay)...
+Submission for query 'q10' at T+1688668 ms waiting for its time to shine...
+Submitting 'q10' at T+1688668 ms (34 ms delay)...
+Submission for query 'q7' at T+1694284 ms waiting for its time to shine...
+24/06/15 08:36:18 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q7' at T+1435127 ms finished in 95532 ms!
+Query 'q1' at T+1495763 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1397940 ms finished in 128070 ms!
+Query 'q7' at T+1501876 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1366078 ms finished in 165950 ms!
+Query 'q1' at T+1506795 ms submitted (0 ms after submission was started).
+24/06/15 08:36:20 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q13' at T+1382228 ms finished in 155568 ms!
+Submission for query 'q13' at T+1404255 ms finished in 128522 ms!
+Query 'q13' at T+1517425 ms submitted (0 ms after submission was started).
+Query 'q10' at T+1512237 ms submitted (3 ms after submission was started).
+24/06/15 08:36:20 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q12' at T+1428161 ms finished in 96646 ms!
+Query 'q10' at T+1522071 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+1694284 ms (26 ms delay)...
+Submission for query 'q10' at T+1699485 ms waiting for its time to shine...
+Submitting 'q10' at T+1699485 ms (32 ms delay)...
+Submission for query 'q7' at T+1704061 ms waiting for its time to shine...
+Submission for query 'q10' at T+1387299 ms finished in 152668 ms!
+Query 'q7' at T+1526404 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1415869 ms finished in 126116 ms!
+Query 'q13' at T+1532049 ms submitted (0 ms after submission was started).
+24/06/15 08:36:32 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q7' at T+1704061 ms (67 ms delay)...
+Submission for query 'q12' at T+1710458 ms waiting for its time to shine...
+24/06/15 08:36:39 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q12' at T+1710458 ms (84 ms delay)...
+Submission for query 'q13' at T+1717966 ms waiting for its time to shine...
+24/06/15 08:36:40 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:36:40 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:36:42 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+Submitting 'q13' at T+1717966 ms (36 ms delay)...
+Submission for query 'q7' at T+1722633 ms waiting for its time to shine...
+24/06/15 08:36:50 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+24/06/15 08:36:50 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q7' at T+1722633 ms (34 ms delay)...
+Submission for query 'q10' at T+1727896 ms waiting for its time to shine...
+Submitting 'q10' at T+1727896 ms (77 ms delay)...
+Submission for query 'q10' at T+1734265 ms waiting for its time to shine...
+Submitting 'q10' at T+1734265 ms (16 ms delay)...
+Submission for query 'q10' at T+1739312 ms waiting for its time to shine...
+Submitting 'q10' at T+1739312 ms (75 ms delay)...
+Submission for query 'q7' at T+1743800 ms waiting for its time to shine...
+Submission for query 'q7' at T+1456350 ms finished in 89786 ms!
+Query 'q13' at T+1536577 ms submitted (0 ms after submission was started).
+24/06/15 08:37:11 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submitting 'q7' at T+1743800 ms (95 ms delay)...
+Submission for query 'q12' at T+1749293 ms waiting for its time to shine...
+24/06/15 08:37:13 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q12' at T+1749293 ms (11 ms delay)...
+Submission for query 'q12' at T+1755741 ms waiting for its time to shine...
+Submitting 'q12' at T+1755741 ms (73 ms delay)...
+Submission for query 'q12' at T+1762613 ms waiting for its time to shine...
+Submission for query 'q1' at T+1372690 ms finished in 227223 ms!
+Query 'q10' at T+1541800 ms submitted (0 ms after submission was started).
+24/06/15 08:37:26 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:37:26 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:37:26 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:37:27 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q7' at T+1466243 ms finished in 91731 ms!
+Query 'q12' at T+1547193 ms submitted (0 ms after submission was started).
+24/06/15 08:37:29 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 08:37:30 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 08:37:30 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submitting 'q12' at T+1762613 ms (12 ms delay)...
+Submission for query 'q10' at T+1768263 ms waiting for its time to shine...
+24/06/15 08:37:35 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q10' at T+1768263 ms (76 ms delay)...
+Submission for query 'q10' at T+1773152 ms waiting for its time to shine...
+24/06/15 08:37:39 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submitting 'q10' at T+1773152 ms (21 ms delay)...
+Submission for query 'q12' at T+1778823 ms waiting for its time to shine...
+Submitting 'q12' at T+1778823 ms (61 ms delay)...
+Submission for query 'q10' at T+1785130 ms waiting for its time to shine...
+24/06/15 08:37:48 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q7' at T+1501876 ms finished in 89702 ms!
+Query 'q10' at T+1553725 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+1420587 ms finished in 188186 ms!
+Query 'q7' at T+1558301 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1785130 ms (52 ms delay)...
+Submission for query 'q10' at T+1791315 ms waiting for its time to shine...
+Submission for query 'q10' at T+1452064 ms finished in 145701 ms!
+Query 'q7' at T+1563483 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1440736 ms finished in 177731 ms!
+Query 'q10' at T+1570247 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1461849 ms finished in 120512 ms!
+Query 'q12' at T+1574496 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1445185 ms finished in 146429 ms!
+Query 'q12' at T+1580436 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1485150 ms finished in 118506 ms!
+Query 'q12' at T+1586809 ms submitted (0 ms after submission was started).
+24/06/15 08:37:57 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:37:57 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:37:59 WARN RetryingMetaStoreClient: MetaStoreClient lost connection. Attempting to reconnect (1 of 1) after 1s. listPartitions
+org.apache.thrift.transport.TTransportException: java.net.SocketException: Connection reset
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:129)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readString(TBinaryProtocol.java:358)
+	at org.apache.hadoop.hive.metastore.api.FieldSchema$FieldSchemaStandardScheme.read(FieldSchema.java:502)
+	at org.apache.hadoop.hive.metastore.api.FieldSchema$FieldSchemaStandardScheme.read(FieldSchema.java:480)
+	at org.apache.hadoop.hive.metastore.api.FieldSchema.read(FieldSchema.java:414)
+	at org.apache.hadoop.hive.metastore.api.StorageDescriptor$StorageDescriptorStandardScheme.read(StorageDescriptor.java:1299)
+	at org.apache.hadoop.hive.metastore.api.StorageDescriptor$StorageDescriptorStandardScheme.read(StorageDescriptor.java:1278)
+	at org.apache.hadoop.hive.metastore.api.StorageDescriptor.read(StorageDescriptor.java:1140)
+	at org.apache.hadoop.hive.metastore.api.Partition$PartitionStandardScheme.read(Partition.java:984)
+	at org.apache.hadoop.hive.metastore.api.Partition$PartitionStandardScheme.read(Partition.java:919)
+	at org.apache.hadoop.hive.metastore.api.Partition.read(Partition.java:811)
+	at org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore$get_partitions_result$get_partitions_resultStandardScheme.read(ThriftHiveMetastore.java)
+	at org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore$get_partitions_result$get_partitions_resultStandardScheme.read(ThriftHiveMetastore.java)
+	at org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore$get_partitions_result.read(ThriftHiveMetastore.java)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:88)
+	at org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore$Client.recv_get_partitions(ThriftHiveMetastore.java:2381)
+	at org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore$Client.get_partitions(ThriftHiveMetastore.java:2366)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.listPartitions(HiveMetaStoreClient.java:1175)
+	at jdk.internal.reflect.GeneratedMethodAccessor240.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.invoke(RetryingMetaStoreClient.java:173)
+	at com.sun.proxy.$Proxy55.listPartitions(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor240.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient$SynchronizedHandler.invoke(HiveMetaStoreClient.java:2327)
+	at com.sun.proxy.$Proxy55.listPartitions(Unknown Source)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getAllPartitionsOf(Hive.java:2528)
+	at jdk.internal.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.spark.sql.hive.client.Shim_v0_13.prunePartitionsFastFallback(HiveShim.scala:1164)
+	at org.apache.spark.sql.hive.client.Shim_v0_13.getPartitionsByFilter(HiveShim.scala:1102)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.$anonfun$getPartitionsByFilter$1(HiveClientImpl.scala:813)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.$anonfun$withHiveState$1(HiveClientImpl.scala:303)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.liftedTree1$1(HiveClientImpl.scala:234)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.retryLocked(HiveClientImpl.scala:233)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.withHiveState(HiveClientImpl.scala:283)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.getPartitionsByFilter(HiveClientImpl.scala:809)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.$anonfun$listPartitionsByFilter$1(HiveExternalCatalog.scala:1294)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.withClient(HiveExternalCatalog.scala:101)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.listPartitionsByFilter(HiveExternalCatalog.scala:1289)
+	at org.apache.spark.sql.catalyst.catalog.ExternalCatalogWithListener.listPartitionsByFilter(ExternalCatalogWithListener.scala:262)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.listPartitionsByFilter(SessionCatalog.scala:1302)
+	at org.apache.spark.sql.catalyst.catalog.ExternalCatalogUtils$.listPartitionsByFilter(ExternalCatalogUtils.scala:144)
+	at org.apache.spark.sql.execution.datasources.CatalogFileIndex.filterPartitions(CatalogFileIndex.scala:74)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$$anonfun$apply$1.applyOrElse(PruneFileSourcePartitions.scala:72)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$$anonfun$apply$1.applyOrElse(PruneFileSourcePartitions.scala:50)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1275)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.plans.logical.Join.mapChildren(basicLogicalOperators.scala:527)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Project.mapChildren(basicLogicalOperators.scala:69)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1275)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.plans.logical.Join.mapChildren(basicLogicalOperators.scala:527)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Project.mapChildren(basicLogicalOperators.scala:69)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Aggregate.mapChildren(basicLogicalOperators.scala:1122)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Window.mapChildren(basicLogicalOperators.scala:1186)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Project.mapChildren(basicLogicalOperators.scala:69)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Sort.mapChildren(basicLogicalOperators.scala:893)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Project.mapChildren(basicLogicalOperators.scala:69)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Aggregate.mapChildren(basicLogicalOperators.scala:1122)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:488)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$.apply(PruneFileSourcePartitions.scala:50)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$.apply(PruneFileSourcePartitions.scala:35)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:222)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:219)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:211)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:211)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:182)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:88)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:182)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$optimizedPlan$1(QueryExecution.scala:143)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:202)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:526)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:202)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:201)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan$lzycompute(QueryExecution.scala:139)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan(QueryExecution.scala:135)
+	at org.apache.spark.sql.execution.QueryExecution.assertOptimized(QueryExecution.scala:153)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan$lzycompute(QueryExecution.scala:171)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan(QueryExecution.scala:168)
+	at org.apache.spark.sql.execution.QueryExecution.simpleString(QueryExecution.scala:221)
+	at org.apache.spark.sql.execution.QueryExecution.org$apache$spark$sql$execution$QueryExecution$$explainString(QueryExecution.scala:266)
+	at org.apache.spark.sql.execution.QueryExecution.explainString(QueryExecution.scala:235)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:112)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)
+	at org.apache.spark.sql.Dataset.withAction(Dataset.scala:4165)
+	at org.apache.spark.sql.Dataset.count(Dataset.scala:3458)
+	at data_structures.QuerySubmission.run(QuerySubmission.scala:30)
+	at data_structures.QuerySubmission.$anonfun$runWhenReady$1(QuerySubmission.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.io.BufferedInputStream.fill(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read1(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:127)
+	... 207 more
+Submitting 'q10' at T+1791315 ms (0 ms delay)...
+Submission for query 'q7' at T+1795708 ms waiting for its time to shine...
+24/06/15 08:38:00 WARN TIOStreamTransport: Error closing output stream.
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.base/java.net.SocketOutputStream.write(Unknown Source)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.base/java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.base/java.io.FilterOutputStream.close(Unknown Source)
+	at org.apache.thrift.transport.TIOStreamTransport.close(TIOStreamTransport.java:110)
+	at org.apache.thrift.transport.TSocket.close(TSocket.java:235)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.close(HiveMetaStoreClient.java:561)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.reconnect(HiveMetaStoreClient.java:333)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.invoke(RetryingMetaStoreClient.java:163)
+	at com.sun.proxy.$Proxy55.listPartitions(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor240.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient$SynchronizedHandler.invoke(HiveMetaStoreClient.java:2327)
+	at com.sun.proxy.$Proxy55.listPartitions(Unknown Source)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getAllPartitionsOf(Hive.java:2528)
+	at jdk.internal.reflect.GeneratedMethodAccessor262.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.spark.sql.hive.client.Shim_v0_13.prunePartitionsFastFallback(HiveShim.scala:1164)
+	at org.apache.spark.sql.hive.client.Shim_v0_13.getPartitionsByFilter(HiveShim.scala:1102)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.$anonfun$getPartitionsByFilter$1(HiveClientImpl.scala:813)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.$anonfun$withHiveState$1(HiveClientImpl.scala:303)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.liftedTree1$1(HiveClientImpl.scala:234)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.retryLocked(HiveClientImpl.scala:233)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.withHiveState(HiveClientImpl.scala:283)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.getPartitionsByFilter(HiveClientImpl.scala:809)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.$anonfun$listPartitionsByFilter$1(HiveExternalCatalog.scala:1294)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.withClient(HiveExternalCatalog.scala:101)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.listPartitionsByFilter(HiveExternalCatalog.scala:1289)
+	at org.apache.spark.sql.catalyst.catalog.ExternalCatalogWithListener.listPartitionsByFilter(ExternalCatalogWithListener.scala:262)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.listPartitionsByFilter(SessionCatalog.scala:1302)
+	at org.apache.spark.sql.catalyst.catalog.ExternalCatalogUtils$.listPartitionsByFilter(ExternalCatalogUtils.scala:144)
+	at org.apache.spark.sql.execution.datasources.CatalogFileIndex.filterPartitions(CatalogFileIndex.scala:74)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$$anonfun$apply$1.applyOrElse(PruneFileSourcePartitions.scala:72)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$$anonfun$apply$1.applyOrElse(PruneFileSourcePartitions.scala:50)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1275)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.plans.logical.Join.mapChildren(basicLogicalOperators.scala:527)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Project.mapChildren(basicLogicalOperators.scala:69)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1275)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1274)
+	at org.apache.spark.sql.catalyst.plans.logical.Join.mapChildren(basicLogicalOperators.scala:527)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Project.mapChildren(basicLogicalOperators.scala:69)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Aggregate.mapChildren(basicLogicalOperators.scala:1122)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Window.mapChildren(basicLogicalOperators.scala:1186)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Project.mapChildren(basicLogicalOperators.scala:69)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Sort.mapChildren(basicLogicalOperators.scala:893)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Project.mapChildren(basicLogicalOperators.scala:69)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$3(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1249)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1248)
+	at org.apache.spark.sql.catalyst.plans.logical.Aggregate.mapChildren(basicLogicalOperators.scala:1122)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:517)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:488)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$.apply(PruneFileSourcePartitions.scala:50)
+	at org.apache.spark.sql.execution.datasources.PruneFileSourcePartitions$.apply(PruneFileSourcePartitions.scala:35)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:222)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:219)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:211)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:211)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:182)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:88)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:182)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$optimizedPlan$1(QueryExecution.scala:143)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:202)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:526)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:202)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:201)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan$lzycompute(QueryExecution.scala:139)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan(QueryExecution.scala:135)
+	at org.apache.spark.sql.execution.QueryExecution.assertOptimized(QueryExecution.scala:153)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan$lzycompute(QueryExecution.scala:171)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan(QueryExecution.scala:168)
+	at org.apache.spark.sql.execution.QueryExecution.simpleString(QueryExecution.scala:221)
+	at org.apache.spark.sql.execution.QueryExecution.org$apache$spark$sql$execution$QueryExecution$$explainString(QueryExecution.scala:266)
+	at org.apache.spark.sql.execution.QueryExecution.explainString(QueryExecution.scala:235)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:112)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)
+	at org.apache.spark.sql.Dataset.withAction(Dataset.scala:4165)
+	at org.apache.spark.sql.Dataset.count(Dataset.scala:3458)
+	at data_structures.QuerySubmission.run(QuerySubmission.scala:30)
+	at data_structures.QuerySubmission.$anonfun$runWhenReady$1(QuerySubmission.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Submission for query 'q13' at T+1472376 ms finished in 125967 ms!
+Query 'q7' at T+1594341 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1526404 ms finished in 91626 ms!
+Query 'q13' at T+1599946 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+1795708 ms (61 ms delay)...
+Submission for query 'q7' at T+1802610 ms waiting for its time to shine...
+Submission for query 'q13' at T+1479160 ms finished in 133263 ms!
+Query 'q13' at T+1605145 ms submitted (0 ms after submission was started).
+24/06/15 08:38:10 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q7' at T+1802610 ms (7 ms delay)...
+Submission for query 'q12' at T+1809043 ms waiting for its time to shine...
+24/06/15 08:38:17 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submitting 'q12' at T+1809043 ms (97 ms delay)...
+Submission for query 'q12' at T+1815448 ms waiting for its time to shine...
+24/06/15 08:38:24 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q12' at T+1815448 ms (35 ms delay)...
+Submission for query 'q12' at T+1822018 ms waiting for its time to shine...
+24/06/15 08:38:28 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submission for query 'q13' at T+1532049 ms finished in 119010 ms!
+Query 'q7' at T+1610872 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+1822018 ms (72 ms delay)...
+Submission for query 'q7' at T+1828117 ms waiting for its time to shine...
+24/06/15 08:38:31 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q7' at T+1828117 ms (95 ms delay)...
+Submission for query 'q12' at T+1835131 ms waiting for its time to shine...
+Submitting 'q12' at T+1835131 ms (91 ms delay)...
+Submission for query 'q7' at T+1841325 ms waiting for its time to shine...
+24/06/15 08:38:49 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submitting 'q7' at T+1841325 ms (9 ms delay)...
+Submission for query 'q12' at T+1847631 ms waiting for its time to shine...
+Submission for query 'q12' at T+1547193 ms finished in 86846 ms!
+Query 'q7' at T+1616666 ms submitted (0 ms after submission was started).
+Submitting 'q12' at T+1847631 ms (14 ms delay)...
+Submission for query 'q10' at T+1852922 ms waiting for its time to shine...
+Submission for query 'q1' at T+1490675 ms finished in 168007 ms!
+Query 'q7' at T+1622797 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1852922 ms (33 ms delay)...
+Submission for query 'q10' at T+1858770 ms waiting for its time to shine...
+Submitting 'q10' at T+1858770 ms (97 ms delay)...
+Submission for query 'q10' at T+1862932 ms waiting for its time to shine...
+Submitting 'q10' at T+1862932 ms (43 ms delay)...
+Submission for query 'q12' at T+1867737 ms waiting for its time to shine...
+24/06/15 08:39:15 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:39:16 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q12' at T+1867737 ms (50 ms delay)...
+Submission for query 'q10' at T+1874424 ms waiting for its time to shine...
+24/06/15 08:39:17 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q13' at T+1517425 ms finished in 177452 ms!
+Query 'q1' at T+1628694 ms submitted (0 ms after submission was started).
+24/06/15 08:39:18 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:39:21 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submitting 'q10' at T+1874424 ms (80 ms delay)...
+Submission for query 'q7' at T+1879879 ms waiting for its time to shine...
+Submission for query 'q7' at T+1558301 ms finished in 96504 ms!
+Query 'q1' at T+1634980 ms submitted (0 ms after submission was started).
+24/06/15 08:39:26 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q1' at T+1495763 ms finished in 187440 ms!
+Query 'q10' at T+1641621 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1512237 ms finished in 186852 ms!
+Query 'q10' at T+1647814 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1586809 ms finished in 89625 ms!
+Query 'q1' at T+1653699 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+1506795 ms finished in 187325 ms!
+Query 'q10' at T+1659952 ms submitted (0 ms after submission was started).
+Submitting 'q7' at T+1879879 ms (35 ms delay)...
+Submission for query 'q10' at T+1886161 ms waiting for its time to shine...
+Submission for query 'q12' at T+1574496 ms finished in 95107 ms!
+Query 'q7' at T+1665202 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1886161 ms (63 ms delay)...
+Submission for query 'q13' at T+1891460 ms waiting for its time to shine...
+Submitting 'q13' at T+1891460 ms (75 ms delay)...
+Submission for query 'q7' at T+1896858 ms waiting for its time to shine...
+Submitting 'q7' at T+1896858 ms (85 ms delay)...
+Submission for query 'q7' at T+1901763 ms waiting for its time to shine...
+Submitting 'q7' at T+1901763 ms (88 ms delay)...
+Submission for query 'q13' at T+1907611 ms waiting for its time to shine...
+Submission for query 'q7' at T+1563483 ms finished in 117257 ms!
+Query 'q13' at T+1672068 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1580436 ms finished in 117261 ms!
+Query 'q10' at T+1678552 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1536577 ms finished in 165717 ms!
+Query 'q10' at T+1683737 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1907611 ms (70 ms delay)...
+Submission for query 'q13' at T+1914321 ms waiting for its time to shine...
+24/06/15 08:40:00 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submitting 'q13' at T+1914321 ms (71 ms delay)...
+Submission for query 'q13' at T+1920405 ms waiting for its time to shine...
+Submission for query 'q10' at T+1522071 ms finished in 224170 ms!
+Query 'q10' at T+1688668 ms submitted (0 ms after submission was started).
+24/06/15 08:40:05 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q10' at T+1541800 ms finished in 159306 ms!
+Query 'q7' at T+1694284 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1594341 ms finished in 124888 ms!
+Query 'q10' at T+1699485 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1610872 ms finished in 98301 ms!
+Query 'q7' at T+1704061 ms submitted (0 ms after submission was started).
+Submitting 'q13' at T+1920405 ms (89 ms delay)...
+Submission for query 'q1' at T+1925369 ms waiting for its time to shine...
+Submission for query 'q10' at T+1553725 ms finished in 140098 ms!
+Query 'q12' at T+1710458 ms submitted (0 ms after submission was started).
+24/06/15 08:40:09 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:40:11 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:40:11 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:40:11 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submitting 'q1' at T+1925369 ms (70 ms delay)...
+Submission for query 'q12' at T+1931556 ms waiting for its time to shine...
+Submitting 'q12' at T+1931556 ms (73 ms delay)...
+Submission for query 'q13' at T+1937217 ms waiting for its time to shine...
+Submission for query 'q7' at T+1616666 ms finished in 85845 ms!
+Query 'q13' at T+1717966 ms submitted (0 ms after submission was started).
+24/06/15 08:40:22 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:40:25 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:40:26 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submitting 'q13' at T+1937217 ms (80 ms delay)...
+Submission for query 'q10' at T+1942790 ms waiting for its time to shine...
+Submitting 'q10' at T+1942790 ms (18 ms delay)...
+Submission for query 'q13' at T+1948945 ms waiting for its time to shine...
+24/06/15 08:40:32 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+24/06/15 08:40:33 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q13' at T+1599946 ms finished in 151623 ms!
+Query 'q7' at T+1722633 ms submitted (0 ms after submission was started).
+24/06/15 08:40:35 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:40:35 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:40:36 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submitting 'q13' at T+1948945 ms (91 ms delay)...
+Submission for query 'q13' at T+1953825 ms waiting for its time to shine...
+Submitting 'q13' at T+1953825 ms (29 ms delay)...
+Submission for query 'q10' at T+1960558 ms waiting for its time to shine...
+Submission for query 'q7' at T+1622797 ms finished in 106528 ms!
+Query 'q10' at T+1727896 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1570247 ms finished in 168375 ms!
+Query 'q10' at T+1734265 ms submitted (0 ms after submission was started).
+Submitting 'q10' at T+1960558 ms (13 ms delay)...
+24/06/15 08:40:52 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:41:04 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:41:05 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:41:07 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:41:08 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+24/06/15 08:41:15 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q7' at T+1665202 ms finished in 110699 ms!
+Query 'q10' at T+1739312 ms submitted (0 ms after submission was started).
+24/06/15 08:41:24 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:41:29 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+Submission for query 'q13' at T+1605145 ms finished in 205747 ms!
+Query 'q7' at T+1743800 ms submitted (0 ms after submission was started).
+24/06/15 08:41:42 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:41:44 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:41:44 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+24/06/15 08:41:44 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:41:45 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:41:47 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:41:50 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q7' at T+1704061 ms finished in 103458 ms!
+Query 'q12' at T+1749293 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1694284 ms finished in 106740 ms!
+Query 'q12' at T+1755741 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1641621 ms finished in 147123 ms!
+Query 'q12' at T+1762613 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1672068 ms finished in 119538 ms!
+Query 'q10' at T+1768263 ms submitted (0 ms after submission was started).
+24/06/15 08:41:54 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:41:55 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+24/06/15 08:41:59 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submission for query 'q10' at T+1659952 ms finished in 160604 ms!
+Query 'q10' at T+1773152 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1678552 ms finished in 133100 ms!
+Query 'q12' at T+1778823 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1710458 ms finished in 118432 ms!
+Query 'q10' at T+1785130 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1722633 ms finished in 93083 ms!
+Query 'q10' at T+1791315 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1647814 ms finished in 160801 ms!
+Query 'q7' at T+1795708 ms submitted (0 ms after submission was started).
+24/06/15 08:42:09 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q1' at T+1634980 ms finished in 163310 ms!
+Query 'q7' at T+1802610 ms submitted (0 ms after submission was started).
+Submission for query 'q1' at T+1653699 ms finished in 163180 ms!
+Query 'q12' at T+1809043 ms submitted (0 ms after submission was started).
+24/06/15 08:42:14 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 08:42:15 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 08:42:16 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 08:42:16 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+24/06/15 08:42:19 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submission for query 'q1' at T+1628694 ms finished in 181831 ms!
+Query 'q12' at T+1815448 ms submitted (0 ms after submission was started).
+24/06/15 08:42:25 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q7' at T+1743800 ms finished in 50916 ms!
+Query 'q12' at T+1822018 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+1717966 ms finished in 125625 ms!
+Query 'q7' at T+1828117 ms submitted (0 ms after submission was started).
+24/06/15 08:42:27 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q10' at T+1699485 ms finished in 148356 ms!
+Query 'q12' at T+1835131 ms submitted (0 ms after submission was started).
+24/06/15 08:42:37 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submission for query 'q10' at T+1683737 ms finished in 161721 ms!
+Query 'q7' at T+1841325 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1734265 ms finished in 112415 ms!
+Query 'q12' at T+1847631 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1688668 ms finished in 153909 ms!
+Query 'q10' at T+1852922 ms submitted (0 ms after submission was started).
+24/06/15 08:42:50 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+24/06/15 08:42:57 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+Submission for query 'q12' at T+1762613 ms finished in 83106 ms!
+Query 'q10' at T+1858770 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1755741 ms finished in 88758 ms!
+Query 'q10' at T+1862932 ms submitted (0 ms after submission was started).
+24/06/15 08:43:22 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:43:23 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q10' at T+1739312 ms finished in 119769 ms!
+Query 'q12' at T+1867737 ms submitted (0 ms after submission was started).
+24/06/15 08:43:23 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:43:27 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q12' at T+1749293 ms finished in 106414 ms!
+Query 'q10' at T+1874424 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1795708 ms finished in 91072 ms!
+Query 'q7' at T+1879879 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1727896 ms finished in 175329 ms!
+Query 'q10' at T+1886161 ms submitted (0 ms after submission was started).
+24/06/15 08:43:46 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q12' at T+1809043 ms finished in 104946 ms!
+Query 'q13' at T+1891460 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1778823 ms finished in 108311 ms!
+Query 'q7' at T+1896858 ms submitted (0 ms after submission was started).
+24/06/15 08:44:05 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+24/06/15 08:44:17 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submission for query 'q10' at T+1768263 ms finished in 143212 ms!
+Query 'q7' at T+1901763 ms submitted (0 ms after submission was started).
+24/06/15 08:44:18 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q7' at T+1802610 ms finished in 132012 ms!
+Query 'q13' at T+1907611 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1828117 ms finished in 114568 ms!
+Query 'q13' at T+1914321 ms submitted (0 ms after submission was started).
+24/06/15 08:44:22 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q12' at T+1815448 ms finished in 122734 ms!
+Query 'q13' at T+1920405 ms submitted (0 ms after submission was started).
+24/06/15 08:44:26 WARN DAGScheduler: Broadcasting large task binary with size 1136.7 KiB
+24/06/15 08:44:29 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+24/06/15 08:44:30 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 08:44:32 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q7' at T+1841325 ms finished in 118577 ms!
+Query 'q1' at T+1925369 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1822018 ms finished in 137801 ms!
+Query 'q12' at T+1931556 ms submitted (0 ms after submission was started).
+Submission for query 'q12' at T+1847631 ms finished in 127788 ms!
+Query 'q13' at T+1937217 ms submitted (0 ms after submission was started).
+24/06/15 08:44:55 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q12' at T+1835131 ms finished in 139356 ms!
+Query 'q10' at T+1942790 ms submitted (0 ms after submission was started).
+24/06/15 08:44:56 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:44:56 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:44:56 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:45:03 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+24/06/15 08:45:04 WARN DAGScheduler: Broadcasting large task binary with size 1136.4 KiB
+Submission for query 'q10' at T+1785130 ms finished in 182773 ms!
+Query 'q13' at T+1948945 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1773152 ms finished in 182832 ms!
+Query 'q13' at T+1953825 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+1791315 ms finished in 182791 ms!
+Query 'q10' at T+1960558 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+1879879 ms finished in 95358 ms!
+24/06/15 08:45:15 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:45:15 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:45:15 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:45:15 WARN DAGScheduler: Broadcasting large task binary with size 1151.7 KiB
+24/06/15 08:45:16 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submission for query 'q12' at T+1867737 ms finished in 114812 ms!
+24/06/15 08:45:18 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:45:18 WARN DAGScheduler: Broadcasting large task binary with size 1130.5 KiB
+Submission for query 'q10' at T+1852922 ms finished in 160008 ms!
+Submission for query 'q7' at T+1896858 ms finished in 82322 ms!
+24/06/15 08:45:18 WARN DAGScheduler: Broadcasting large task binary with size 2.1 MiB
+24/06/15 08:45:27 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:45:28 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/15 08:45:31 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:45:33 WARN DAGScheduler: Broadcasting large task binary with size 1133.1 KiB
+24/06/15 08:45:34 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+24/06/15 08:45:38 WARN DAGScheduler: Broadcasting large task binary with size 1096.2 KiB
+Submission for query 'q7' at T+1901763 ms finished in 80479 ms!
+24/06/15 08:45:43 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q10' at T+1858770 ms finished in 147818 ms!
+24/06/15 08:45:45 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:45:45 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/15 08:45:45 WARN DAGScheduler: Broadcasting large task binary with size 1155.3 KiB
+Submission for query 'q12' at T+1931556 ms finished in 60995 ms!
+Submission for query 'q13' at T+1891460 ms finished in 110603 ms!
+Submission for query 'q10' at T+1874424 ms finished in 128017 ms!
+Submission for query 'q10' at T+1886161 ms finished in 127974 ms!
+Submission for query 'q10' at T+1862932 ms finished in 145765 ms!
+24/06/15 08:45:54 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submission for query 'q13' at T+1907611 ms finished in 94100 ms!
+Submission for query 'q13' at T+1914321 ms finished in 94031 ms!
+Submission for query 'q13' at T+1920405 ms finished in 97037 ms!
+Submission for query 'q13' at T+1937217 ms finished in 73873 ms!
+Submission for query 'q13' at T+1948945 ms finished in 49415 ms!
+24/06/15 08:46:00 WARN DAGScheduler: Broadcasting large task binary with size 1136.8 KiB
+Submission for query 'q10' at T+1942790 ms finished in 64781 ms!
+Submission for query 'q13' at T+1953825 ms finished in 49778 ms!
+Submission for query 'q1' at T+1925369 ms finished in 84131 ms!
+24/06/15 08:46:01 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submission for query 'q10' at T+1960558 ms finished in 50586 ms!
+thread pool status is: true
+run finished
+main returning...
+24/06/15 08:46:01 INFO KubernetesClusterSchedulerBackend: Shutting down all executors
+24/06/15 08:46:01 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asking each executor to shut down
+24/06/15 08:46:01 WARN ExecutorPodsWatchSnapshotSource: Kubernetes client has been closed.

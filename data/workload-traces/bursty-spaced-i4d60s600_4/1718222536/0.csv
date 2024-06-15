@@ -1,0 +1,41 @@
+app,start,query,range,delay,duration
+0,0,q12,d_year = 2000 and d_moy between 1 and 10,38,99707
+0,0,q1,d_year = 2000 and d_moy between 1 and 3,44,115875
+0,0,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),44,108458
+0,0,q7,d_year = 2000 and d_moy between 1 and 9,45,87763
+0,180000,q12,d_year = 2000 and d_moy between 1 and 10,11,35085
+0,180000,q7,d_year = 2000 and d_moy between 1 and 9,12,45448
+0,180000,q13,d_year = 2000 and d_moy between 1 and 6,27,46743
+0,180000,q13,d_year = 2000 and d_moy between 1 and 7,30,47147
+0,420000,q13,d_year = 2000 and d_moy between 1 and 6,62,45520
+0,420000,q13,d_year = 2000 and d_moy between 1 and 6,63,46298
+0,420000,q12,d_year = 2000 and d_moy between 1 and 11,64,44409
+0,420000,q7,d_year = 2000 and d_moy between 1 and 9,64,34525
+0,660000,q7,d_year = 2000 and d_moy between 1 and 10,34,34997
+0,660000,q13,d_year = 2000 and d_moy between 1 and 6,36,36939
+0,660000,q13,d_year = 2000 and d_moy between 1 and 7,37,37812
+0,660000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),37,41281
+0,900000,q7,d_year = 2000 and d_moy between 1 and 10,63,32247
+0,900000,q13,d_year = 2000 and d_moy between 1 and 5,65,33676
+0,900000,q12,d_year = 2000 and d_moy between 1 and 10,68,31873
+0,900000,q10,d_date = cast('2000-04-30' as date),68,36398
+0,1140000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),26,37174
+0,1140000,q12,d_year = 2000 and d_moy between 1 and 11,27,29089
+0,1140000,q12,d_year = 2000 and d_moy between 1 and 11,27,31340
+0,1140000,q1,d_year = 2000 and d_moy between 1 and 3,27,36540
+0,1380000,q7,d_year = 2000 and d_moy between 1 and 10,29,17872
+0,1380000,q13,d_year = 2000 and d_moy between 1 and 7,30,38556
+0,1380000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),30,39444
+0,1380000,q10,d_year = 2000 and d_moy = 1,30,38682
+0,1620000,q10,d_year = 2000 and d_moy = 1,5,36390
+0,1620000,q13,d_year = 2000 and d_moy between 1 and 7,6,31768
+0,1620000,q12,d_year = 2000 and d_moy between 1 and 11,6,24176
+0,1620000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),6,35678
+0,1860000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),57,27839
+0,1860000,q10,d_year = 2000 and d_moy = 1,57,27576
+0,1860000,q10,d_date = cast('2000-04-30' as date),57,29615
+0,1860000,q13,d_year = 2000 and d_moy between 1 and 7,57,20741
+0,2100000,q12,d_year = 2000 and d_moy between 1 and 10,79,41062
+0,2100000,q12,d_year = 2000 and d_moy between 1 and 11,81,33010
+0,2100000,q13,d_year = 2000 and d_moy between 1 and 6,82,43039
+0,2100000,q7,d_year = 2000 and d_moy between 1 and 9,82,41014

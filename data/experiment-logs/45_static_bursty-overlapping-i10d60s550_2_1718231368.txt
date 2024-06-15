@@ -1,0 +1,8 @@
+[i] Script start time: 1718231368, Workload start time: 
+[i] SessionID: '45/'
+[✓] All apps started!
+[i] Execution took 1718231368 seconds since the given start time (+ -1718231368 seconds of setup wait)
+[!] Bucket sparkbench/data/workload-traces/45/ does not exist in the S3 storage. Something must have gone wrong with the trace collection in the applications.
+[…] Sleeping for 20 seconds before collecting the metrics...
+[✓] Saved CPU metrics with query 'from(bucket:"telegraf") |> range(start: 1718231358) |> filter(fn: (r) => r._measurement == "cpu")' to ./data/telegraf/45//cpu.csv
+[✓] Saved memory metrics with query 'from(bucket:"telegraf") |> range(start: 1718231358) |> filter(fn: (r) => r._measurement == "cpu")' to ./data/telegraf/45//mem.csv

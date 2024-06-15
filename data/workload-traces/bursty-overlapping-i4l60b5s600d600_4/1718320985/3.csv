@@ -1,0 +1,17 @@
+app,start,query,range,delay,duration
+3,0,q7,d_year = 2000 and d_moy between 1 and 10,96,99026
+3,0,q13,d_year = 2000 and d_moy between 1 and 6,102,103112
+3,0,q13,d_year = 2000 and d_moy between 1 and 7,208,107515
+3,0,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),209,109946
+3,180000,q7,d_year = 2000 and d_moy between 1 and 10,65,48031
+3,180000,q13,d_year = 2000 and d_moy between 1 and 5,66,49148
+3,180000,q12,d_year = 2000 and d_moy between 1 and 10,67,47895
+3,180000,q10,d_date = cast('2000-04-30' as date),67,58659
+3,420000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),52,41165
+3,420000,q10,d_year = 2000 and d_moy = 1,53,42212
+3,420000,q10,d_date = cast('2000-04-30' as date),53,40528
+3,420000,q13,d_year = 2000 and d_moy between 1 and 7,54,35851
+3,660000,q7,d_year = 2000 and d_moy between 1 and 9,2,49862
+3,660000,q7,d_year = 2000 and d_moy between 1 and 9,4,54227
+3,660000,q12,d_year = 2000 and d_moy between 1 and 11,5,54103
+3,660000,q10,d_date = cast('2000-04-30' as date),5,54484

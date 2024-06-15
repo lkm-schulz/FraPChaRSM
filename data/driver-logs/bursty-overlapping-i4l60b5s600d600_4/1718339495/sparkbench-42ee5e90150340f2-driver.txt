@@ -1,0 +1,114 @@
+Files  local:///opt/sparkbench/sparkbench_2.12-1.0.jar from /opt/sparkbench/sparkbench_2.12-1.0.jar to /opt/spark/work-dir/./sparkbench_2.12-1.0.jar
+24/06/14 04:31:00 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/06/14 04:31:01 WARN SparkContext: The JAR local:///opt/sparkbench/sparkbench_2.12-1.0.jar at file:/opt/sparkbench/sparkbench_2.12-1.0.jar has been added already. Overwriting of added jar is not supported in the current version.
+24/06/14 04:31:03 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 8, known: 0, sharedSlotFromPendingPods: 2147483647.
+24/06/14 04:31:03 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/14 04:31:04 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+24/06/14 04:31:05 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 8, known: 3, sharedSlotFromPendingPods: 2147483644.
+24/06/14 04:31:05 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/14 04:31:05 WARN S3ABlockOutputStream: Application invoked the Syncable API against stream writing to spark-events/spark-df8155798bcf469c840e484f4fb9e996.inprogress. This is unsupported
+24/06/14 04:31:06 INFO ExecutorPodsAllocator: Going to request 2 executors from Kubernetes for ResourceProfile Id: 0, target: 8, known: 6, sharedSlotFromPendingPods: 2147483642.
+24/06/14 04:31:06 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/14 04:31:11 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.11.219:58544
+24/06/14 04:31:11 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.7.210:60786
+24/06/14 04:31:11 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.12.221:39856
+24/06/14 04:31:12 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.11.219:58546) with ID 1,  ResourceProfileId 0
+24/06/14 04:31:12 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.7.210:43220) with ID 3,  ResourceProfileId 0
+24/06/14 04:31:12 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.1.221:40654
+24/06/14 04:31:12 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.12.221:39858) with ID 2,  ResourceProfileId 0
+24/06/14 04:31:13 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.8.211:35688
+24/06/14 04:31:13 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.9.210:59500
+24/06/14 04:31:14 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.1.221:40670) with ID 5,  ResourceProfileId 0
+24/06/14 04:31:14 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.8.211:35700) with ID 4,  ResourceProfileId 0
+24/06/14 04:31:14 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.9.210:59514) with ID 6,  ResourceProfileId 0
+24/06/14 04:31:15 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.10.228:41936
+24/06/14 04:31:15 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.6.215:57442
+24/06/14 04:31:16 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.10.228:41938) with ID 8,  ResourceProfileId 0
+24/06/14 04:31:16 INFO KubernetesClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+Custom start time given: 1718339495
+24/06/14 04:31:16 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.6.215:57458) with ID 7,  ResourceProfileId 0
+Submission for query 'q13' at T+0 ms waiting for its time to shine...
+Submitting 'q13' at T+0 ms (14 ms delay)...
+Submission for query 'q13' at T+0 ms waiting for its time to shine...
+Submitting 'q13' at T+0 ms (20 ms delay)...
+Submission for query 'q12' at T+0 ms waiting for its time to shine...
+Submitting 'q12' at T+0 ms (22 ms delay)...
+Submission for query 'q7' at T+0 ms waiting for its time to shine...
+Submitting 'q7' at T+0 ms (31 ms delay)...
+Query 'q13' at T+0 ms submitted (0 ms after submission was started).
+Query 'q12' at T+0 ms submitted (0 ms after submission was started).
+Query 'q7' at T+0 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+180000 ms waiting for its time to shine...
+Query 'q13' at T+0 ms submitted (0 ms after submission was started).
+24/06/14 04:32:52 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/14 04:32:53 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q7' at T+0 ms finished in 134262 ms!
+Submission for query 'q12' at T+0 ms finished in 135837 ms!
+Submission for query 'q13' at T+0 ms finished in 138154 ms!
+Submission for query 'q13' at T+0 ms finished in 138724 ms!
+Submitting 'q7' at T+180000 ms (38 ms delay)...
+Submission for query 'q13' at T+180000 ms waiting for its time to shine...
+Submitting 'q13' at T+180000 ms (40 ms delay)...
+Query 'q7' at T+180000 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+180000 ms waiting for its time to shine...
+Submitting 'q13' at T+180000 ms (40 ms delay)...
+Query 'q13' at T+180000 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+180000 ms waiting for its time to shine...
+Submitting 'q10' at T+180000 ms (41 ms delay)...
+Submission for query 'q7' at T+420000 ms waiting for its time to shine...
+Query 'q13' at T+180000 ms submitted (0 ms after submission was started).
+Query 'q10' at T+180000 ms submitted (0 ms after submission was started).
+24/06/14 04:35:08 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/14 04:35:08 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q7' at T+180000 ms finished in 67330 ms!
+24/06/14 04:35:44 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q13' at T+180000 ms finished in 72136 ms!
+24/06/14 04:35:48 WARN DAGScheduler: Broadcasting large task binary with size 1152.5 KiB
+Submission for query 'q13' at T+180000 ms finished in 76004 ms!
+24/06/14 04:35:55 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submission for query 'q10' at T+180000 ms finished in 80771 ms!
+Submitting 'q7' at T+420000 ms (33 ms delay)...
+Submission for query 'q13' at T+420000 ms waiting for its time to shine...
+Submitting 'q13' at T+420000 ms (36 ms delay)...
+Submission for query 'q10' at T+420000 ms waiting for its time to shine...
+Submitting 'q10' at T+420000 ms (37 ms delay)...
+Query 'q7' at T+420000 ms submitted (0 ms after submission was started).
+Query 'q13' at T+420000 ms submitted (0 ms after submission was started).
+Submission for query 'q10' at T+420000 ms waiting for its time to shine...
+Submitting 'q10' at T+420000 ms (37 ms delay)...
+Submission for query 'q12' at T+660000 ms waiting for its time to shine...
+Query 'q10' at T+420000 ms submitted (0 ms after submission was started).
+Query 'q10' at T+420000 ms submitted (0 ms after submission was started).
+24/06/14 04:38:55 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+24/06/14 04:39:13 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+24/06/14 04:39:14 WARN DAGScheduler: Broadcasting large task binary with size 1046.5 KiB
+Submission for query 'q7' at T+420000 ms finished in 48591 ms!
+24/06/14 04:39:27 WARN DAGScheduler: Broadcasting large task binary with size 1154.5 KiB
+24/06/14 04:39:29 WARN DAGScheduler: Broadcasting large task binary with size 1152.6 KiB
+Submission for query 'q13' at T+420000 ms finished in 64110 ms!
+24/06/14 04:39:39 WARN DAGScheduler: Broadcasting large task binary with size 1136.0 KiB
+Submission for query 'q10' at T+420000 ms finished in 65044 ms!
+24/06/14 04:39:40 WARN DAGScheduler: Broadcasting large task binary with size 1134.0 KiB
+Submission for query 'q10' at T+420000 ms finished in 65483 ms!
+Submitting 'q12' at T+660000 ms (95 ms delay)...
+Submission for query 'q12' at T+660000 ms waiting for its time to shine...
+Submitting 'q12' at T+660000 ms (98 ms delay)...
+Query 'q12' at T+660000 ms submitted (0 ms after submission was started).
+Submission for query 'q13' at T+660000 ms waiting for its time to shine...
+Submitting 'q13' at T+660000 ms (99 ms delay)...
+Query 'q12' at T+660000 ms submitted (0 ms after submission was started).
+Submission for query 'q7' at T+660000 ms waiting for its time to shine...
+Submitting 'q7' at T+660000 ms (99 ms delay)...
+Query 'q13' at T+660000 ms submitted (0 ms after submission was started).
+Query 'q7' at T+660000 ms submitted (0 ms after submission was started).
+24/06/14 04:43:28 WARN DAGScheduler: Broadcasting large task binary with size 2.0 MiB
+Submission for query 'q7' at T+660000 ms finished in 55229 ms!
+Submission for query 'q12' at T+660000 ms finished in 63401 ms!
+Submission for query 'q12' at T+660000 ms finished in 63403 ms!
+Submission for query 'q13' at T+660000 ms finished in 68861 ms!
+thread pool status is: true
+run finished
+main returning...
+24/06/14 04:43:44 INFO KubernetesClusterSchedulerBackend: Shutting down all executors
+24/06/14 04:43:44 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asking each executor to shut down
+24/06/14 04:43:44 WARN ExecutorPodsWatchSnapshotSource: Kubernetes client has been closed.

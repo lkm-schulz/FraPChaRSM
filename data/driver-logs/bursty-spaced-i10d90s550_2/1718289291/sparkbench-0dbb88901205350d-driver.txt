@@ -1,0 +1,24 @@
+Files  local:///opt/sparkbench/sparkbench_2.12-1.0.jar from /opt/sparkbench/sparkbench_2.12-1.0.jar to /opt/spark/work-dir/./sparkbench_2.12-1.0.jar
+24/06/13 14:34:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/06/13 14:34:21 WARN SparkContext: The JAR local:///opt/sparkbench/sparkbench_2.12-1.0.jar at file:/opt/sparkbench/sparkbench_2.12-1.0.jar has been added already. Overwriting of added jar is not supported in the current version.
+24/06/13 14:34:23 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 3, known: 0, sharedSlotFromPendingPods: 2147483647.
+24/06/13 14:34:23 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/13 14:34:24 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+24/06/13 14:34:25 WARN S3ABlockOutputStream: Application invoked the Syncable API against stream writing to spark-events/spark-fff3b1be5b664b909a37ff13580d0877.inprogress. This is unsupported
+24/06/13 14:34:30 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.7.129:49850
+24/06/13 14:34:31 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.10.140:34908
+24/06/13 14:34:31 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: No executor found for 10.244.3.129:38814
+24/06/13 14:34:31 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.7.129:49860) with ID 3,  ResourceProfileId 0
+24/06/13 14:34:31 INFO ExecutorMonitor: New executor 3 has registered (new total is 1)
+24/06/13 14:34:31 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.10.140:34912) with ID 2,  ResourceProfileId 0
+24/06/13 14:34:31 INFO ExecutorMonitor: New executor 2 has registered (new total is 2)
+24/06/13 14:34:31 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.3.129:44576) with ID 1,  ResourceProfileId 0
+24/06/13 14:34:31 INFO ExecutorMonitor: New executor 1 has registered (new total is 3)
+24/06/13 14:34:31 INFO KubernetesClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+Custom start time given: 1718289291
+24/06/13 14:34:34 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Disabling executor 1.
+24/06/13 14:34:35 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Disabling executor 2.
+24/06/13 14:34:35 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Disabling executor 3.
+24/06/13 14:34:35 INFO KubernetesClusterSchedulerBackend: Shutting down all executors
+24/06/13 14:34:35 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asking each executor to shut down
+24/06/13 14:34:35 WARN ExecutorPodsWatchSnapshotSource: Kubernetes client has been closed.

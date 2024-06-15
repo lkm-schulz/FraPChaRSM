@@ -1,0 +1,7 @@
+app,start,query,range,delay,duration
+2,70162,q10,d_year = 2000 and d_moy = 1,84,44469
+2,70984,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),69,41321
+2,71611,q7,d_date = cast('2000-04-30' as date),48,25324
+2,160189,q7,d_moy = 11,68,18506
+2,160380,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),78,18894
+2,161386,q13,d_year = 2000 and d_moy between 1 and 6,74,17845

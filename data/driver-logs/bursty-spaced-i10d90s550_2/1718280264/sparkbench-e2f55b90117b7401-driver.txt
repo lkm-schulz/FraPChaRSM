@@ -1,0 +1,28 @@
+2024-06-13 12:03:49,176 main ERROR Unable to locate appender "ConsoleAppender" for logger config "org.apache.spark.scheduler.cluster.k8s"
+2024-06-13 12:03:49,307 main ERROR Unable to locate appender "ConsoleAppender" for logger config "org.apache.spark.scheduler.cluster.k8s"
+Files  local:///opt/sparkbench/sparkbench_2.12-1.0.jar from /opt/sparkbench/sparkbench_2.12-1.0.jar to /opt/spark/work-dir/./sparkbench_2.12-1.0.jar
+12:03:53.559 [kubernetes-executor-snapshots-subscribers-0] INFO  org.apache.spark.scheduler.cluster.k8s.ExecutorPodsAllocator - Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 5, known: 0, sharedSlotFromPendingPods: 2147483647.
+12:03:53.606 [kubernetes-executor-snapshots-subscribers-0] INFO  org.apache.spark.scheduler.cluster.k8s.ExecutorPodsAllocator - Found 0 reusable PVCs from 0 PVCs
+12:03:55.093 [kubernetes-executor-snapshots-subscribers-0] INFO  org.apache.spark.scheduler.cluster.k8s.ExecutorPodsAllocator - Going to request 2 executors from Kubernetes for ResourceProfile Id: 0, target: 5, known: 3, sharedSlotFromPendingPods: 2147483644.
+12:03:55.104 [kubernetes-executor-snapshots-subscribers-0] INFO  org.apache.spark.scheduler.cluster.k8s.ExecutorPodsAllocator - Found 0 reusable PVCs from 0 PVCs
+12:04:00.736 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - No executor found for 10.244.8.117:37294
+12:04:00.779 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - No executor found for 10.244.12.126:59320
+12:04:01.061 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - No executor found for 10.244.6.120:59368
+12:04:01.364 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.8.117:37308) with ID 1,  ResourceProfileId 0
+12:04:01.398 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.12.126:59336) with ID 2,  ResourceProfileId 0
+12:04:01.736 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.6.120:59372) with ID 3,  ResourceProfileId 0
+12:04:01.863 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - No executor found for 10.244.11.124:58150
+12:04:02.014 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - No executor found for 10.244.10.125:47652
+12:04:02.485 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.11.124:47704) with ID 4,  ResourceProfileId 0
+12:04:02.515 [main] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+12:04:02.569 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.244.10.125:47666) with ID 5,  ResourceProfileId 0
+Custom start time given: 1718280264
+Submission for query 'q10' at T+0 ms waiting for its time to shine...
+12:04:11.436 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - Disabling executor 1.
+12:04:11.488 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - Disabling executor 2.
+12:04:11.493 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - Disabling executor 3.
+12:04:11.495 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - Disabling executor 4.
+12:04:11.531 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - Disabling executor 5.
+12:04:11.718 [shutdown-hook-0] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend - Shutting down all executors
+12:04:11.719 [dispatcher-CoarseGrainedScheduler] INFO  org.apache.spark.scheduler.cluster.k8s.KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint - Asking each executor to shut down
+12:04:11.737 [shutdown-hook-0] WARN  org.apache.spark.scheduler.cluster.k8s.ExecutorPodsWatchSnapshotSource - Kubernetes client has been closed.

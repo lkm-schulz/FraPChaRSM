@@ -1,0 +1,31 @@
+app,start,query,range,delay,duration
+0,0,q12,d_year = 2000 and d_moy between 1 and 10,51,95473
+0,0,q1,d_year = 2000 and d_moy between 1 and 3,56,111653
+0,0,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),57,112061
+0,0,q7,d_year = 2000 and d_moy between 1 and 9,59,95338
+0,0,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),60,111643
+0,0,q13,d_year = 2000 and d_moy between 1 and 5,61,107256
+0,180000,q12,d_year = 2000 and d_moy between 1 and 10,53,74682
+0,180000,q7,d_year = 2000 and d_moy between 1 and 9,54,61643
+0,180000,q13,d_year = 2000 and d_moy between 1 and 6,55,76226
+0,180000,q13,d_year = 2000 and d_moy between 1 and 7,56,77047
+0,180000,q7,d_year = 2000 and d_moy between 1 and 9,56,61605
+0,180000,q12,d_year = 2000 and d_moy between 1 and 10,62,74949
+0,360000,q13,d_year = 2000 and d_moy between 1 and 6,7,70149
+0,360000,q13,d_year = 2000 and d_moy between 1 and 6,8,70787
+0,360000,q12,d_year = 2000 and d_moy between 1 and 11,9,66625
+0,360000,q7,d_year = 2000 and d_moy between 1 and 9,10,55064
+0,360000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),17,70315
+0,360000,q7,d_year = 2000 and d_moy between 1 and 9,29,55214
+0,540000,q7,d_year = 2000 and d_moy between 1 and 10,3,68109
+0,540000,q13,d_year = 2000 and d_moy between 1 and 6,5,68837
+0,540000,q13,d_year = 2000 and d_moy between 1 and 7,6,71406
+0,540000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),7,71984
+0,540000,q13,d_year = 2000 and d_moy between 1 and 6,7,67923
+0,540000,q13,d_year = 2000 and d_moy between 1 and 6,8,68287
+0,720000,q7,d_year = 2000 and d_moy between 1 and 10,77,57801
+0,720000,q13,d_year = 2000 and d_moy between 1 and 5,78,58758
+0,720000,q12,d_year = 2000 and d_moy between 1 and 10,91,48726
+0,720000,q10,d_date = cast('2000-04-30' as date),91,60352
+0,720000,q13,d_year = 2000 and d_moy between 1 and 6,91,58168
+0,720000,q13,d_year = 2000 and d_moy between 1 and 5,92,59135

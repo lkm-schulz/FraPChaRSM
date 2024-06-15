@@ -1,0 +1,14 @@
+app,start,duration,query,range
+1,0,30514,q13,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '4' day))
+1,120671,74031,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '10' day))
+1,120854,32724,q7,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' day))
+1,120984,40200,q12,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' day))
+1,121255,33696,q7,d_year = 2000 and d_moy = 1
+1,121611,40677,q7,d_moy = 11
+1,121817,40915,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '4' day))
+1,240070,3887,q7,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '4' day))
+1,240189,29255,q1,d_date between cast('2000-08-23' as date) and ((cast('2000-08-23' as date) + interval '14' day))
+1,240380,30620,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '10' day))
+1,240566,8303,q12,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week))
+1,241380,7498,q12,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week))
+1,241386,22784,q12,d_year = 2000 and d_moy between 1 and 9

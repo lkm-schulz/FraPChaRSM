@@ -1,0 +1,191 @@
+Files  local:///opt/sparkbench/sparkbench_2.12-1.0.jar from /opt/sparkbench/sparkbench_2.12-1.0.jar to /opt/spark/work-dir/./sparkbench_2.12-1.0.jar
+24/06/10 19:03:29 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/06/10 19:03:29 INFO HiveConf: Found configuration file null
+24/06/10 19:03:29 INFO SparkContext: Running Spark version 3.4.1
+24/06/10 19:03:29 INFO ResourceUtils: ==============================================================
+24/06/10 19:03:29 INFO ResourceUtils: No custom resources configured for spark.driver.
+24/06/10 19:03:29 INFO ResourceUtils: ==============================================================
+24/06/10 19:03:29 INFO SparkContext: Submitted application: Data Generator
+24/06/10 19:03:29 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 4, script: , vendor: , memory -> name: memory, amount: 28672, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+24/06/10 19:03:29 INFO ResourceProfile: Limiting resource is cpus at 4 tasks per executor
+24/06/10 19:03:29 INFO ResourceProfileManager: Added ResourceProfile id: 0
+24/06/10 19:03:29 INFO SecurityManager: Changing view acls to: spark,lennart
+24/06/10 19:03:29 INFO SecurityManager: Changing modify acls to: spark,lennart
+24/06/10 19:03:29 INFO SecurityManager: Changing view acls groups to: 
+24/06/10 19:03:29 INFO SecurityManager: Changing modify acls groups to: 
+24/06/10 19:03:29 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark, lennart; groups with view permissions: EMPTY; users with modify permissions: spark, lennart; groups with modify permissions: EMPTY
+24/06/10 19:03:29 INFO Utils: Successfully started service 'sparkDriver' on port 7078.
+24/06/10 19:03:30 INFO SparkEnv: Registering MapOutputTracker
+24/06/10 19:03:30 INFO SparkEnv: Registering BlockManagerMaster
+24/06/10 19:03:30 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+24/06/10 19:03:30 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+24/06/10 19:03:30 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+24/06/10 19:03:30 INFO DiskBlockManager: Created local directory at /var/data/spark-c41a4417-a484-4cbd-b9ea-f29acb9381b4/blockmgr-7c8e1bc4-e93b-4ed0-9ef4-44a33c4bbe37
+24/06/10 19:03:30 INFO MemoryStore: MemoryStore started with capacity 11.8 GiB
+24/06/10 19:03:30 INFO SparkEnv: Registering OutputCommitCoordinator
+24/06/10 19:03:30 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+24/06/10 19:03:30 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+24/06/10 19:03:30 INFO SparkContext: Added JAR local:/opt/sparkbench/sparkbench_2.12-1.0.jar at file:/opt/sparkbench/sparkbench_2.12-1.0.jar with timestamp 1718046209508
+24/06/10 19:03:30 WARN SparkContext: The JAR local:///opt/sparkbench/sparkbench_2.12-1.0.jar at file:/opt/sparkbench/sparkbench_2.12-1.0.jar has been added already. Overwriting of added jar is not supported in the current version.
+24/06/10 19:03:30 INFO SparkKubernetesClientFactory: Auto-configuring K8S client using current context from users K8S config file
+24/06/10 19:03:32 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 3, known: 0, sharedSlotFromPendingPods: 2147483647.
+24/06/10 19:03:32 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/10 19:03:32 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/10 19:03:32 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 7079.
+24/06/10 19:03:32 INFO NettyBlockTransferService: Server created on sparkbench-8122a290038895fb-driver-svc.default.svc 10.244.2.10:7079
+24/06/10 19:03:32 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/06/10 19:03:32 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, sparkbench-8122a290038895fb-driver-svc.default.svc, 7079, None)
+24/06/10 19:03:32 INFO BlockManagerMasterEndpoint: Registering block manager sparkbench-8122a290038895fb-driver-svc.default.svc:7079 with 11.8 GiB RAM, BlockManagerId(driver, sparkbench-8122a290038895fb-driver-svc.default.svc, 7079, None)
+24/06/10 19:03:32 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, sparkbench-8122a290038895fb-driver-svc.default.svc, 7079, None)
+24/06/10 19:03:32 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, sparkbench-8122a290038895fb-driver-svc.default.svc, 7079, None)
+24/06/10 19:03:32 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/10 19:03:32 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/10 19:03:33 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+24/06/10 19:03:33 INFO MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
+24/06/10 19:03:33 INFO MetricsSystemImpl: s3a-file-system metrics system started
+24/06/10 19:03:34 INFO SingleEventLogFileWriter: Logging events to s3a://logs/spark-events/spark-2057a6039973469eb0644cd86aa700d5.inprogress
+24/06/10 19:03:34 WARN S3ABlockOutputStream: Application invoked the Syncable API against stream writing to spark-events/spark-2057a6039973469eb0644cd86aa700d5.inprogress. This is unsupported
+24/06/10 19:04:02 INFO KubernetesClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime: 30000000000(ns)
+Custom start time given: 1718046243
+24/06/10 19:04:02 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+24/06/10 19:04:02 INFO SharedState: Warehouse path is 'file:/opt/spark/work-dir/spark-warehouse'.
+24/06/10 19:04:06 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.9 using Spark classes.
+24/06/10 19:04:06 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.9) is file:/opt/spark/work-dir/spark-warehouse
+24/06/10 19:04:06 INFO metastore: Trying to connect to metastore with URI thrift://192.168.1.104:9083
+24/06/10 19:04:06 INFO metastore: Opened a connection to metastore, current connections: 1
+24/06/10 19:04:06 INFO metastore: Connected to metastore.
+Submission for query 'q7' at T+70000 ms waiting for its time to shine...
+Submitting 'q7' at T+70000 ms (61 ms delay)...
+Submission for query 'q13' at T+75000 ms waiting for its time to shine...
+Query 'q7' at T+70000 ms submitted (0 ms after submission was started).
+24/06/10 19:05:14 INFO InMemoryFileIndex: It took 86 ms to list leaf files for 1 paths.
+24/06/10 19:05:14 INFO InMemoryFileIndex: It took 8 ms to list leaf files for 1 paths.
+24/06/10 19:05:14 INFO InMemoryFileIndex: It took 8 ms to list leaf files for 1 paths.
+24/06/10 19:05:14 INFO InMemoryFileIndex: It took 8 ms to list leaf files for 1 paths.
+24/06/10 19:05:15 INFO HadoopFSUtils: Listing leaf files and directories in parallel under 1823 paths. The first several paths are: s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450816, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450817, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450818, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450819, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450820, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450821, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450822, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450823, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450824, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450825.
+24/06/10 19:05:15 INFO SparkContext: Starting job: count at QuerySubmission.scala:29
+24/06/10 19:05:15 INFO DAGScheduler: Got job 0 (count at QuerySubmission.scala:29) with 1823 output partitions
+24/06/10 19:05:15 INFO DAGScheduler: Final stage: ResultStage 0 (count at QuerySubmission.scala:29)
+24/06/10 19:05:15 INFO DAGScheduler: Parents of final stage: List()
+24/06/10 19:05:15 INFO DAGScheduler: Missing parents: List()
+24/06/10 19:05:15 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[2] at count at QuerySubmission.scala:29), which has no missing parents
+24/06/10 19:05:16 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 106.6 KiB, free 11.8 GiB)
+24/06/10 19:05:16 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 38.7 KiB, free 11.8 GiB)
+24/06/10 19:05:16 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on sparkbench-8122a290038895fb-driver-svc.default.svc:7079 (size: 38.7 KiB, free: 11.8 GiB)
+24/06/10 19:05:16 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1535
+24/06/10 19:05:16 INFO DAGScheduler: Submitting 1823 missing tasks from ResultStage 0 (MapPartitionsRDD[2] at count at QuerySubmission.scala:29) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+24/06/10 19:05:16 INFO TaskSchedulerImpl: Adding task set 0.0 with 1823 tasks resource profile 0
+Submitting 'q13' at T+75000 ms (84 ms delay)...
+Submission for query 'q7' at T+80000 ms waiting for its time to shine...
+Query 'q13' at T+75000 ms submitted (0 ms after submission was started).
+24/06/10 19:05:18 INFO InMemoryFileIndex: It took 11 ms to list leaf files for 1 paths.
+24/06/10 19:05:18 INFO InMemoryFileIndex: It took 15 ms to list leaf files for 1 paths.
+24/06/10 19:05:18 INFO InMemoryFileIndex: It took 16 ms to list leaf files for 1 paths.
+24/06/10 19:05:19 INFO HadoopFSUtils: Listing leaf files and directories in parallel under 1823 paths. The first several paths are: s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450816, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450817, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450818, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450819, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450820, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450821, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450822, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450823, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450824, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450825.
+24/06/10 19:05:19 INFO SparkContext: Starting job: count at QuerySubmission.scala:29
+24/06/10 19:05:19 INFO DAGScheduler: Got job 1 (count at QuerySubmission.scala:29) with 1823 output partitions
+24/06/10 19:05:19 INFO DAGScheduler: Final stage: ResultStage 1 (count at QuerySubmission.scala:29)
+24/06/10 19:05:19 INFO DAGScheduler: Parents of final stage: List()
+24/06/10 19:05:19 INFO DAGScheduler: Missing parents: List()
+24/06/10 19:05:19 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[5] at count at QuerySubmission.scala:29), which has no missing parents
+24/06/10 19:05:19 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 106.6 KiB, free 11.8 GiB)
+24/06/10 19:05:19 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 38.7 KiB, free 11.8 GiB)
+24/06/10 19:05:19 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on sparkbench-8122a290038895fb-driver-svc.default.svc:7079 (size: 38.7 KiB, free: 11.8 GiB)
+24/06/10 19:05:19 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1535
+24/06/10 19:05:19 INFO DAGScheduler: Submitting 1823 missing tasks from ResultStage 1 (MapPartitionsRDD[5] at count at QuerySubmission.scala:29) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+24/06/10 19:05:19 INFO TaskSchedulerImpl: Adding task set 1.0 with 1823 tasks resource profile 0
+Submitting 'q7' at T+80000 ms (94 ms delay)...
+Submission for query 'q10' at T+85000 ms waiting for its time to shine...
+Query 'q7' at T+80000 ms submitted (0 ms after submission was started).
+24/06/10 19:05:24 INFO HadoopFSUtils: Listing leaf files and directories in parallel under 1823 paths. The first several paths are: s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450816, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450817, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450818, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450819, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450820, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450821, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450822, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450823, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450824, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450825.
+24/06/10 19:05:24 INFO SparkContext: Starting job: count at QuerySubmission.scala:29
+24/06/10 19:05:24 INFO DAGScheduler: Got job 2 (count at QuerySubmission.scala:29) with 1823 output partitions
+24/06/10 19:05:24 INFO DAGScheduler: Final stage: ResultStage 2 (count at QuerySubmission.scala:29)
+24/06/10 19:05:24 INFO DAGScheduler: Parents of final stage: List()
+24/06/10 19:05:24 INFO DAGScheduler: Missing parents: List()
+24/06/10 19:05:24 INFO DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[8] at count at QuerySubmission.scala:29), which has no missing parents
+24/06/10 19:05:24 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 106.6 KiB, free 11.8 GiB)
+24/06/10 19:05:24 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 38.7 KiB, free 11.8 GiB)
+24/06/10 19:05:24 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on sparkbench-8122a290038895fb-driver-svc.default.svc:7079 (size: 38.7 KiB, free: 11.8 GiB)
+24/06/10 19:05:24 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1535
+24/06/10 19:05:24 INFO DAGScheduler: Submitting 1823 missing tasks from ResultStage 2 (MapPartitionsRDD[8] at count at QuerySubmission.scala:29) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+24/06/10 19:05:24 INFO TaskSchedulerImpl: Adding task set 2.0 with 1823 tasks resource profile 0
+Submitting 'q10' at T+85000 ms (4 ms delay)...
+Submission for query 'q13' at T+90000 ms waiting for its time to shine...
+Query 'q10' at T+85000 ms submitted (0 ms after submission was started).
+24/06/10 19:05:28 INFO InMemoryFileIndex: It took 15 ms to list leaf files for 1 paths.
+24/06/10 19:05:29 INFO HadoopFSUtils: Listing leaf files and directories in parallel under 1823 paths. The first several paths are: s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450816, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450817, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450818, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450819, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450820, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450821, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450822, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450823, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450824, s3a://tpcds/dataset_tpcds_1000G/store_sales/ss_sold_date_sk=2450825.
+24/06/10 19:05:29 INFO SparkContext: Starting job: count at QuerySubmission.scala:29
+24/06/10 19:05:29 INFO DAGScheduler: Got job 3 (count at QuerySubmission.scala:29) with 1823 output partitions
+24/06/10 19:05:29 INFO DAGScheduler: Final stage: ResultStage 3 (count at QuerySubmission.scala:29)
+24/06/10 19:05:29 INFO DAGScheduler: Parents of final stage: List()
+24/06/10 19:05:29 INFO DAGScheduler: Missing parents: List()
+24/06/10 19:05:29 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[11] at count at QuerySubmission.scala:29), which has no missing parents
+24/06/10 19:05:29 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 106.6 KiB, free 11.8 GiB)
+24/06/10 19:05:29 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 38.7 KiB, free 11.8 GiB)
+24/06/10 19:05:29 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on sparkbench-8122a290038895fb-driver-svc.default.svc:7079 (size: 38.7 KiB, free: 11.8 GiB)
+24/06/10 19:05:29 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1535
+24/06/10 19:05:29 INFO DAGScheduler: Submitting 1823 missing tasks from ResultStage 3 (MapPartitionsRDD[11] at count at QuerySubmission.scala:29) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+24/06/10 19:05:29 INFO TaskSchedulerImpl: Adding task set 3.0 with 1823 tasks resource profile 0
+24/06/10 19:05:31 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+Submitting 'q13' at T+90000 ms (77 ms delay)...
+Submission for query 'q7' at T+160000 ms waiting for its time to shine...
+24/06/10 19:05:46 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+24/06/10 19:06:01 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+24/06/10 19:06:16 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+24/06/10 19:06:31 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+Submitting 'q7' at T+160000 ms (21 ms delay)...
+Submission for query 'q7' at T+165000 ms waiting for its time to shine...
+24/06/10 19:06:46 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+Submitting 'q7' at T+165000 ms (31 ms delay)...
+Submission for query 'q10' at T+170000 ms waiting for its time to shine...
+Submitting 'q10' at T+170000 ms (40 ms delay)...
+Submission for query 'q10' at T+175000 ms waiting for its time to shine...
+Submitting 'q10' at T+175000 ms (50 ms delay)...
+Submission for query 'q7' at T+180000 ms waiting for its time to shine...
+24/06/10 19:07:01 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+Submitting 'q7' at T+180000 ms (59 ms delay)...
+Submission for query 'q12' at T+250000 ms waiting for its time to shine...
+24/06/10 19:07:16 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+24/06/10 19:07:17 INFO SparkContext: Invoking stop() from shutdown hook
+24/06/10 19:07:17 INFO SparkContext: SparkContext is stopping with exitCode 0.
+24/06/10 19:07:18 INFO SparkUI: Stopped Spark web UI at http://sparkbench-8122a290038895fb-driver-svc.default.svc:4040
+24/06/10 19:07:18 INFO DAGScheduler: Job 0 failed: count at QuerySubmission.scala:29, took 122.057756 s
+24/06/10 19:07:18 INFO DAGScheduler: ResultStage 0 (count at QuerySubmission.scala:29) failed in 121.963 s due to Stage cancelled because SparkContext was shut down
+24/06/10 19:07:18 INFO DAGScheduler: ResultStage 1 (count at QuerySubmission.scala:29) failed in 118.373 s due to Stage cancelled because SparkContext was shut down
+24/06/10 19:07:18 INFO DAGScheduler: ResultStage 2 (count at QuerySubmission.scala:29) failed in 113.807 s due to Stage cancelled because SparkContext was shut down
+24/06/10 19:07:18 INFO DAGScheduler: ResultStage 3 (count at QuerySubmission.scala:29) failed in 108.719 s due to Stage cancelled because SparkContext was shut down
+24/06/10 19:07:18 INFO DAGScheduler: Job 2 failed: count at QuerySubmission.scala:29, took 113.835691 s
+24/06/10 19:07:18 INFO DAGScheduler: Job 1 failed: count at QuerySubmission.scala:29, took 118.400434 s
+24/06/10 19:07:18 INFO DAGScheduler: Job 3 failed: count at QuerySubmission.scala:29, took 108.738749 s
+24/06/10 19:07:18 INFO KubernetesClusterSchedulerBackend: Shutting down all executors
+24/06/10 19:07:18 INFO ExecutorPodsAllocator: Going to request 3 executors from Kubernetes for ResourceProfile Id: 0, target: 3, known: 0, sharedSlotFromPendingPods: 2147483647.
+24/06/10 19:07:18 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asking each executor to shut down
+24/06/10 19:07:18 INFO ExecutorPodsAllocator: Found 0 reusable PVCs from 0 PVCs
+24/06/10 19:07:18 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+Query 'q13' at T+90000 ms submitted (0 ms after submission was started).
+Query 'q7' at T+160000 ms submitted (0 ms after submission was started).
+Query 'q7' at T+165000 ms submitted (0 ms after submission was started).
+Query 'q10' at T+170000 ms submitted (0 ms after submission was started).
+24/06/10 19:07:18 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/10 19:07:18 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+24/06/10 19:07:18 WARN ExecutorPodsWatchSnapshotSource: Kubernetes client has been closed.
+24/06/10 19:07:18 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+24/06/10 19:07:18 INFO MemoryStore: MemoryStore cleared
+24/06/10 19:07:18 INFO BlockManager: BlockManager stopped
+24/06/10 19:07:18 INFO BlockManagerMaster: BlockManagerMaster stopped
+24/06/10 19:07:18 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+24/06/10 19:07:18 INFO SparkContext: Successfully stopped SparkContext
+24/06/10 19:07:18 INFO ShutdownHookManager: Shutdown hook called
+24/06/10 19:07:18 INFO ShutdownHookManager: Deleting directory /var/data/spark-c41a4417-a484-4cbd-b9ea-f29acb9381b4/spark-40d85867-ba97-4350-a51f-2de9b58dfe1a
+24/06/10 19:07:18 INFO ShutdownHookManager: Deleting directory /tmp/spark-03f09e04-2fe3-459d-8e8e-ffafe329b3d4
+24/06/10 19:07:18 INFO ShutdownHookManager: Deleting directory /tmp/spark-8dca9c5a-0121-43e0-be45-4955b8f39b00
+24/06/10 19:07:18 INFO ShutdownHookManager: Deleting directory /tmp/spark-3b996e4d-a409-4c39-be73-15453b887403
+24/06/10 19:07:18 INFO ShutdownHookManager: Deleting directory /tmp/spark-2c636ca4-6ba7-43b1-a1e2-6682613dd4a9
+24/06/10 19:07:18 INFO ShutdownHookManager: Deleting directory /tmp/spark-02e668a1-73ff-4247-a62b-b68752f15463
+24/06/10 19:07:18 INFO ShutdownHookManager: Deleting directory /tmp/spark-3e668c32-0f34-4231-a519-de4849782ccd
+24/06/10 19:07:18 INFO ShutdownHookManager: Deleting directory /tmp/spark-fcaa4d68-d156-41a6-ae51-ee7f06f19eb2
+24/06/10 19:07:18 INFO ShutdownHookManager: Deleting directory /tmp/spark-2742e5fe-9155-47cd-9e98-b47c2ce0e17e
+24/06/10 19:07:18 INFO MetricsSystemImpl: Stopping s3a-file-system metrics system...
+24/06/10 19:07:18 INFO MetricsSystemImpl: s3a-file-system metrics system stopped.
+24/06/10 19:07:18 INFO MetricsSystemImpl: s3a-file-system metrics system shutdown complete.

@@ -1,0 +1,171 @@
+app,start,query,range,delay,duration
+0,0,q10,d_year = 2000 and d_moy = 1,8,123396
+0,0,q1,d_year = 2000 and d_moy between 1 and 3,14,128805
+0,0,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),14,130354
+0,0,q7,d_year = 2000 and d_moy between 1 and 11,16,92359
+0,0,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),17,125591
+0,0,q12,d_year = 2000 and d_moy between 1 and 11,20,101109
+0,0,q13,d_year = 2000 and d_moy between 1 and 7,21,123082
+0,0,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),22,126551
+0,0,q10,d_year = 2000 and d_moy = 1,23,123343
+0,0,q10,d_date = cast('2000-04-30' as date),24,123505
+0,180000,q10,d_year = 2000 and d_moy = 1,83,59408
+0,180000,q7,d_year = 2000 and d_moy between 1 and 11,85,47572
+0,180000,q13,d_year = 2000 and d_moy between 1 and 6,86,60448
+0,180000,q13,d_year = 2000 and d_moy between 1 and 7,87,60725
+0,180000,q7,d_year = 2000 and d_moy between 1 and 11,87,57651
+0,180000,q10,d_year = 2000 and d_moy = 1,97,59694
+0,180000,q1,d_year = 2000 and d_moy between 1 and 3,133,61841
+0,180000,q1,d_year = 2000 and d_moy between 1 and 3,135,61393
+0,180000,q1,d_year = 2000 and d_moy between 1 and 4,138,63215
+0,180000,q12,d_year = 2000 and d_moy between 1 and 11,153,42615
+0,300000,q13,d_year = 2000 and d_moy between 1 and 6,21,60955
+0,300000,q13,d_year = 2000 and d_moy between 1 and 6,21,61387
+0,300000,q12,d_year = 2000,22,45308
+0,300000,q7,d_year = 2000 and d_moy between 1 and 11,22,58957
+0,300000,q10,d_date = cast('2000-04-30' as date),22,62690
+0,300000,q7,d_year = 2000 and d_moy between 1 and 11,24,45153
+0,300000,q13,d_year = 2000 and d_moy between 1 and 6,32,61168
+0,300000,q12,d_year = 2000 and d_moy between 1 and 11,32,45263
+0,300000,q10,d_date = cast('2000-04-30' as date),32,63039
+0,300000,q1,d_year = 2000 and d_moy between 1 and 4,32,66300
+0,420000,q7,d_year = 2000 and d_moy between 1 and 10,6,33566
+0,420000,q13,d_year = 2000 and d_moy between 1 and 6,7,54949
+0,420000,q13,d_year = 2000 and d_moy between 1 and 7,7,53645
+0,420000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),7,53912
+0,420000,q13,d_year = 2000 and d_moy between 1 and 6,7,48547
+0,420000,q13,d_year = 2000 and d_moy between 1 and 6,8,54557
+0,420000,q1,d_year = 2000 and d_moy between 1 and 3,8,57074
+0,420000,q10,d_year = 2000 and d_moy = 1,8,54456
+0,420000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),8,55935
+0,420000,q7,d_year = 2000 and d_moy between 1 and 10,8,27683
+0,540000,q7,d_year = 2000 and d_moy between 1 and 10,71,58795
+0,540000,q12,d_year = 2000 and d_moy between 1 and 11,71,41807
+0,540000,q10,d_year = 2000 and d_moy = 1,71,65791
+0,540000,q1,d_year = 2000 and d_moy between 1 and 4,71,65052
+0,540000,q13,d_year = 2000 and d_moy between 1 and 6,71,63364
+0,540000,q12,d_year = 2000 and d_moy between 1 and 11,71,52296
+0,540000,q13,d_year = 2000 and d_moy between 1 and 6,71,57578
+0,540000,q10,d_date = cast('2000-04-30' as date),72,61630
+0,540000,q13,d_year = 2000 and d_moy between 1 and 7,72,63352
+0,540000,q7,d_year = 2000 and d_moy between 1 and 10,72,48435
+0,660000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),78,54626
+0,660000,q12,d_year = 2000,78,32389
+0,660000,q12,d_year = 2000,78,52555
+0,660000,q1,d_year = 2000 and d_moy between 1 and 3,78,55888
+0,660000,q13,d_year = 2000 and d_moy between 1 and 7,78,54100
+0,660000,q13,d_year = 2000 and d_moy between 1 and 6,87,53893
+0,660000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),87,53269
+0,660000,q12,d_year = 2000 and d_moy between 1 and 11,87,29838
+0,660000,q7,d_year = 2000 and d_moy between 1 and 11,87,47220
+0,660000,q1,d_year = 2000 and d_moy between 1 and 3,88,55340
+0,780000,q7,d_year = 2000 and d_moy between 1 and 10,2,56111
+0,780000,q13,d_year = 2000 and d_moy between 1 and 7,3,64191
+0,780000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),3,63426
+0,780000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),3,63651
+0,780000,q7,d_year = 2000 and d_moy between 1 and 10,4,51075
+0,780000,q7,d_year = 2000 and d_moy between 1 and 10,4,56137
+0,780000,q1,d_year = 2000 and d_moy between 1 and 3,4,65926
+0,780000,q13,d_year = 2000 and d_moy between 1 and 7,4,63526
+0,780000,q1,d_year = 2000 and d_moy between 1 and 4,4,65465
+0,780000,q7,d_year = 2000 and d_moy between 1 and 11,4,60575
+0,900000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),26,49425
+0,900000,q13,d_year = 2000 and d_moy between 1 and 7,26,49577
+0,900000,q12,d_year = 2000,26,49359
+0,900000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),27,49410
+0,900000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),27,50567
+0,900000,q12,d_year = 2000 and d_moy between 1 and 11,27,25130
+0,900000,q12,d_year = 2000 and d_moy between 1 and 11,27,25225
+0,900000,q13,d_year = 2000 and d_moy between 1 and 7,27,49282
+0,900000,q12,d_year = 2000 and d_moy between 1 and 11,27,25222
+0,900000,q13,d_year = 2000 and d_moy between 1 and 6,28,49727
+0,1020000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),39,54923
+0,1020000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),40,56788
+0,1020000,q1,d_year = 2000 and d_moy between 1 and 4,40,56241
+0,1020000,q13,d_year = 2000 and d_moy between 1 and 7,40,50735
+0,1020000,q10,d_year = 2000 and d_moy = 1,40,50908
+0,1020000,q7,d_year = 2000 and d_moy between 1 and 10,40,48843
+0,1020000,q13,d_year = 2000 and d_moy between 1 and 6,45,54757
+0,1020000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),46,55516
+0,1020000,q13,d_year = 2000 and d_moy between 1 and 6,46,50597
+0,1020000,q1,d_year = 2000 and d_moy between 1 and 3,46,56034
+0,1140000,q10,d_year = 2000 and d_moy = 1,73,60808
+0,1140000,q12,d_year = 2000,73,48910
+0,1140000,q13,d_year = 2000 and d_moy between 1 and 6,73,62126
+0,1140000,q7,d_year = 2000 and d_moy between 1 and 11,74,56000
+0,1140000,q12,d_year = 2000,74,45974
+0,1140000,q1,d_year = 2000 and d_moy between 1 and 4,74,64945
+0,1140000,q12,d_year = 2000,74,46334
+0,1140000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),74,60462
+0,1140000,q7,d_year = 2000 and d_moy between 1 and 11,74,51539
+0,1140000,q13,d_year = 2000 and d_moy between 1 and 6,74,62511
+0,1260000,q13,d_year = 2000 and d_moy between 1 and 7,11,57197
+0,1260000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),11,54567
+0,1260000,q1,d_year = 2000 and d_moy between 1 and 3,11,57966
+0,1260000,q1,d_year = 2000 and d_moy between 1 and 4,11,58220
+0,1260000,q7,d_year = 2000 and d_moy between 1 and 11,11,53540
+0,1260000,q13,d_year = 2000 and d_moy between 1 and 7,12,57834
+0,1260000,q1,d_year = 2000 and d_moy between 1 and 3,12,58554
+0,1260000,q1,d_year = 2000 and d_moy between 1 and 4,12,58436
+0,1260000,q7,d_year = 2000 and d_moy between 1 and 10,12,28262
+0,1260000,q13,d_year = 2000 and d_moy between 1 and 6,12,56667
+0,1380000,q13,d_year = 2000 and d_moy between 1 and 7,59,54496
+0,1380000,q1,d_year = 2000 and d_moy between 1 and 3,59,55834
+0,1380000,q7,d_year = 2000 and d_moy between 1 and 11,59,51133
+0,1380000,q1,d_year = 2000 and d_moy between 1 and 4,66,56714
+0,1380000,q12,d_year = 2000 and d_moy between 1 and 11,66,30217
+0,1380000,q1,d_year = 2000 and d_moy between 1 and 4,66,55137
+0,1380000,q12,d_year = 2000 and d_moy between 1 and 11,66,51564
+0,1380000,q10,d_date = cast('2000-04-30' as date),66,54443
+0,1380000,q13,d_year = 2000 and d_moy between 1 and 6,66,54546
+0,1380000,q1,d_year = 2000 and d_moy between 1 and 3,66,55474
+0,1500000,q7,d_year = 2000 and d_moy between 1 and 11,6,33871
+0,1500000,q7,d_year = 2000 and d_moy between 1 and 11,7,33768
+0,1500000,q12,d_year = 2000,7,49269
+0,1500000,q1,d_year = 2000 and d_moy between 1 and 4,7,54786
+0,1500000,q10,d_date = cast('2000-04-30' as date),17,51904
+0,1500000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),17,51925
+0,1500000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),17,49231
+0,1500000,q1,d_year = 2000 and d_moy between 1 and 3,17,52741
+0,1500000,q12,d_year = 2000,17,33851
+0,1500000,q1,d_year = 2000 and d_moy between 1 and 4,17,54029
+0,1620000,q10,d_date = cast('2000-04-30' as date),36,46466
+0,1620000,q1,d_year = 2000 and d_moy between 1 and 3,36,46215
+0,1620000,q7,d_year = 2000 and d_moy between 1 and 10,36,38864
+0,1620000,q1,d_year = 2000 and d_moy between 1 and 3,36,46733
+0,1620000,q12,d_year = 2000,36,35328
+0,1620000,q10,d_date = cast('2000-04-30' as date),36,44768
+0,1620000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),43,45593
+0,1620000,q13,d_year = 2000 and d_moy between 1 and 7,43,45462
+0,1620000,q7,d_year = 2000 and d_moy between 1 and 10,43,42337
+0,1620000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),44,44594
+0,1740000,q7,d_year = 2000 and d_moy between 1 and 11,26,44226
+0,1740000,q13,d_year = 2000 and d_moy between 1 and 6,27,64051
+0,1740000,q12,d_year = 2000,27,43958
+0,1740000,q12,d_year = 2000 and d_moy between 1 and 11,27,61996
+0,1740000,q13,d_year = 2000 and d_moy between 1 and 7,27,63737
+0,1740000,q12,d_year = 2000,27,44525
+0,1740000,q7,d_year = 2000 and d_moy between 1 and 10,27,61954
+0,1740000,q7,d_year = 2000 and d_moy between 1 and 10,27,63235
+0,1740000,q1,d_year = 2000 and d_moy between 1 and 3,27,68411
+0,1740000,q13,d_year = 2000 and d_moy between 1 and 6,27,63358
+0,1860000,q13,d_year = 2000 and d_moy between 1 and 6,40,59321
+0,1860000,q10,d_year = 2000 and d_moy = 1,40,59596
+0,1860000,q10,d_year = 2000 and d_moy = 1,40,59527
+0,1860000,q12,d_year = 2000 and d_moy between 1 and 11,40,39870
+0,1860000,q1,d_year = 2000 and d_moy between 1 and 3,41,63311
+0,1860000,q7,d_year = 2000 and d_moy between 1 and 11,41,50805
+0,1860000,q12,d_year = 2000 and d_moy between 1 and 11,41,52230
+0,1860000,q7,d_year = 2000 and d_moy between 1 and 11,41,57344
+0,1860000,q10,d_year = 2000 and d_moy = 1,41,61219
+0,1860000,q12,d_year = 2000,41,39905
+0,1980000,q13,d_year = 2000 and d_moy between 1 and 7,69,52032
+0,1980000,q13,d_year = 2000 and d_moy between 1 and 7,70,50745
+0,1980000,q10,d_year = 2000 and d_moy = 1,70,51834
+0,1980000,q1,d_year = 2000 and d_moy between 1 and 4,70,54173
+0,1980000,q7,d_year = 2000 and d_moy between 1 and 11,70,21751
+0,1980000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),70,48806
+0,1980000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),70,53606
+0,1980000,q13,d_year = 2000 and d_moy between 1 and 7,70,52077
+0,1980000,q1,d_year = 2000 and d_moy between 1 and 3,70,52903
+0,1980000,q1,d_year = 2000 and d_moy between 1 and 3,70,54030

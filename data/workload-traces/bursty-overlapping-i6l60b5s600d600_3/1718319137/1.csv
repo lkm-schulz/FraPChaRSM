@@ -1,0 +1,31 @@
+app,start,query,range,delay,duration
+1,0,q12,d_year = 2000 and d_moy between 1 and 10,49,106460
+1,0,q7,d_year = 2000 and d_moy between 1 and 9,55,106561
+1,0,q13,d_year = 2000 and d_moy between 1 and 6,56,107477
+1,0,q13,d_year = 2000 and d_moy between 1 and 7,57,108782
+1,0,q7,d_year = 2000 and d_moy between 1 and 9,65,106512
+1,0,q12,d_year = 2000 and d_moy between 1 and 10,65,106660
+1,180000,q13,d_year = 2000 and d_moy between 1 and 6,36,71994
+1,180000,q13,d_year = 2000 and d_moy between 1 and 6,37,72851
+1,180000,q12,d_year = 2000 and d_moy between 1 and 11,38,68415
+1,180000,q7,d_year = 2000 and d_moy between 1 and 9,38,68494
+1,180000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),50,78891
+1,180000,q7,d_year = 2000 and d_moy between 1 and 9,58,58303
+1,360000,q7,d_year = 2000 and d_moy between 1 and 10,3,58030
+1,360000,q13,d_year = 2000 and d_moy between 1 and 5,4,62899
+1,360000,q12,d_year = 2000 and d_moy between 1 and 10,5,60232
+1,360000,q10,d_date = cast('2000-04-30' as date),5,67717
+1,360000,q13,d_year = 2000 and d_moy between 1 and 6,6,61152
+1,360000,q13,d_year = 2000 and d_moy between 1 and 5,8,60934
+1,540000,q7,d_year = 2000 and d_moy between 1 and 10,20,52859
+1,540000,q13,d_year = 2000 and d_moy between 1 and 7,21,71408
+1,540000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),22,70576
+1,540000,q10,d_year = 2000 and d_moy = 1,22,78392
+1,540000,q7,d_year = 2000 and d_moy between 1 and 10,22,53067
+1,540000,q7,d_year = 2000 and d_moy between 1 and 10,22,50536
+1,720000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),57,55357
+1,720000,q10,d_year = 2000 and d_moy = 1,58,58957
+1,720000,q10,d_date = cast('2000-04-30' as date),58,58848
+1,720000,q13,d_year = 2000 and d_moy between 1 and 7,65,57249
+1,720000,q12,d_year = 2000 and d_moy between 1 and 10,65,29947
+1,720000,q7,d_year = 2000 and d_moy between 1 and 10,65,29382

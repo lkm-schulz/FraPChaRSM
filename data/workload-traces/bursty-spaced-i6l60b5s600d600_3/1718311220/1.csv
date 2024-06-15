@@ -1,0 +1,31 @@
+app,start,query,range,delay,duration
+1,0,q12,d_year = 2000 and d_moy between 1 and 10,52,143553
+1,0,q7,d_year = 2000 and d_moy between 1 and 9,59,143283
+1,0,q13,d_year = 2000 and d_moy between 1 and 6,60,144790
+1,0,q13,d_year = 2000 and d_moy between 1 and 7,60,144638
+1,0,q7,d_year = 2000 and d_moy between 1 and 9,68,143347
+1,0,q12,d_year = 2000 and d_moy between 1 and 10,69,143286
+1,240000,q13,d_year = 2000 and d_moy between 1 and 6,82,80656
+1,240000,q13,d_year = 2000 and d_moy between 1 and 6,83,81773
+1,240000,q12,d_year = 2000 and d_moy between 1 and 11,85,79186
+1,240000,q7,d_year = 2000 and d_moy between 1 and 9,85,79380
+1,240000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week)),93,89825
+1,240000,q7,d_year = 2000 and d_moy between 1 and 9,105,78032
+1,420000,q7,d_year = 2000 and d_moy between 1 and 10,50,67779
+1,420000,q13,d_year = 2000 and d_moy between 1 and 5,51,70456
+1,420000,q12,d_year = 2000 and d_moy between 1 and 10,56,55093
+1,420000,q10,d_date = cast('2000-04-30' as date),56,73142
+1,420000,q13,d_year = 2000 and d_moy between 1 and 6,61,70054
+1,420000,q13,d_year = 2000 and d_moy between 1 and 5,67,68605
+1,600000,q7,d_year = 2000 and d_moy between 1 and 10,21,83188
+1,600000,q13,d_year = 2000 and d_moy between 1 and 7,23,95710
+1,600000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),23,95808
+1,600000,q10,d_year = 2000 and d_moy = 1,23,98419
+1,600000,q7,d_year = 2000 and d_moy between 1 and 10,23,83474
+1,600000,q7,d_year = 2000 and d_moy between 1 and 10,23,89703
+1,780000,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week)),25,60169
+1,780000,q10,d_year = 2000 and d_moy = 1,25,60269
+1,780000,q10,d_date = cast('2000-04-30' as date),25,58391
+1,780000,q13,d_year = 2000 and d_moy between 1 and 7,25,48358
+1,780000,q12,d_year = 2000 and d_moy between 1 and 10,26,48250
+1,780000,q7,d_year = 2000 and d_moy between 1 and 10,26,47692
