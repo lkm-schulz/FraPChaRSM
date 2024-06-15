@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: driver
+  name: executor
 spec:
   containers:
   - name: sparkbench
@@ -11,13 +11,5 @@ spec:
         ephemeral-storage: "30G"
       limits:
         ephemeral-storage: "40G"
-  nodeSelector:
-    driver-node: true
-  tolerations:
-  - key: role
-    value: driver
-    operator: Equal
-    effect: NoSchedule
-  imagePullSecrets: 
+  imagePullSecrets:
   - name: regcred
-        
