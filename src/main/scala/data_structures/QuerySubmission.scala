@@ -1,3 +1,5 @@
+package querySubmission
+
 import QuerySubmission.NANOS_IN_MILLI
 import org.apache.spark.sql.SparkSession
 

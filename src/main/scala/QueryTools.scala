@@ -6,7 +6,10 @@ import utilities.S3
 import java.io.ByteArrayInputStream
 import scala.io.Source
 
-class Query(spark: SparkSession) extends Sparkbench(spark) {
+import data_structures.QueryStat
+import utilities.Queries.getQueryWithDate
+
+class QueryTools(spark: SparkSession) extends Sparkbench(spark) {
 
   spark.sql(s"use database $DB_NAME")
 
@@ -32,10 +35,11 @@ class Query(spark: SparkSession) extends Sparkbench(spark) {
     }
   }
 
-  def getTimeAndCount(queryName: String, dateRange: String, numRuns: Int = 1): Array[(Long, Long)] = {
-    val queryText = Query.getQueryWithDate(queryName, dateRange)
+  def getTimeAndCount(queryName: String, dateRange: String, numRuns: Int = 1, verbose: Boolean = false): Array[(Long, Long)] = {
+    val queryText = getQueryWithDate(queryName, dateRange)
 
     (0 until numRuns).map(run => {
+      if (verbose) println(s"Starting run ${run + 1}/$numRuns...")
       val startTime = System.nanoTime
       val count = spark.sql(queryText).count
       val time = (System.nanoTime - startTime) / 1000000
@@ -45,28 +49,34 @@ class Query(spark: SparkSession) extends Sparkbench(spark) {
 
   def getTime(queryName: String, dateRange: String, numRuns: Int = 1): Array[Long] = {
 
-    val queryText = Query.getQueryWithDate(queryName, dateRange)
+    val queryText = getQueryWithDate(queryName, dateRange)
 
-    Query.timeNRuns({
+    timeNRuns({
       spark.sql(queryText).show(1)
     }, numRuns)
   }
 
-  def collectStats(overwriteExisting: Boolean = false): Unit = {
-    // run a single query to get the overhead out of the way:
+  def collectStats(queryName: String, numRuns: Int = 1, overwriteExisting: Boolean = false): Unit = {
+    // run a single query to get some(?) overhead out of the way:
     getTime("q1", "d_year = 2000 and d_moy = 1")
 
     // get all available queries
-    val queries = utilities.Files.list(Query.PATH_DIR_QUERIES).filter(_.endsWith(".sql")).map(_.stripSuffix(".sql"))
+    var queries = utilities.Files.list(Query.PATH_DIR_QUERIES).filter(_.endsWith(".sql")).map(_.stripSuffix(".sql"))
       .sortBy(_.stripPrefix("q").toInt)
-    println("Queries found: '" + queries.mkString("', '") + "'")
+
+    if (queryName != "all") {
+      queries = queries.filter(_ == queryName)
+    }
+
+    if (queries.isEmpty) {
+      throw new IllegalArgumentException(s"Unknown query name: $queryName\nAvailable queries: '${queries.mkString("', '")}'")
+    }
 
     // read the default and specific date ranges
     val datesSource = Source.fromFile(Query.PATH_FILE_DATES)
     val dateRanges = ujson.read(datesSource.getLines.mkString("\n"))
     val rangesDefault = dateRanges("default").arr.map(_.str).toArray
     datesSource.close()
-
 
     for (query <- queries) {
       val content = if (!overwriteExisting && s3.doesObjectExist(Query.S3_BUCKET_QUERIES, s"$query.csv")) {
@@ -77,30 +87,26 @@ class Query(spark: SparkSession) extends Sparkbench(spark) {
         ""
       }
 
-      val results = collection.mutable.Map() ++ Query.resultsMapFromCSV(content)
+      var results = Query.statsFromCSV(content)
       val ranges: Array[String] = try{
         dateRanges(query).arr.map(_.str).toArray
       }
       catch {
-        case e: NoSuchElementException =>
+        case _: NoSuchElementException =>
           println(s"No custom date ranges found for query '$query' - using default.")
           rangesDefault
       }
 
       for (range <- ranges) {
-        if (results.contains(range)) {
-          println(s"Skipping range '$range' for query '$query', results already exist.")
-        }
-        else {
           println(s"Starting query '$query' with range '$range'...")
-          val result = getTimeAndCount(query, range)(0)
-          println(s"Returned ${result._2} rows in ${result._1} ms.")
-          results(range) = result
-        }
+          val result = getTimeAndCount(query, range, numRuns)
+          println(s"rows: ${result(0)._2}, avg time: ${result.map(_._1).sum / result.length.toDouble} min time: ${result.map(_._1).min}, max time: ${result.map(_._1).max}")
+          results = results ++ result.map(res => QueryStat(range, res._1, res._2))
       }
 
       // write results back to storage
-      val resultsCSVBytes = (results.map(res => s"${res._1},${res._2._1},${res._2._2}").mkString("\n") + '\n').getBytes("UTF-8")
+      val resultsCSV = (QueryStat.CSVHeader +: results.map(_.toCSV)).mkString("\n") + "\n"
+      val resultsCSVBytes = resultsCSV.getBytes("UTF-8")
       val metadata = new ObjectMetadata()
       metadata.setContentLength(resultsCSVBytes.length)
       s3.putObject(Query.S3_BUCKET_QUERIES, s"$query.csv", new ByteArrayInputStream(resultsCSVBytes), metadata)
@@ -108,7 +114,7 @@ class Query(spark: SparkSession) extends Sparkbench(spark) {
   }
 }
 
-object Query {
+object QueryTools {
 
   val PATH_DIR_QUERIES: String = "/opt/sparkbench/queries"
   val PATH_FILE_DATES: String = PATH_DIR_QUERIES + "/dates.json"
@@ -122,32 +128,23 @@ object Query {
     }).toArray
   }
 
-  def getQueryWithDate(name: String, dateRange: String = ""): String = {
-    val filename = s"/opt/sparkbench/queries/$name.sql"
-    val bufferedSource = Source.fromFile(filename)
-    val queryText = bufferedSource.getLines.mkString("\n").replace("$DATERANGE$", dateRange)
-    bufferedSource.close()
-    queryText
-  }
-
-  private def resultsMapFromCSV(csv: String): Map[String, (Long, Long)] = {
+  private def statsFromCSV(csv: String): Array[QueryStat] = {
 
     if (csv.isEmpty) {
-      return Map.empty
+      return Array.empty
     }
 
+    val header = csv.split("\n").head
+    val rows = csv.split("\n").tail
+
     try {
-      csv.split("\n").map(line => {
-        val cells = line.split(",")
-        cells(0) -> (cells(1).strip().toLong, cells(2).strip.toLong)
-      }).toMap
+      rows.map(row => QueryStat.fromCSV(row, header))
     }
     catch {
-      case e: NumberFormatException => {
-        println("Error while parsing number from CSV file: " + e.getMessage)
+      case e: IllegalArgumentException =>
+        println("Error while parsing CSV file: " + e.getMessage)
         println("Ignoring existing file.")
-        Map.empty
-      }
+        Array.empty
     }
   }
 
