@@ -1,24 +1,27 @@
-package querySubmission
+package data_structures
 
 import QuerySubmission.NANOS_IN_MILLI
 import org.apache.spark.sql.SparkSession
+import java.util.concurrent.Executors
+import scala.concurrent.{ExecutionContext, Future}
 
-import scala.concurrent.Future
+import utilities.Queries.getQueryWithDate
+
 // TODO: maybe i need to change this to more executors because otherwise the driver blocks new tasks..
 import scala.concurrent.ExecutionContext.Implicits.global
 
 case class QuerySubmission(app: String, start: Long, query: String, range: String) {
 
-  private val queryText = Query.getQueryWithDate(query, range)
+  private val queryText = getQueryWithDate(query, range)
 
-  def runWhenReady(spark: SparkSession, startTime: Long): Future[QuerySubmissionResult] = {
+  def runWhenReady(spark: SparkSession, startTime: Long, executionContext: ExecutionContext): Future[QuerySubmissionResult] = {
     // block while its not time yet:
     println(s"Submission for query '$query' at T+$start ms waiting for its time to shine...")
     while (System.currentTimeMillis() - startTime < start) Thread.sleep(100)
     // then spawn the task but already return the future:
     val delay = System.currentTimeMillis - startTime - start
     println(s"Submitting '$query' at T+$start ms ($delay ms delay)...")
-    Future(run(spark, System.nanoTime, delay))
+    Future(run(spark, System.nanoTime, delay))(executionContext)
   }
 
   def run(spark: SparkSession, runtimeStart: Long, delay: Long): QuerySubmissionResult = {

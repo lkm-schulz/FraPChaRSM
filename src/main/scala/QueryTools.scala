@@ -51,57 +51,75 @@ class QueryTools(spark: SparkSession) extends Sparkbench(spark) {
 
     val queryText = getQueryWithDate(queryName, dateRange)
 
-    timeNRuns({
+    QueryTools.timeNRuns({
       spark.sql(queryText).show(1)
     }, numRuns)
   }
 
-  def collectStats(queryName: String, numRuns: Int = 1, overwriteExisting: Boolean = false): Unit = {
-    // run a single query to get some(?) overhead out of the way:
-    getTime("q1", "d_year = 2000 and d_moy = 1")
+  def collectStats(queryName: String, range: String, numRuns: Int = 1, numWarmups: Int = 10,
+                   overwriteExisting: Boolean = false, onlyNewRanges: Boolean = true,
+                   bucket: String = QueryTools.S3_BUCKET_QUERIES): Unit = {
 
-    // get all available queries
-    var queries = utilities.Files.list(Query.PATH_DIR_QUERIES).filter(_.endsWith(".sql")).map(_.stripSuffix(".sql"))
+    var allQueries = utilities.Files.list(QueryTools.PATH_DIR_QUERIES).filter(_.endsWith(".sql")).map(_.stripSuffix(".sql"))
       .sortBy(_.stripPrefix("q").toInt)
 
-    if (queryName != "all") {
-      queries = queries.filter(_ == queryName)
+    val queries = if (queryName != "all") {
+      allQueries.filter(_ == queryName)
+    }
+    else {
+      println(s"Using queries: '${allQueries.mkString("', '")}'")
+      allQueries
     }
 
     if (queries.isEmpty) {
-      throw new IllegalArgumentException(s"Unknown query name: $queryName\nAvailable queries: '${queries.mkString("', '")}'")
+      throw new IllegalArgumentException(s"No queries found for selector $queryName\nAvailable queries: '${allQueries.mkString("', '")}'")
     }
 
     // read the default and specific date ranges
-    val datesSource = Source.fromFile(Query.PATH_FILE_DATES)
+    val datesSource = Source.fromFile(QueryTools.PATH_FILE_DATES)
     val dateRanges = ujson.read(datesSource.getLines.mkString("\n"))
     val rangesDefault = dateRanges("default").arr.map(_.str).toArray
     datesSource.close()
 
+    println(s"Running generic warm up query for $numWarmups iterations...")
+    getTimeAndCount("q1", "d_year = 2000 and d_moy = 1", numRuns = numWarmups, verbose = true)
+
     for (query <- queries) {
-      val content = if (!overwriteExisting && s3.doesObjectExist(Query.S3_BUCKET_QUERIES, s"$query.csv")) {
+      val content = if (!overwriteExisting && s3.doesObjectExist(bucket, s"$query.csv")) {
         println(s"Retrieving existing stats for query '$query' from storage...")
-        S3.getObjectAsString(s3, Query.S3_BUCKET_QUERIES, s"$query.csv")
+        S3.getObjectAsString(s3, bucket, s"$query.csv")
       }
       else {
         ""
       }
 
-      var results = Query.statsFromCSV(content)
-      val ranges: Array[String] = try{
-        dateRanges(query).arr.map(_.str).toArray
+      var results = QueryTools.statsFromCSV(content)
+      val ranges: Array[String] = if (range == "all") {
+        try{
+          dateRanges(query).arr.map(_.str).toArray
+        }
+        catch {
+          case _: NoSuchElementException =>
+            println(s"No custom date ranges found for query '$query' - using default.")
+            rangesDefault
+        }
       }
-      catch {
-        case _: NoSuchElementException =>
-          println(s"No custom date ranges found for query '$query' - using default.")
-          rangesDefault
-      }
+      else Array(range)
+
+      println(s"Ranges: [${ranges.mkString("'", "', '", "'")}]")
 
       for (range <- ranges) {
+        if (onlyNewRanges && results.exists(_.range == range)) {
+          println(s"Result for query '$query' with range '$range' already exists, skipping...")
+        }
+        else {
+          println(s"Starting warm-up run for query '$query' with range '$range'...")
+          getTimeAndCount(query, range, numRuns = 2)
           println(s"Starting query '$query' with range '$range'...")
-          val result = getTimeAndCount(query, range, numRuns)
+          val result = getTimeAndCount(query, range, numRuns, verbose = true)
           println(s"rows: ${result(0)._2}, avg time: ${result.map(_._1).sum / result.length.toDouble} min time: ${result.map(_._1).min}, max time: ${result.map(_._1).max}")
           results = results ++ result.map(res => QueryStat(range, res._1, res._2))
+        }
       }
 
       // write results back to storage
@@ -109,7 +127,7 @@ class QueryTools(spark: SparkSession) extends Sparkbench(spark) {
       val resultsCSVBytes = resultsCSV.getBytes("UTF-8")
       val metadata = new ObjectMetadata()
       metadata.setContentLength(resultsCSVBytes.length)
-      s3.putObject(Query.S3_BUCKET_QUERIES, s"$query.csv", new ByteArrayInputStream(resultsCSVBytes), metadata)
+      s3.putObject(bucket, s"$query.csv", new ByteArrayInputStream(resultsCSVBytes), metadata)
     }
   }
 }
