@@ -55,3 +55,5 @@ docker/jars/*
 
 work-dir/
 .venv
+data/.tmp
+**/.tmp
