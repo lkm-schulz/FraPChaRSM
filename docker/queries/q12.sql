@@ -19,4 +19,4 @@ select i_item_id,
 	i_item_id, i_item_desc, i_category, i_class, i_current_price
  order by
 	i_category, i_class, i_item_id, i_item_desc, revenueratio
- LIMIT 100
+ 

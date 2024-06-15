@@ -1,0 +1,10 @@
+app,start,query,range,duration
+0,852,q13,d_year = 2001 and (d_moy between 1 and 6),1
+0,2293,q10,d_date between cast('2000-08-23' as date) and ((cast('2000-08-23' as date) + interval '14' day)),2
+1,22174,q13,d_year = 2000 and d_moy between 1 and 9,300
+1,22261,q1,d_year = 2000 and d_moy between 1 and 3,20
+1,24073,q13,d_year = 2000 and d_moy between 1 and 9,4
+0,42001,q1,d_year = 2000 and d_moy between 1 and 3,6
+0,44786,q13,d_year = 2000 and d_moy between 1 and 9,50
+1,64393,q13,d_year = 2001 and (d_moy between 1 and 6),1
+1,65789,q3,d_moy = 11,1

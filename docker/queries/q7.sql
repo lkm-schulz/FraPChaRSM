@@ -18,5 +18,5 @@
        (p_channel_email = 'N' or p_channel_event = 'N') AND
        ($DATERANGE$)
  GROUP BY i_item_id
- ORDER BY i_item_id LIMIT 100
+ ORDER BY i_item_id
             

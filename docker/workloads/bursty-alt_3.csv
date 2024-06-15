@@ -1,0 +1,76 @@
+app,start,duration,query,range
+0,10519,4925,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week))
+0,11271,3612,q7,d_year = 2000 and d_moy = 1
+0,11533,10180,q10,d_date = cast('2000-04-30' as date)
+0,11809,4643,q12,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week))
+0,11809,3483,q7,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week))
+1,40025,4923,q1,d_date = cast('2000-04-30' as date)
+1,40439,4925,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week))
+1,40475,9354,q7,d_year = 2000 and d_moy between 1 and 9
+1,40601,4723,q7,d_year = 2000 and d_moy between 1 and 3
+1,41289,10554,q7,d_year = 2000 and d_moy between 1 and 10
+2,70108,8759,q12,d_year = 2000 and d_moy between 1 and 4
+2,70235,5961,q7,d_year = 2000 and d_moy between 1 and 5
+2,70667,5961,q7,d_year = 2000 and d_moy between 1 and 5
+2,70910,10180,q10,d_date = cast('2000-04-30' as date)
+2,71334,4723,q7,d_year = 2000 and d_moy between 1 and 3
+0,100206,10554,q7,d_year = 2000 and d_moy between 1 and 10
+0,100338,4925,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week))
+0,100638,4723,q7,d_year = 2000 and d_moy between 1 and 3
+0,100823,9354,q7,d_year = 2000 and d_moy between 1 and 9
+0,101987,4923,q1,d_date = cast('2000-04-30' as date)
+1,130306,4923,q1,d_date = cast('2000-04-30' as date)
+1,130894,4442,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' day))
+1,131111,6798,q12,d_year = 2000 and d_moy between 1 and 2
+1,131199,3483,q7,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week))
+1,131277,4726,q13,d_date = cast('2000-04-30' as date)
+2,160171,4723,q7,d_year = 2000 and d_moy between 1 and 3
+2,160186,6835,q1,d_year = 2000 and d_moy = 1
+2,160514,4831,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week))
+2,160602,4630,q12,d_date = cast('2000-04-30' as date)
+2,161324,8759,q12,d_year = 2000 and d_moy between 1 and 4
+0,190417,8759,q12,d_year = 2000 and d_moy between 1 and 4
+0,190633,4723,q7,d_year = 2000 and d_moy between 1 and 3
+0,190671,10180,q10,d_date = cast('2000-04-30' as date)
+0,190854,5961,q7,d_year = 2000 and d_moy between 1 and 5
+0,191817,5961,q7,d_year = 2000 and d_moy between 1 and 5
+1,221160,4630,q12,d_date = cast('2000-04-30' as date)
+1,221379,4723,q7,d_year = 2000 and d_moy between 1 and 3
+1,221726,4831,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week))
+1,221857,6835,q1,d_year = 2000 and d_moy = 1
+1,221992,8759,q12,d_year = 2000 and d_moy between 1 and 4
+2,250024,3483,q7,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week))
+2,250047,5961,q7,d_year = 2000 and d_moy between 1 and 5
+2,250439,10276,q12,d_year = 2000 and d_moy between 1 and 6
+2,251013,9354,q7,d_year = 2000 and d_moy between 1 and 9
+2,251333,11766,q13,d_year = 2000 and d_moy between 1 and 7
+0,280070,4726,q13,d_date = cast('2000-04-30' as date)
+0,280162,4442,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' day))
+0,280189,6798,q12,d_year = 2000 and d_moy between 1 and 2
+0,280984,3483,q7,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week))
+0,281146,4923,q1,d_date = cast('2000-04-30' as date)
+1,310872,11154,q12,d_year = 2000 and d_moy between 1 and 7
+1,311038,4485,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '4' day))
+1,311215,4831,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week))
+1,311678,4442,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' day))
+1,311985,11766,q13,d_year = 2000 and d_moy between 1 and 7
+2,340252,8291,q7,d_year = 2000 and d_moy between 1 and 8
+2,340436,8759,q12,d_year = 2000 and d_moy between 1 and 4
+2,340550,4485,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '4' day))
+2,340624,4726,q13,d_date = cast('2000-04-30' as date)
+2,340776,4785,q13,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week))
+0,370046,9354,q7,d_year = 2000 and d_moy between 1 and 9
+0,370235,4726,q13,d_date = cast('2000-04-30' as date)
+0,370326,4643,q12,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week))
+0,370566,4925,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week))
+0,371380,5600,q13,d_year = 2000 and d_moy = 1
+1,400003,4429,q7,d_year = 2000 and d_moy between 1 and 2
+1,400630,12206,q10,d_year = 2000 and d_moy = 1
+1,401302,4429,q7,d_year = 2000 and d_moy between 1 and 2
+1,401459,4726,q13,d_date = cast('2000-04-30' as date)
+1,401905,5242,q1,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '10' day))
+2,430602,10180,q10,d_date = cast('2000-04-30' as date)
+2,430897,9354,q7,d_year = 2000 and d_moy between 1 and 9
+2,431110,4643,q12,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '2' week))
+2,431295,3005,q7,d_date = cast('2000-04-30' as date)
+2,431772,9354,q7,d_year = 2000 and d_moy between 1 and 9

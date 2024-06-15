@@ -1,0 +1,111 @@
+app,start,duration,query,range
+0,10000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+1,10000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,15000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,15000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,20000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,20000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+0,25000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,25000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,30000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,30000,30578,q12,d_year = 2000 or d_year = 2001
+0,70000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,70000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,75000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,75000,30578,q12,d_year = 2000 or d_year = 2001
+0,80000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,80000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+0,85000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,85000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+0,90000,30578,q12,d_year = 2000 or d_year = 2001
+1,90000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+0,130000,30578,q12,d_year = 2000 or d_year = 2001
+1,130000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+0,135000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,135000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+0,140000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+1,140000,30578,q12,d_year = 2000 or d_year = 2001
+0,145000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,145000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,150000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,150000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+0,190000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,190000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+0,195000,30578,q12,d_year = 2000 or d_year = 2001
+1,195000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+0,200000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,200000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,205000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+1,205000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+0,210000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+1,210000,30578,q12,d_year = 2000 or d_year = 2001
+0,250000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,250000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,255000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,255000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,260000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,260000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,265000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,265000,30578,q12,d_year = 2000 or d_year = 2001
+0,270000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,270000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+0,310000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,310000,30578,q12,d_year = 2000 or d_year = 2001
+0,315000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+1,315000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,320000,30578,q12,d_year = 2000 or d_year = 2001
+1,320000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+0,325000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,325000,30578,q12,d_year = 2000 or d_year = 2001
+0,330000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,330000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,370000,30578,q12,d_year = 2000 or d_year = 2001
+1,370000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+0,375000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,375000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,380000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,380000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,385000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,385000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+0,390000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,390000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,430000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+1,430000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,435000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+1,435000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+0,440000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,440000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+0,445000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,445000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,450000,30578,q12,d_year = 2000 or d_year = 2001
+1,450000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,490000,30578,q12,d_year = 2000 or d_year = 2001
+1,490000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+0,495000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,495000,30578,q12,d_year = 2000 or d_year = 2001
+0,500000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,500000,30578,q12,d_year = 2000 or d_year = 2001
+0,505000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,505000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,510000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,510000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,550000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,550000,30578,q12,d_year = 2000 or d_year = 2001
+0,555000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,555000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+0,560000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,560000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+0,565000,30578,q12,d_year = 2000 or d_year = 2001
+1,565000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,570000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+1,570000,28410,q10,d_year = 2000 and d_moy between 1 and 6
+0,610000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,610000,30578,q12,d_year = 2000 or d_year = 2001
+0,615000,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,615000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,620000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,620000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,625000,23870,q12,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,625000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+0,630000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,630000,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)

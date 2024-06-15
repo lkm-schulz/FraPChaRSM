@@ -1,0 +1,133 @@
+app,start,duration,query,range
+0,10000,25225,q12,d_year = 2000 and d_moy between 1 and 11
+0,10000,31062,q7,d_year = 2000
+0,10000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+0,10000,25225,q12,d_year = 2000 and d_moy between 1 and 11
+0,10000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+0,10000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+1,10000,31062,q7,d_year = 2000
+1,10000,31062,q7,d_year = 2000
+1,10000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+1,10000,30240,q1,d_year = 2000 and d_moy between 1 and 5
+1,10000,31062,q7,d_year = 2000
+1,10000,30204,q13,d_year = 2000 and d_moy between 1 and 8
+0,70000,31062,q7,d_year = 2000
+0,70000,31062,q7,d_year = 2000
+0,70000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+0,70000,30240,q1,d_year = 2000 and d_moy between 1 and 5
+0,70000,31062,q7,d_year = 2000
+0,70000,30204,q13,d_year = 2000 and d_moy between 1 and 8
+1,70000,30204,q13,d_year = 2000 and d_moy between 1 and 8
+1,70000,25225,q12,d_year = 2000 and d_moy between 1 and 11
+1,70000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+1,70000,31062,q7,d_year = 2000
+1,70000,30204,q13,d_year = 2000 and d_moy between 1 and 8
+1,70000,31062,q7,d_year = 2000
+0,130000,31062,q7,d_year = 2000
+0,130000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+0,130000,25430,q10,d_year = 2000 and d_moy = 1
+0,130000,31062,q7,d_year = 2000
+0,130000,31062,q7,d_year = 2000
+0,130000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+1,130000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+1,130000,25430,q10,d_year = 2000 and d_moy = 1
+1,130000,27883,q12,d_year = 2000
+1,130000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+1,130000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+1,130000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+0,190000,30204,q13,d_year = 2000 and d_moy between 1 and 8
+0,190000,25225,q12,d_year = 2000 and d_moy between 1 and 11
+0,190000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+0,190000,31062,q7,d_year = 2000
+0,190000,30204,q13,d_year = 2000 and d_moy between 1 and 8
+0,190000,31062,q7,d_year = 2000
+1,190000,25430,q10,d_year = 2000 and d_moy = 1
+1,190000,27883,q12,d_year = 2000
+1,190000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+1,190000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+1,190000,25225,q12,d_year = 2000 and d_moy between 1 and 11
+1,190000,31062,q7,d_year = 2000
+0,250000,25430,q10,d_year = 2000 and d_moy = 1
+0,250000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+0,250000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+0,250000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+0,250000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+0,250000,31062,q7,d_year = 2000
+1,250000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+1,250000,27883,q12,d_year = 2000
+1,250000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+1,250000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+1,250000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+1,250000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+0,310000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+0,310000,25430,q10,d_year = 2000 and d_moy = 1
+0,310000,27883,q12,d_year = 2000
+0,310000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+0,310000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+0,310000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+1,310000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+1,310000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+1,310000,30240,q1,d_year = 2000 and d_moy between 1 and 5
+1,310000,25430,q10,d_year = 2000 and d_moy = 1
+1,310000,25430,q10,d_year = 2000 and d_moy = 1
+1,310000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+0,370000,27883,q12,d_year = 2000
+0,370000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+0,370000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+0,370000,25430,q10,d_year = 2000 and d_moy = 1
+0,370000,25430,q10,d_year = 2000 and d_moy = 1
+0,370000,30204,q13,d_year = 2000 and d_moy between 1 and 8
+1,370000,31062,q7,d_year = 2000
+1,370000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+1,370000,30204,q13,d_year = 2000 and d_moy between 1 and 8
+1,370000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+1,370000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+1,370000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+0,430000,25430,q10,d_year = 2000 and d_moy = 1
+0,430000,27883,q12,d_year = 2000
+0,430000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+0,430000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+0,430000,25225,q12,d_year = 2000 and d_moy between 1 and 11
+0,430000,31062,q7,d_year = 2000
+1,430000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+1,430000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+1,430000,25225,q12,d_year = 2000 and d_moy between 1 and 11
+1,430000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+1,430000,27883,q12,d_year = 2000
+1,430000,27883,q12,d_year = 2000
+0,490000,25225,q12,d_year = 2000 and d_moy between 1 and 11
+0,490000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+0,490000,31062,q7,d_year = 2000
+0,490000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+0,490000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+0,490000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+1,490000,25430,q10,d_year = 2000 and d_moy = 1
+1,490000,31062,q7,d_year = 2000
+1,490000,25225,q12,d_year = 2000 and d_moy between 1 and 11
+1,490000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+1,490000,30240,q1,d_year = 2000 and d_moy between 1 and 5
+1,490000,30240,q1,d_year = 2000 and d_moy between 1 and 5
+0,550000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+0,550000,27883,q12,d_year = 2000
+0,550000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+0,550000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+0,550000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+0,550000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+1,550000,25430,q10,d_year = 2000 and d_moy = 1
+1,550000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+1,550000,27883,q12,d_year = 2000
+1,550000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+1,550000,30204,q13,d_year = 2000 and d_moy between 1 and 8
+1,550000,30240,q1,d_year = 2000 and d_moy between 1 and 5
+0,610000,27224,q7,d_year = 2000 and d_moy between 1 and 11
+0,610000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+0,610000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+0,610000,30204,q13,d_year = 2000 and d_moy between 1 and 8
+0,610000,28178,q1,d_year = 2000 and d_moy between 1 and 4
+0,610000,30204,q13,d_year = 2000 and d_moy between 1 and 8
+1,610000,25225,q12,d_year = 2000 and d_moy between 1 and 11
+1,610000,27883,q12,d_year = 2000
+1,610000,23193,q1,d_year = 2000 and d_moy between 1 and 3
+1,610000,27883,q12,d_year = 2000
+1,610000,24514,q13,d_year = 2000 and d_moy between 1 and 7
+1,610000,24514,q13,d_year = 2000 and d_moy between 1 and 7

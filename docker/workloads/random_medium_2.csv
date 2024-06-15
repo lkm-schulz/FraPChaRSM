@@ -1,0 +1,21 @@
+app,start,duration,query,range
+0,15196,13868,q13,d_year = 2000 and d_moy between 1 and 9
+0,20170,8875,q13,d_year = 2000 and d_moy between 1 and 6
+0,21610,15403,q13,d_year = 2000 and d_moy between 1 and 10
+0,29157,18420,q13,d_year = 2000 and d_moy between 1 and 11
+0,33561,25248,q10,d_year = 2000 and d_moy between 1 and 5
+0,51220,6834,q13,d_year = 2000 and d_moy between 1 and 4
+1,55880,14166,q12,d_year = 2000 and d_moy between 1 and 10
+1,56403,12287,q12,d_year = 2000 and d_moy between 1 and 9
+1,59175,18420,q13,d_year = 2000 and d_moy between 1 and 11
+1,60380,8795,q7,d_year = 2000 and d_moy between 1 and 10
+1,75298,5665,q12,d_year = 2000 and d_moy between 1 and 2
+0,80923,15270,q1,d_year = 2000 and d_moy between 1 and 8
+1,86268,8328,q10,d_date = cast('2000-04-30' as date)
+1,89531,5229,q7,d_year = 2000 and d_moy between 1 and 6
+0,102270,21051,q13,d_year = 2000
+0,102517,15403,q13,d_year = 2000 and d_moy between 1 and 10
+1,105706,19295,q1,d_year = 2000 and d_moy between 1 and 11
+1,107612,8563,q12,d_year = 2000 and d_moy between 1 and 6
+1,113241,7795,q7,d_year = 2000 and d_moy between 1 and 9
+0,116947,8713,q10,d_date between cast('2000-04-30' as date) and ((cast('2000-04-30' as date) + interval '1' week))

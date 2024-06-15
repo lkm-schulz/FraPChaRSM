@@ -3,6 +3,7 @@ FROM apache/spark:3.4.1-scala2.12-java11-ubuntu
 USER root
 
 RUN mkdir -p /opt/sparkbench && \
+    mkdir -p /opt/sparkbench/logs && \
     mkdir -p /opt/sparkbench/keyfile && \
     mkdir -p /opt/spark/conf && \
     chown -R spark:spark /opt/sparkbench && \
@@ -18,6 +19,7 @@ COPY target/scala-2.12/sparkbench_2.12-1.0.jar /opt/sparkbench/
 COPY docker/entrypoint.sh /opt/sparkbench/entrypoint.sh
 COPY docker/queries /opt/sparkbench/queries
 COPY docker/workloads /opt/sparkbench/workloads
+COPY docker/log4j2.properties /opt/sparkbench/jars/
 
 # Only use outside google cloud if accessing google cloud storage
 # ENTRYPOINT [ "/opt/sparkbench/entrypoint.sh" ]

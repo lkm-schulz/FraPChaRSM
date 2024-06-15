@@ -1,0 +1,1018 @@
+app,start,duration,query,range
+0,0,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,0,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,0,55947,q10,d_year = 2000 and d_moy = 1
+0,0,55947,q10,d_year = 2000 and d_moy = 1
+0,0,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,0,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,0,55947,q10,d_year = 2000 and d_moy = 1
+0,0,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,0,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,0,61344,q12,d_year = 2000
+1,0,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,0,68337,q7,d_year = 2000
+1,0,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,0,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,0,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,0,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,0,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,0,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,0,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,0,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,180000,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,185791,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,192296,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,197687,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,203857,55947,q10,d_year = 2000 and d_moy = 1
+0,209475,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,210000,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,214834,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,215257,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,220943,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,221391,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,225952,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,226987,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,233553,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,233593,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,238862,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,239584,68337,q7,d_year = 2000
+0,245072,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,245559,55947,q10,d_year = 2000 and d_moy = 1
+0,250184,61344,q12,d_year = 2000
+1,251941,61344,q12,d_year = 2000
+0,255882,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,257491,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,262003,61344,q12,d_year = 2000
+0,262383,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,268485,55947,q10,d_year = 2000 and d_moy = 1
+0,269272,55947,q10,d_year = 2000 and d_moy = 1
+0,274368,61344,q12,d_year = 2000
+1,274956,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,279596,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,281322,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,285255,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,288940,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,291193,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,295110,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,296231,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,302559,68337,q7,d_year = 2000
+1,302640,68337,q7,d_year = 2000
+0,309014,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,310192,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,314576,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,316219,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,321573,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,321643,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,327490,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,327977,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,334087,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,335540,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,338682,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,340350,68337,q7,d_year = 2000
+0,343653,55947,q10,d_year = 2000 and d_moy = 1
+1,348117,68337,q7,d_year = 2000
+0,349469,68337,q7,d_year = 2000
+1,354675,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,357129,61344,q12,d_year = 2000
+1,359724,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,364197,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,364859,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,369253,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,371126,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,376183,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,378696,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,382349,55947,q10,d_year = 2000 and d_moy = 1
+1,385167,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,388554,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,390084,68337,q7,d_year = 2000
+0,395296,68337,q7,d_year = 2000
+1,397904,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,401158,55947,q10,d_year = 2000 and d_moy = 1
+1,403754,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,407192,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,409018,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,413634,61344,q12,d_year = 2000
+1,414320,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,420418,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,420509,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,426304,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,426793,61344,q12,d_year = 2000
+0,430700,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,433536,68337,q7,d_year = 2000
+0,435789,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,440002,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,443169,61344,q12,d_year = 2000
+1,445037,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,448792,55947,q10,d_year = 2000 and d_moy = 1
+1,451746,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,454037,55947,q10,d_year = 2000 and d_moy = 1
+1,457527,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,460372,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,462469,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,465304,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,467551,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,470832,55947,q10,d_year = 2000 and d_moy = 1
+1,472209,55947,q10,d_year = 2000 and d_moy = 1
+0,475904,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,476845,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,481942,68337,q7,d_year = 2000
+1,481990,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,487781,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,489382,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,493611,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,495931,68337,q7,d_year = 2000
+1,498815,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,501925,61344,q12,d_year = 2000
+1,505950,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,507700,68337,q7,d_year = 2000
+1,510627,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,514549,55947,q10,d_year = 2000 and d_moy = 1
+1,516671,61344,q12,d_year = 2000
+0,521010,55947,q10,d_year = 2000 and d_moy = 1
+1,523079,68337,q7,d_year = 2000
+0,525823,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,529082,68337,q7,d_year = 2000
+0,531914,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,535805,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,538527,55947,q10,d_year = 2000 and d_moy = 1
+1,540647,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,544216,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,548189,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,550395,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,553504,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,556675,55947,q10,d_year = 2000 and d_moy = 1
+1,559311,55947,q10,d_year = 2000 and d_moy = 1
+0,563197,61344,q12,d_year = 2000
+1,564740,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,569538,68337,q7,d_year = 2000
+1,571186,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,576220,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,576547,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,582273,61344,q12,d_year = 2000
+0,582636,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,587931,68337,q7,d_year = 2000
+1,587994,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,594135,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,594535,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,600138,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,601339,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,607384,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,607572,61344,q12,d_year = 2000
+0,613086,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,613591,68337,q7,d_year = 2000
+0,617852,61344,q12,d_year = 2000
+1,620541,61344,q12,d_year = 2000
+0,624212,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,627052,55947,q10,d_year = 2000 and d_moy = 1
+0,630075,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,633238,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,635421,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,639775,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,640800,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,645122,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,646865,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,652302,61344,q12,d_year = 2000
+0,654263,55947,q10,d_year = 2000 and d_moy = 1
+1,658300,61344,q12,d_year = 2000
+0,660705,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,663930,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,667379,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,670490,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,674374,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,676914,55947,q10,d_year = 2000 and d_moy = 1
+0,680770,61344,q12,d_year = 2000
+1,681794,61344,q12,d_year = 2000
+0,686986,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,687853,68337,q7,d_year = 2000
+0,692318,55947,q10,d_year = 2000 and d_moy = 1
+1,694961,61344,q12,d_year = 2000
+0,698323,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,701062,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,704519,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,706459,68337,q7,d_year = 2000
+0,711787,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,712296,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,718684,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,719131,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,725574,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,726574,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,730579,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,732743,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,736375,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,740296,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,743557,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,745848,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,750468,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,751739,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,756108,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,757609,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,762065,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,765246,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,768028,61344,q12,d_year = 2000
+0,771629,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,774105,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,777766,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,780660,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,783583,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,787170,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,790008,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,791737,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,796634,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,797654,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,802317,55947,q10,d_year = 2000 and d_moy = 1
+0,802444,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,808880,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,809779,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,813671,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,814814,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,819541,61344,q12,d_year = 2000
+0,820380,61344,q12,d_year = 2000
+1,824756,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,825748,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,830259,68337,q7,d_year = 2000
+0,831179,68337,q7,d_year = 2000
+1,837145,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,838602,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,843953,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,844912,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,849735,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,851533,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,854332,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,857379,68337,q7,d_year = 2000
+1,860036,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,863505,55947,q10,d_year = 2000 and d_moy = 1
+1,866256,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,869495,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,872966,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,873979,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,879176,61344,q12,d_year = 2000
+0,879520,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,885501,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,886539,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,891225,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,893260,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,898455,55947,q10,d_year = 2000 and d_moy = 1
+0,899171,55947,q10,d_year = 2000 and d_moy = 1
+1,903660,68337,q7,d_year = 2000
+0,903819,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,909482,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,910174,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,915244,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,915627,55947,q10,d_year = 2000 and d_moy = 1
+1,920720,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,921386,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,927813,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,928205,68337,q7,d_year = 2000
+0,932946,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,934366,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,939897,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,940185,55947,q10,d_year = 2000 and d_moy = 1
+0,944959,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,945359,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,949395,61344,q12,d_year = 2000
+1,951388,68337,q7,d_year = 2000
+0,956452,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,958370,55947,q10,d_year = 2000 and d_moy = 1
+0,962474,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,964219,61344,q12,d_year = 2000
+0,966825,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,970416,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,972235,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,976890,61344,q12,d_year = 2000
+0,978230,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,983294,68337,q7,d_year = 2000
+0,985093,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,989935,61344,q12,d_year = 2000
+0,990791,61344,q12,d_year = 2000
+1,996626,55947,q10,d_year = 2000 and d_moy = 1
+0,996777,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1002633,68337,q7,d_year = 2000
+1,1002797,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1008371,55947,q10,d_year = 2000 and d_moy = 1
+0,1008987,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,1013709,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1013821,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1019069,55947,q10,d_year = 2000 and d_moy = 1
+0,1020760,55947,q10,d_year = 2000 and d_moy = 1
+1,1023978,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1026055,68337,q7,d_year = 2000
+1,1031025,61344,q12,d_year = 2000
+0,1032250,61344,q12,d_year = 2000
+1,1036923,68337,q7,d_year = 2000
+0,1038391,55947,q10,d_year = 2000 and d_moy = 1
+0,1043065,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1043938,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1048320,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1048466,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1054856,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1056095,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1060763,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1062147,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1067361,55947,q10,d_year = 2000 and d_moy = 1
+0,1068517,55947,q10,d_year = 2000 and d_moy = 1
+1,1072786,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1074575,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1079384,55947,q10,d_year = 2000 and d_moy = 1
+0,1081241,68337,q7,d_year = 2000
+1,1085369,61344,q12,d_year = 2000
+0,1088911,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1091139,55947,q10,d_year = 2000 and d_moy = 1
+0,1093800,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1097038,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1100798,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1101552,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1107142,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1107930,55947,q10,d_year = 2000 and d_moy = 1
+0,1112641,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1114285,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1118939,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1119638,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1124284,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1125432,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1129534,55947,q10,d_year = 2000 and d_moy = 1
+0,1131316,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1135072,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1137462,61344,q12,d_year = 2000
+1,1140952,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,1143790,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1145521,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1149664,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1150678,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1154116,68337,q7,d_year = 2000
+1,1156455,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1160893,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1162292,68337,q7,d_year = 2000
+0,1167358,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1169498,55947,q10,d_year = 2000 and d_moy = 1
+0,1172598,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1175577,55947,q10,d_year = 2000 and d_moy = 1
+0,1178815,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1181510,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1184427,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,1187168,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1189534,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1192903,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1196855,68337,q7,d_year = 2000
+1,1199344,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1203190,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,1206332,68337,q7,d_year = 2000
+0,1208704,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1212832,55947,q10,d_year = 2000 and d_moy = 1
+1,1213912,61344,q12,d_year = 2000
+0,1218910,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1220446,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1224781,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,1227100,68337,q7,d_year = 2000
+0,1229265,61344,q12,d_year = 2000
+1,1233387,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1234961,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1240535,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1241087,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1246764,61344,q12,d_year = 2000
+0,1248646,61344,q12,d_year = 2000
+1,1252109,68337,q7,d_year = 2000
+0,1254485,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1258864,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1260705,68337,q7,d_year = 2000
+1,1264514,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1267257,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1269840,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1273701,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1274786,55947,q10,d_year = 2000 and d_moy = 1
+0,1280613,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1281175,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1287245,61344,q12,d_year = 2000
+0,1287500,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1293274,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1293481,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1299246,68337,q7,d_year = 2000
+1,1300344,55947,q10,d_year = 2000 and d_moy = 1
+0,1305909,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,1305987,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1311445,68337,q7,d_year = 2000
+0,1311604,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1315709,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1319100,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1321739,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1324381,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1328052,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1331159,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,1333730,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1336486,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1340658,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1342493,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1347068,55947,q10,d_year = 2000 and d_moy = 1
+1,1347665,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1352655,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1353414,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1358037,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1359539,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1365116,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1365567,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1371488,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1372017,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1376577,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1378410,68337,q7,d_year = 2000
+1,1382553,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1385080,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1387414,68337,q7,d_year = 2000
+0,1391604,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1393417,68337,q7,d_year = 2000
+0,1396247,55947,q10,d_year = 2000 and d_moy = 1
+1,1399625,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1401732,55947,q10,d_year = 2000 and d_moy = 1
+1,1404728,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1406845,61344,q12,d_year = 2000
+1,1411657,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1412295,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1417203,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1418550,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1422527,68337,q7,d_year = 2000
+0,1423627,68337,q7,d_year = 2000
+1,1429586,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1430583,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1435098,68337,q7,d_year = 2000
+0,1436197,68337,q7,d_year = 2000
+1,1441956,55947,q10,d_year = 2000 and d_moy = 1
+0,1443798,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1447120,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1449777,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1454074,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1456046,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1460425,61344,q12,d_year = 2000
+0,1462624,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1466476,68337,q7,d_year = 2000
+0,1469887,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1473573,61344,q12,d_year = 2000
+0,1476627,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1479740,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1482354,61344,q12,d_year = 2000
+1,1486046,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1487864,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1492945,68337,q7,d_year = 2000
+0,1494853,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1500638,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1501108,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1505378,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1506609,68337,q7,d_year = 2000
+0,1511818,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1513604,55947,q10,d_year = 2000 and d_moy = 1
+0,1518991,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1519179,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,1523897,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1525137,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1530243,61344,q12,d_year = 2000
+1,1531221,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1536010,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1537405,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1541636,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1543138,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1547621,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1549117,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1553270,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1554777,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1559018,68337,q7,d_year = 2000
+1,1561286,55947,q10,d_year = 2000 and d_moy = 1
+0,1565909,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1566161,68337,q7,d_year = 2000
+0,1571757,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1573568,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1577648,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1579322,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1584145,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,1586253,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1590286,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1591439,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1595395,55947,q10,d_year = 2000 and d_moy = 1
+1,1597675,68337,q7,d_year = 2000
+0,1601947,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1604416,61344,q12,d_year = 2000
+0,1607800,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1610230,68337,q7,d_year = 2000
+0,1615153,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,1616268,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1620340,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1623023,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,1624605,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1629162,68337,q7,d_year = 2000
+0,1629704,61344,q12,d_year = 2000
+1,1635642,68337,q7,d_year = 2000
+0,1635744,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1642387,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1642528,68337,q7,d_year = 2000
+1,1647140,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1650084,61344,q12,d_year = 2000
+1,1652842,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1655486,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1658584,68337,q7,d_year = 2000
+0,1661727,61344,q12,d_year = 2000
+1,1665155,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1668163,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1670564,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1672959,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,1676006,55947,q10,d_year = 2000 and d_moy = 1
+0,1679096,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1680976,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,1684642,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1685929,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1690332,68337,q7,d_year = 2000
+1,1691667,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,1696247,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1697688,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1702415,68337,q7,d_year = 2000
+0,1702599,55947,q10,d_year = 2000 and d_moy = 1
+0,1708310,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1709969,68337,q7,d_year = 2000
+0,1714753,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1716312,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1720732,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1722644,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1727751,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1729714,61344,q12,d_year = 2000
+0,1731937,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1734938,68337,q7,d_year = 2000
+0,1738425,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1742640,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1743930,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1746887,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1749343,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1752798,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1755318,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1759237,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1762768,55947,q10,d_year = 2000 and d_moy = 1
+1,1764977,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1768643,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1770697,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1773937,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1777048,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1780666,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1783168,68337,q7,d_year = 2000
+0,1786281,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1789238,61344,q12,d_year = 2000
+0,1792005,61344,q12,d_year = 2000
+1,1794536,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1797157,55947,q10,d_year = 2000 and d_moy = 1
+1,1800378,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1802054,61344,q12,d_year = 2000
+1,1807108,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1807855,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1812925,61344,q12,d_year = 2000
+0,1815087,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1819898,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1821074,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1825769,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1827395,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1831122,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1834281,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1837175,68337,q7,d_year = 2000
+0,1838466,68337,q7,d_year = 2000
+1,1844519,55947,q10,d_year = 2000 and d_moy = 1
+0,1844628,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1850772,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1852244,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1855840,68337,q7,d_year = 2000
+0,1858022,55947,q10,d_year = 2000 and d_moy = 1
+1,1862035,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1863407,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,1867408,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,1868897,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1872214,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,1874033,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1878349,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1880634,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1884320,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,1886103,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1890612,61344,q12,d_year = 2000
+0,1891852,61344,q12,d_year = 2000
+1,1896617,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1897346,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1903376,55947,q10,d_year = 2000 and d_moy = 1
+0,1904037,55947,q10,d_year = 2000 and d_moy = 1
+1,1908541,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1908773,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1913726,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1914129,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,1919118,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1919776,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,1924910,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1924998,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,1929746,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1931439,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,1936113,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,1937637,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1942714,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,1942812,68337,q7,d_year = 2000
+0,1948789,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1949168,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,1953734,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,1955941,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1958074,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,1961178,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1964190,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,1967335,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1968938,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,1973933,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,1976048,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,1979336,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1981745,55947,q10,d_year = 2000 and d_moy = 1
+0,1985585,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,1986909,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,1992253,61344,q12,d_year = 2000
+1,1992931,61344,q12,d_year = 2000
+0,1999177,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,1999384,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2006067,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2006661,55947,q10,d_year = 2000 and d_moy = 1
+0,2012509,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2012751,61344,q12,d_year = 2000
+0,2017810,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2019604,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2024958,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2025500,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2031889,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2032435,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2036570,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2036774,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2041938,55947,q10,d_year = 2000 and d_moy = 1
+1,2042351,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2047619,61344,q12,d_year = 2000
+0,2048033,61344,q12,d_year = 2000
+0,2053290,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2054103,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2057408,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2060499,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2063848,68337,q7,d_year = 2000
+1,2065923,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2070469,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2070720,61344,q12,d_year = 2000
+1,2076525,61344,q12,d_year = 2000
+0,2076752,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2082140,55947,q10,d_year = 2000 and d_moy = 1
+0,2083382,55947,q10,d_year = 2000 and d_moy = 1
+1,2087771,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2089146,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2093513,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2096158,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2099633,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2101106,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2106535,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2107496,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2111211,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2113575,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2115657,55947,q10,d_year = 2000 and d_moy = 1
+0,2118647,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2121871,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2125190,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2127967,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2131705,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2133612,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2137412,55947,q10,d_year = 2000 and d_moy = 1
+1,2138885,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2142134,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2143038,55947,q10,d_year = 2000 and d_moy = 1
+1,2147892,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2147964,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2153883,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2153917,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2160273,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2161479,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2166829,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2167489,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2172576,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2172632,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2177207,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2179807,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2182992,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,2185919,61344,q12,d_year = 2000
+0,2189051,55947,q10,d_year = 2000 and d_moy = 1
+1,2192603,61344,q12,d_year = 2000
+0,2193730,61344,q12,d_year = 2000
+1,2198877,61344,q12,d_year = 2000
+0,2200761,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2205402,55947,q10,d_year = 2000 and d_moy = 1
+0,2206845,55947,q10,d_year = 2000 and d_moy = 1
+1,2210424,55947,q10,d_year = 2000 and d_moy = 1
+0,2211733,55947,q10,d_year = 2000 and d_moy = 1
+1,2216484,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2216723,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2221873,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,2222509,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2228610,61344,q12,d_year = 2000
+1,2229674,68337,q7,d_year = 2000
+0,2234047,55947,q10,d_year = 2000 and d_moy = 1
+1,2236215,61344,q12,d_year = 2000
+0,2240619,55947,q10,d_year = 2000 and d_moy = 1
+1,2242531,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2247180,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,2248339,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2253122,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2255785,61344,q12,d_year = 2000
+0,2259586,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2261136,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2265339,61344,q12,d_year = 2000
+1,2268456,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2272229,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2274499,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2278419,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2280869,55947,q10,d_year = 2000 and d_moy = 1
+0,2284646,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2286375,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2289684,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2292045,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2294784,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,2296878,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2301426,61344,q12,d_year = 2000
+1,2303836,55947,q10,d_year = 2000 and d_moy = 1
+0,2307901,68337,q7,d_year = 2000
+1,2309753,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2314138,55947,q10,d_year = 2000 and d_moy = 1
+1,2315732,68337,q7,d_year = 2000
+0,2319952,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,2323472,68337,q7,d_year = 2000
+0,2326035,55947,q10,d_year = 2000 and d_moy = 1
+1,2330268,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2331310,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2334998,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2337338,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2342346,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2344789,61344,q12,d_year = 2000
+1,2347414,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2351559,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2353016,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2356180,55947,q10,d_year = 2000 and d_moy = 1
+1,2358525,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2361071,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2364271,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2365978,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2370391,55947,q10,d_year = 2000 and d_moy = 1
+0,2372096,55947,q10,d_year = 2000 and d_moy = 1
+1,2375754,68337,q7,d_year = 2000
+0,2378375,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2381706,61344,q12,d_year = 2000
+0,2384531,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2386917,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2390069,68337,q7,d_year = 2000
+1,2392473,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2397517,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2398789,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2402043,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2405129,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2407202,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2410561,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2413332,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,2416562,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2419056,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2422427,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2424706,55947,q10,d_year = 2000 and d_moy = 1
+1,2428592,61344,q12,d_year = 2000
+0,2429382,61344,q12,d_year = 2000
+0,2434547,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2435070,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2439782,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2440337,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2445694,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2446197,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2451718,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2451972,68337,q7,d_year = 2000
+0,2456118,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2459270,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2461823,55947,q10,d_year = 2000 and d_moy = 1
+1,2464562,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2468355,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2468709,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2473758,55947,q10,d_year = 2000 and d_moy = 1
+1,2474067,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2479769,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2480155,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2484848,68337,q7,d_year = 2000
+0,2486149,68337,q7,d_year = 2000
+1,2491133,61344,q12,d_year = 2000
+0,2493131,68337,q7,d_year = 2000
+1,2497576,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2500322,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2503362,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2506482,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2509139,61344,q12,d_year = 2000
+0,2512987,55947,q10,d_year = 2000 and d_moy = 1
+1,2516218,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2519562,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2522708,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2525606,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2529482,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2531520,61344,q12,d_year = 2000
+1,2534308,61344,q12,d_year = 2000
+0,2537067,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,2540313,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2543782,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2546228,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2550632,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2550975,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2557286,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2557483,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2563437,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2564912,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2569412,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2572060,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2574739,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2578478,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2580901,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2583846,55947,q10,d_year = 2000 and d_moy = 1
+0,2587803,55947,q10,d_year = 2000 and d_moy = 1
+1,2588968,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2593993,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2595230,68337,q7,d_year = 2000
+0,2600960,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2602535,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2606160,68337,q7,d_year = 2000
+1,2608898,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2612358,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2613926,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2618361,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2619209,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2623419,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2625445,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2627653,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2631252,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2634572,61344,q12,d_year = 2000
+1,2637678,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2641592,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2642077,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2647187,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2647998,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2652553,55947,q10,d_year = 2000 and d_moy = 1
+1,2655381,61344,q12,d_year = 2000
+0,2658768,61344,q12,d_year = 2000
+1,2661543,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2664027,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2668653,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2670298,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2673342,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2676205,68337,q7,d_year = 2000
+1,2678992,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2682613,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2685065,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2689926,61344,q12,d_year = 2000
+1,2692359,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2695172,68337,q7,d_year = 2000
+1,2698052,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2701077,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2702489,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2706015,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2708204,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2711549,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2712645,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2717825,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2719209,61344,q12,d_year = 2000
+0,2723362,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,2725711,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2730150,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2730354,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2735206,61344,q12,d_year = 2000
+1,2735960,55947,q10,d_year = 2000 and d_moy = 1
+0,2742314,68337,q7,d_year = 2000
+1,2742410,55947,q10,d_year = 2000 and d_moy = 1
+1,2748201,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2748970,61344,q12,d_year = 2000
+1,2753991,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2755328,61344,q12,d_year = 2000
+1,2759456,68337,q7,d_year = 2000
+0,2761236,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2765590,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2766319,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2771993,68337,q7,d_year = 2000
+0,2772460,68337,q7,d_year = 2000
+1,2778331,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2778596,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2783651,68337,q7,d_year = 2000
+1,2784933,61344,q12,d_year = 2000
+0,2790719,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2791532,55947,q10,d_year = 2000 and d_moy = 1
+0,2796082,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2796182,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2801492,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2802149,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2806615,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,2806983,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2811779,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2812439,61344,q12,d_year = 2000
+0,2816939,68337,q7,d_year = 2000
+1,2818159,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2824113,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2824325,68337,q7,d_year = 2000
+1,2828979,68337,q7,d_year = 2000
+0,2831140,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2835524,61344,q12,d_year = 2000
+0,2837452,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2842129,61344,q12,d_year = 2000
+0,2843065,61344,q12,d_year = 2000
+1,2848073,51025,q1,d_year = 2000 and d_moy between 1 and 3
+0,2849134,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2852715,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2854501,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2858899,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2859570,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2864674,61344,q12,d_year = 2000
+0,2864808,61344,q12,d_year = 2000
+1,2870430,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2871307,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2876624,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2876944,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2882274,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2882624,55947,q10,d_year = 2000 and d_moy = 1
+0,2887473,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2888779,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2894496,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2894718,61344,q12,d_year = 2000
+1,2900993,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2901084,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2905911,61344,q12,d_year = 2000
+0,2907311,55947,q10,d_year = 2000 and d_moy = 1
+1,2912419,61344,q12,d_year = 2000
+0,2913650,61344,q12,d_year = 2000
+1,2918465,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2920147,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,2925561,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2926757,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,2930762,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2932188,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,2936953,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2939404,68337,q7,d_year = 2000
+1,2942647,61344,q12,d_year = 2000
+0,2945616,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2949261,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2951729,55947,q10,d_year = 2000 and d_moy = 1
+1,2954529,55947,q10,d_year = 2000 and d_moy = 1
+0,2957213,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,2960485,68337,q7,d_year = 2000
+0,2964379,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,2967483,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,2970490,55947,q10,d_year = 2000 and d_moy = 1
+1,2973428,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,2976663,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,2978997,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,2982459,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,2985568,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,2987098,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,2990532,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,2994611,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,2997243,55947,q10,d_year = 2000 and d_moy = 1
+0,2999686,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,3002519,68337,q7,d_year = 2000
+0,3006687,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,3010309,61344,q12,d_year = 2000
+0,3013776,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,3017388,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,3019659,68337,q7,d_year = 2000
+1,3023450,68337,q7,d_year = 2000
+0,3026636,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,3030416,55947,q10,d_year = 2000 and d_moy = 1
+0,3031618,55947,q10,d_year = 2000 and d_moy = 1
+1,3035670,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,3036399,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,3043260,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,3043691,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,3049862,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,3050308,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,3055523,55947,q10,d_year = 2000 and d_moy = 1
+1,3055873,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,3061515,68337,q7,d_year = 2000
+1,3061863,61344,q12,d_year = 2000
+0,3068189,53930,q13,d_year = 2000 and d_moy between 1 and 7
+1,3068360,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,3073192,55947,q10,d_year = 2000 and d_moy = 1
+1,3074266,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,3078014,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,3081752,55495,q12,d_year = 2000 and d_moy between 1 and 11
+0,3083855,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,3088100,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,3089537,59893,q7,d_year = 2000 and d_moy between 1 and 11
+1,3093751,66448,q13,d_year = 2000 and d_moy between 1 and 8
+0,3096372,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,3100890,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,3102793,68337,q7,d_year = 2000
+1,3105302,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,3109458,51025,q1,d_year = 2000 and d_moy between 1 and 3
+1,3111327,55947,q10,d_year = 2000 and d_moy = 1
+0,3113759,55947,q10,d_year = 2000 and d_moy = 1
+1,3117052,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,3119901,55495,q12,d_year = 2000 and d_moy between 1 and 11
+1,3124156,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,3125919,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,3130081,61344,q12,d_year = 2000
+0,3131180,61344,q12,d_year = 2000
+1,3136467,61344,q12,d_year = 2000
+0,3137208,61344,q12,d_year = 2000
+1,3142248,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,3143715,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,3148168,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,3148206,66448,q13,d_year = 2000 and d_moy between 1 and 8
+1,3155053,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,3155660,66528,q1,d_year = 2000 and d_moy between 1 and 5
+1,3162017,61992,q1,d_year = 2000 and d_moy between 1 and 4
+0,3163237,61992,q1,d_year = 2000 and d_moy between 1 and 4
+1,3167218,53930,q13,d_year = 2000 and d_moy between 1 and 7
+0,3169881,55947,q10,d_year = 2000 and d_moy = 1
+1,3171893,59893,q7,d_year = 2000 and d_moy between 1 and 11
+0,3174633,55947,q10,d_year = 2000 and d_moy = 1
+1,3176969,66528,q1,d_year = 2000 and d_moy between 1 and 5
+0,3179369,61992,q1,d_year = 2000 and d_moy between 1 and 4

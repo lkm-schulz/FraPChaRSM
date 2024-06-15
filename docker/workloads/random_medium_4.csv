@@ -1,0 +1,35 @@
+app,start,duration,query,range
+0,6461,18420,q13,d_year = 2000 and d_moy between 1 and 11
+3,14113,11160,q12,d_year = 2000 and d_moy between 1 and 8
+2,15100,13868,q13,d_year = 2000 and d_moy between 1 and 9
+0,15929,6271,q13,d_year = 2000 and d_moy between 1 and 3
+0,21257,17311,q10,d_year = 2000 and d_moy between 1 and 3
+3,22557,6909,q7,d_year = 2000 and d_moy between 1 and 8
+3,27623,5997,q12,d_year = 2000 and d_moy between 1 and 3
+3,29247,8563,q12,d_year = 2000 and d_moy between 1 and 6
+1,36090,21051,q13,d_year = 2000
+2,39453,5229,q7,d_year = 2000 and d_moy between 1 and 6
+1,41268,11160,q12,d_year = 2000 and d_moy between 1 and 8
+2,43567,5517,q13,d_year = 2000 and d_moy between 1 and 2
+2,45681,5229,q7,d_year = 2000 and d_moy between 1 and 6
+0,49594,15403,q13,d_year = 2000 and d_moy between 1 and 10
+1,51448,25248,q10,d_year = 2000 and d_moy between 1 and 5
+1,54326,8328,q10,d_date = cast('2000-04-30' as date)
+0,60221,15270,q1,d_year = 2000 and d_moy between 1 and 8
+1,60365,18420,q13,d_year = 2000 and d_moy between 1 and 11
+0,62149,12287,q12,d_year = 2000 and d_moy between 1 and 9
+2,62421,12081,q13,d_year = 2000 and d_moy between 1 and 8
+1,63557,8328,q10,d_date = cast('2000-04-30' as date)
+1,64714,6834,q13,d_year = 2000 and d_moy between 1 and 4
+2,66684,16543,q12,d_year = 2000 and d_moy between 1 and 11
+1,70443,21051,q13,d_year = 2000
+1,71823,7794,q13,d_year = 2000 and d_moy between 1 and 5
+2,88930,13539,q10,d_year = 2000 and d_moy between 1 and 2
+3,91879,5517,q13,d_year = 2000 and d_moy between 1 and 2
+2,96204,8563,q12,d_year = 2000 and d_moy between 1 and 6
+0,104282,11271,q1,d_year = 2000 and d_moy between 1 and 4
+3,105836,5665,q12,d_year = 2000 and d_moy between 1 and 2
+3,111634,21134,q1,d_year = 2000
+3,116794,26312,q7,d_year = 2000 or (d_year = 2001 and d_moy between 1 and 6)
+1,121508,11160,q12,d_year = 2000 and d_moy between 1 and 8
+0,121701,19295,q1,d_year = 2000 and d_moy between 1 and 11
