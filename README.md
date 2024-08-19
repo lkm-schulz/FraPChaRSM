@@ -1,3 +1,5 @@
+> This repository has been moved to [lkm-schulz/sharebench](https://github.com/lkm-schulz/sharebench).
+
 # Framework for Performance Characterization of Resource Sharing Mechanisms 
 *or better known by its catchy name of FraPChaRSM*
 
